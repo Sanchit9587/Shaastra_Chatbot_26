@@ -1,14 +1,31 @@
+# --- 1. CRITICAL FIX FOR CHROMA DB (SQLite FTS5) ---
+try:
+    __import__('pysqlite3')
+    import sys
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ImportError:
+    pass
+# ---------------------------------------------------
+
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, pipeline
 import textwrap
 import sys
 
-# --- UPDATED IMPORTS FOR LANGCHAIN v0.3 ---
+# --- TYPING IMPORTS ---
+from typing import Union, List, Optional, Any, Dict, Iterator, AsyncIterator
+
+# --- LANGCHAIN IMPORTS ---
 from langchain.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from langchain_text_splitters import MarkdownHeaderTextSplitter
 from langchain_community.document_loaders import TextLoader
+
+# --- TYPES NEEDED FOR PYDANTIC REBUILD (Fixes 'not fully defined' errors) ---
+from langchain_core.caches import BaseCache
+from langchain_core.callbacks import Callbacks, BaseCallbackHandler
+from langchain_core.language_models import BaseLanguageModel
 
 # Specific VectorStore and Embeddings packages
 from langchain_chroma import Chroma
@@ -20,7 +37,30 @@ from langchain.retrievers import EnsembleRetriever, ContextualCompressionRetriev
 from langchain.retrievers.document_compressors import CrossEncoderReranker
 from langchain_community.cross_encoders import HuggingFaceCrossEncoder
 
-# --- 1. LLM AND EMBEDDING MODEL CONFIGURATION ---
+# --- CRITICAL PYDANTIC FIX ---
+# We force a rebuild of the model schema at the module level
+# passing the current global namespace so it can find 'Callbacks', 'BaseCache', etc.
+try:
+    HuggingFacePipeline.model_rebuild(_types_namespace=globals())
+except Exception as e:
+    pass
+# -----------------------------
+
+# --- GPU DETECTION & CONFIGURATION ---
+def check_gpu_status():
+    print("\n--- GPU SYSTEM CHECK ---")
+    if torch.cuda.is_available():
+        gpu_name = torch.cuda.get_device_name(0)
+        gpu_mem = torch.cuda.get_device_properties(0).total_memory / 1e9
+        print(f"✅ GPU Detected: {gpu_name}")
+        print(f"✅ VRAM: {gpu_mem:.2f} GB")
+        print(f"✅ CUDA Version: {torch.version.cuda}")
+        return 'cuda'
+    else:
+        print("❌ No GPU detected. Running on CPU (Expect slowness).")
+        return 'cpu'
+
+# --- 2. CONFIGURATION ---
 
 LLM_CONFIG = {
     "Unsloth 3B (Cached)": {
@@ -61,7 +101,7 @@ EMBEDDING_MODEL_ID = 'all-MiniLM-L6-v2'
 RERANKER_MODEL_ID = 'BAAI/bge-reranker-base'
 CONTEXT_FILE = "rag_context.md"
 
-# --- 2. ADVANCED DOCUMENT CHUNKING ---
+# --- 3. ADVANCED DOCUMENT CHUNKING ---
 
 def load_and_chunk_document(file_path):
     """Loads a Markdown document and splits it into chunks based on headers."""
@@ -81,7 +121,7 @@ def load_and_chunk_document(file_path):
     print(f"Document split into {len(chunks)} logical chunks.")
     return chunks
 
-# --- 3. ADVANCED RETRIEVER SETUP (Hybrid Search + Reranker) ---
+# --- 4. ADVANCED RETRIEVER SETUP (Hybrid Search + Reranker) ---
 
 def create_advanced_retriever(chunks, embedding_model):
     """Creates a sophisticated retriever with hybrid search and a reranker."""
@@ -105,16 +145,21 @@ def create_advanced_retriever(chunks, embedding_model):
     cross_encoder = HuggingFaceCrossEncoder(model_name=RERANKER_MODEL_ID)
     compressor = CrossEncoderReranker(model=cross_encoder, top_n=3)
     
-    # Return ensemble retriever without compression for now
-    # (ContextualCompressionRetriever might need different setup)
+    compression_retriever = ContextualCompressionRetriever(
+        base_compressor=compressor, base_retriever=ensemble_retriever
+    )
+    
     print("Retriever setup complete.")
-    return ensemble_retriever
+    return compression_retriever
 
-# --- 4. LLM LOADING ---
+# --- 5. LLM LOADING ---
 
 def load_llm(model_id):
     """Loads the specified Hugging Face model with 4-bit quantization."""
     print(f"Loading LLM: {model_id}...")
+    
+    check_gpu_status()
+
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
@@ -128,11 +173,17 @@ def load_llm(model_id):
         torch_dtype=torch.float16,
         trust_remote_code=True
     )
-    hf_pipeline = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=300, return_full_text=False)
-    # Wrap the pipeline for LangChain compatibility
+    hf_pipeline = pipeline(
+        "text-generation", 
+        model=model, 
+        tokenizer=tokenizer, 
+        max_new_tokens=300, 
+        return_full_text=False
+    )
+    
     return HuggingFacePipeline(pipeline=hf_pipeline)
 
-# --- 5. MAIN EXECUTION ---
+# --- 6. MAIN EXECUTION ---
 
 def main():
     print("Please choose a local LLM to load:")
@@ -185,6 +236,8 @@ def main():
             print("--------------\n")
         except Exception as e:
             print(f"An error occurred during generation: {e}")
+            import traceback
+            traceback.print_exc()
 
 if __name__ == "__main__":
     main()
