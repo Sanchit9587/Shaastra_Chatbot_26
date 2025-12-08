@@ -7,7 +7,7 @@ from tqdm import tqdm # For a progress bar
 # --- CONFIGURATION ---
 # Replace with your actual Gemini API Key
 # For better security, use environment variables: os.getenv("GEMINI_API_KEY")
-API_KEY = "AIzaSyD8yynicRgAoiuPLLc1BgQK-Q6yGbd2kO8" 
+API_KEY = "YourAPIKeyHere"  # <-- Replace with your Gemini API Key
 PDF_FILE_PATH = "ShaastraContextDoc.pdf"
 OUTPUT_FILE_PATH = "rag_context.md"
 # ---------------------
