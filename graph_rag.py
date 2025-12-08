@@ -3,6 +3,10 @@ import operator
 from typing import Annotated, Sequence, TypedDict, List
 from typing_extensions import TypedDict
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 # LangChain & LangGraph Imports
 from langchain_core.messages import BaseMessage, HumanMessage
 from langchain_core.prompts import PromptTemplate
