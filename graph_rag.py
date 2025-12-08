@@ -14,7 +14,8 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langgraph.graph import END, StateGraph
 
-from advanced_rag import create_hierarchical_retriever, load_llm, LLM_CONFIG, CONTEXT_FILE
+# --- CORRECTED IMPORT: Using create_hybrid_retriever ---
+from advanced_rag import create_hybrid_retriever, load_llm, LLM_CONFIG, CONTEXT_FILE
 from langchain_huggingface import HuggingFaceEmbeddings
 import torch
 
@@ -31,8 +32,9 @@ print(f"Initializing Embeddings on {device}...")
 # Using BGE-Base for better retrieval accuracy than MiniLM
 embedding_model = HuggingFaceEmbeddings(model_name='BAAI/bge-base-en-v1.5', model_kwargs={'device': device})
 
-# Initialize Retriever
-retriever = create_hierarchical_retriever(CONTEXT_FILE, embedding_model)
+# --- INITIALIZE HYBRID RETRIEVER ---
+print("Initializing Hybrid Retriever...")
+retriever = create_hybrid_retriever(CONTEXT_FILE, embedding_model)
 
 # Initialize LLM
 config = LLM_CONFIG["Unsloth 3B"]
@@ -83,9 +85,9 @@ Question: {question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>""",
     return {"intent": decision}
 
 def retrieve(state):
-    print("---RETRIEVING---")
+    print("---RETRIEVING (HYBRID)---")
     question = state["question"]
-    # This retrieves the PARENT docs (Full sections) based on child matches
+    # This now does Vector Search + BM25 Keyword Search
     documents = retriever.invoke(question)
     
     # DEBUG VISUALIZATION
@@ -102,14 +104,11 @@ def generate_rag(state):
     
     prompt = PromptTemplate(
         template=config["prompt_template"],
-        input_variables=["system_instruction", "context", "question"]
+        input_variables=["context", "question"]
     )
     
-    # Inject specific system instruction for RAG
-    system_inst = "You must answer using ONLY the context provided. If the context doesn't contain the answer, say you don't know."
-    
     chain = prompt | llm | StrOutputParser()
-    generation = chain.invoke({"system_instruction": system_inst, "context": context, "question": question})
+    generation = chain.invoke({"context": context, "question": question})
     return {"generation": generation}
 
 def generate_general(state):
@@ -117,16 +116,15 @@ def generate_general(state):
     question = state["question"]
     
     prompt = PromptTemplate(
-        template=config["prompt_template"],
-        input_variables=["system_instruction", "context", "question"]
+        template="""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+You are a helpful AI assistant. Answer the user's question directly.
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+{question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>""",
+        input_variables=["question"]
     )
     
-    # Inject general chat system instruction
-    system_inst = "You are a helpful AI assistant. Answer the user's question directly."
-    
     chain = prompt | llm | StrOutputParser()
-    # Pass empty context
-    generation = chain.invoke({"system_instruction": system_inst, "context": "No specific context required.", "question": question})
+    generation = chain.invoke({"question": question})
     return {"generation": generation}
 
 # --- 5. BUILD GRAPH ---
