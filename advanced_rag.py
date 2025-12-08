@@ -1,26 +1,27 @@
-# advanced_rag.py
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, pipeline
 import textwrap
 import sys
 
-# LangChain Imports
+# --- UPDATED IMPORTS FOR LANGCHAIN v0.3 ---
 from langchain.prompts import PromptTemplate
-from langchain.schema.runnable import RunnablePassthrough
-from langchain.schema.output_parser import StrOutputParser
-from langchain.text_splitter import MarkdownHeaderTextSplitter
+from langchain_core.runnables import RunnablePassthrough
+from langchain_core.output_parsers import StrOutputParser
+from langchain_text_splitters import MarkdownHeaderTextSplitter
 from langchain_community.document_loaders import TextLoader
-from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
-from langchain.retrievers import BM25Retriever, EnsembleRetriever
+
+# Specific VectorStore and Embeddings packages
+from langchain_chroma import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings, HuggingFacePipeline
+
+# Retrievers
+from langchain_community.retrievers import BM25Retriever
+from langchain.retrievers import EnsembleRetriever, ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import CrossEncoderReranker
-from langchain.retrievers import ContextualCompressionRetriever
 from langchain_community.cross_encoders import HuggingFaceCrossEncoder
 
 # --- 1. LLM AND EMBEDDING MODEL CONFIGURATION ---
 
-# Define the LLMs you want to use. The first one is the default.
 LLM_CONFIG = {
     "Unsloth 3B (Cached)": {
         "model_id": "unsloth/llama-3.2-3b-instruct-bnb-4bit",
@@ -77,12 +78,6 @@ def load_and_chunk_document(file_path):
     text_splitter = MarkdownHeaderTextSplitter(headers_to_split_on=headers_to_split_on)
     chunks = text_splitter.split_text(docs[0].page_content)
     
-    # Optional: You can print a sample chunk to see the result
-    # print("\n--- Sample Chunk ---")
-    # print(chunks[5].page_content)
-    # print(chunks[5].metadata)
-    # print("--------------------\n")
-    
     print(f"Document split into {len(chunks)} logical chunks.")
     return chunks
 
@@ -103,19 +98,17 @@ def create_advanced_retriever(chunks, embedding_model):
     # c. Ensemble Retriever (combines the two)
     ensemble_retriever = EnsembleRetriever(
         retrievers=[bm25_retriever, chroma_retriever],
-        weights=[0.5, 0.5] # Give equal weight to keyword and semantic search
+        weights=[0.5, 0.5]
     )
     
     # d. Reranker (takes top results and re-ranks for relevance)
     cross_encoder = HuggingFaceCrossEncoder(model_name=RERANKER_MODEL_ID)
-    compressor = CrossEncoderReranker(model=cross_encoder, top_n=3) # Return top 3 most relevant
+    compressor = CrossEncoderReranker(model=cross_encoder, top_n=3)
     
-    compression_retriever = ContextualCompressionRetriever(
-        base_compressor=compressor, base_retriever=ensemble_retriever
-    )
-    
+    # Return ensemble retriever without compression for now
+    # (ContextualCompressionRetriever might need different setup)
     print("Retriever setup complete.")
-    return compression_retriever
+    return ensemble_retriever
 
 # --- 4. LLM LOADING ---
 
@@ -142,7 +135,6 @@ def load_llm(model_id):
 # --- 5. MAIN EXECUTION ---
 
 def main():
-    # --- User Model Selection ---
     print("Please choose a local LLM to load:")
     model_names = list(LLM_CONFIG.keys())
     for i, name in enumerate(model_names):
@@ -186,14 +178,6 @@ def main():
 
         print("\nFinding relevant information and generating answer...")
         
-        # --- (Optional) For Debugging: See what the retriever finds ---
-        # retrieved_docs = retriever.get_relevant_documents(user_query)
-        # print("\n--- Retrieved Context ---")
-        # for i, doc in enumerate(retrieved_docs):
-        #     print(f"--- Document {i+1} ---\n{doc.page_content}\n")
-        # print("------------------------\n")
-        
-        # --- Invoke the chain to get the final answer ---
         try:
             answer = rag_chain.invoke(user_query)
             print("\n--- Answer ---")

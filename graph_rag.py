@@ -11,11 +11,10 @@ from langchain_core.runnables import RunnablePassthrough
 from langgraph.graph import END, StateGraph
 
 # Import your existing setup functions
-# (Assuming your advanced_rag.py functions are importable or pasted here)
-# For this example, I will assume we use the components defined in your previous code.
 from advanced_rag import load_and_chunk_document, load_llm, LLM_CONFIG
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
+import torch
 
 # --- 1. SETUP STATE ---
 class GraphState(TypedDict):
@@ -37,7 +36,7 @@ CONTEXT_FILE = "rag_context.md"
 chunks = load_and_chunk_document(CONTEXT_FILE)
 
 # Load Embedding
-device = 'cuda' # or 'cpu'
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 embedding_model = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2', model_kwargs={'device': device})
 
 # Load Vector Store (Simple Chroma for graph demonstration)
