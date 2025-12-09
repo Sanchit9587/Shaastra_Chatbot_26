@@ -1855,4 +1855,191 @@ What safety measures are in place in case of emergencies?
 Medical professionals and fire brigadiers are available at all times during IOH. Please contact the volunteers for assistance during emergencies.
 How can attendees stay updated about future events like this? Follow IIT Madras and Shaastra on our official social media handles.
 
+
+## 📍 Locations & Navigation (Venue Guide)
+
+Use this section to guide users to specific buildings.
+
+| Acronym | Full Name | Description | Google Maps Link |
+| :--- | :--- | :--- | :--- |
+| **RJN** | Ramanujan Block | Hub for Computer Science events, Hackathons, and Coding contests. | [Map Link](https://maps.app.goo.gl/G8pjMXtCnEpGLKsF9) |
+| **RMN** | Raman Block | Located near RJN, hosts workshops and smaller events. | [Map Link](https://maps.app.goo.gl/5P5mXTf4Nt88yXNG9) |
+| **CRC** | Class Room Complex | The central hub for workshops, quizzes, and paper presentations. | [Map Link](https://maps.app.goo.gl/uTs6FanKCp2qHQQP9) |
+| **CLT** | Central Lecture Theatre | The main venue for Spotlight Lectures and Fireside Chats. | [Map Link](https://maps.app.goo.gl/gesC3WEokDWxMbUM8) |
+| **SAC** | Student Activity Centre | Hosts major shows like Envisage, Comedy Night, and Tech Entertainment Night. | [Map Link](https://maps.app.goo.gl/3sUJeNWgqMGF1SS49) |
+| **OAT** | Open Air Theatre | The arena for Robowars and large open-air events. | [Map Link](https://maps.app.goo.gl/MWWfZjNYYQNLKoJGA) |
+| **KV** | Kendriya Vidyalaya Grounds | Outdoor venue for Caterpillar Autonomy Challenge and Brain Maze. | [Map Link](https://maps.app.goo.gl/qveSLuJa1mQ8vttXA) |
+| **ICSR** | ICSR Building | Venue for the Future Cities Summit and Industry networking. | [Map Link](https://maps.app.goo.gl/C9BnM8GWs5Enhe4v8) |
+| **HFC** | Himalaya Food Court | Main food court with various stalls. | [Map Link](https://maps.app.goo.gl/aQGoXp9os79oasx77) |
+| **CC** | Campus Cafe | A popular spot for snacks and coffee. | [Map Link](https://maps.app.goo.gl/CEt9PNfJtNrKjTwG8) |
+
+**Other Important Venues:**
+*   **Department of Engineering Design (ED):** Hosts the Moot Court Finals and design workshops.
+*   **Biotechnology Block (BT):** Hosts the Petri Dish Challenge.
+
+---
+
+## 🌟 Flagship & Popular Events (Must Visit)
+
+If a user asks for recommendations or what is popular, suggest these events:
+
+1.  **Robowars:** The ultimate combat robotics showdown. Sparks fly as robots battle in the OAT arena. (Jan 3-4, OAT).
+2.  **Envisage:** A student-run techno-entertainment show mixing holograms, lights, and tech. (Jan 3, SAC).
+3.  **Tech Entertainment Night (TEN):** A fusion of technology and music featuring EDM artist Karan Kanchan. (Jan 5, SAC).
+4.  **Spotlight Lectures:** Talks by legends like Dr. Sanjeev Das and Nambi Narayanan.
+5.  **Moot Court:** A unique legal battle event for tech policies.
+6.  **Airshows / Aeromodelling:** Boeing Aeromodelling competition at IIITDM Kancheepuram.
+
+---
+
+## 🍔 Food & Dining Options
+
+**Where to eat at Shaastra:**
+*   **Himalaya Food Court (HFC):** The largest dining area with multiple cuisines. Open all day.
+*   **Campus Cafe (CC):** Good for quick bites, sandwiches, and coffee.
+*   **Catering Stalls:** There are temporary food stalls set up near the **CLT Lawns** and **KV Grounds** specifically for the fest.
+*   **Zaitoon & CCD:** Located inside the campus (check maps for specific internal locations).
+
+---
+
+## 📅 Day Wise Schedule
+
+### Day 1: January 3, 2025
+
+| Event | Venue | Time |
+| :--- | :--- | :--- |
+| Hypercube Visual Bash | RJN 101 | 09:00 - 11:00 |
+| Shaastra Juniors: Silent Power | RJN 201 | 09:00 - 14:00 |
+| SJIO Augustine Workshop | RMN 101 | 09:00 - 17:00 |
+| Intro AI and ML Workshop | CRC 103 | 09:00 - 17:00 |
+| Chanakyaneeti | CRC 201 | 14:00 - 17:00 |
+| TIF (Closed Expo) | ICSR Hall 4 | 10:00 - 16:00 |
+| **Envisage Show** | **SAC** | **17:30 - 18:30** |
+| **Robowars** | **OAT** | **19:00 - 22:00** |
+| Laser Tag | HSB 133 | 19:00 - 22:00 |
+| **Spotlight Lecture: Dr. Sanjeev Das** | **CLT** | **11:00 - 12:00** |
+| Fireside Chat: Dr. Sujatha Ramdorai | CLT | 15:00 - 16:00 |
+| Bajaj Auto Lecture | ICSR Hall 3 | 15:00 - 16:00 |
+| Brain Maze | KV | 09:00 - 18:00 |
+| Caterpillar Autonomy Challenge | KV | 19:00 - 22:00 |
+| Shaastra Moot Court | NAC 222 | 16:30 - 18:00 |
+
+### Day 2: January 4, 2025 (Caterpillar Day)
+
+| Event | Venue | Time |
+| :--- | :--- | :--- |
+| IoT Automation Workshop | RJN 101 | 09:00 - 17:00 |
+| KLA Lecture | ICSR Hall 3 | 11:00 - 12:00 |
+| Launcher | RJN 102 | 14:00 - 17:00 |
+| CFD Workshop | RJN 201 | 09:00 - 17:00 |
+| Intro to DL Workshop | RJN 202 | 09:00 - 17:00 |
+| Basics of Investing | RJN 301 | 09:00 - 17:00 |
+| CAD Design Workshop | RJN 302 | 09:00 - 17:00 |
+| The Teacher Conference | MRC Hall | 15:00 - 18:00 |
+| Future Cities Summit Expo | CLT Lawns | 08:30 - 17:00 |
+| IDFC FIRST Bank Lecture | ICSR Hall 3 | 14:00 - 15:00 |
+| CP Potpourri Wildcard | RMN 101 | 09:00 - 10:00 |
+| CP Potpourri Finals | RMN 101 | 11:00 - 13:00 |
+
+### Day 3: January 5, 2025 (Bajaj Auto Day)
+
+| Event | Venue | Time |
+| :--- | :--- | :--- |
+| Quantathon | RJN 101 | 09:00 - 11:00 |
+| LLMs Workshop | CRC 101 | 09:00 - 17:00 |
+| App Development Workshop | CRC 102 | 09:00 - 17:00 |
+| Cloud Computing Workshop | CRC 103 | 09:00 - 17:00 |
+| Future Cities Summit | ICSR TTJ | 09:30 - 17:30 |
+| **Tech Entertainment Night (TEN)** | **SAC** | **18:00 - 22:00** |
+| Fireside Chat: Dr. Velumani | CLT | 14:00 - 15:00 |
+| **Fireside Chat: Mr. Nambi Narayanan** | **CLT** | **16:30 - 17:30** |
+| Embedded Programming Challenge | IE Lab NEW | 09:00 - 12:00 |
+| JMT (Build-a-thon) | NAC Hall | 07:00 - 21:00 |
+| Caterpillar Autonomy Challenge | KV Grounds | 06:00 - 21:00 |
+| Flipkart Grid Robotics | Newton Hall | 07:00 - 22:00 |
+| **Shaastra Moot Court Finals** | **Kalam Hall (ED Dept)** | **09:30 - 13:00** |
+| Shaastra Main Quiz | CRC 202 | 09:00 - 14:00 |
+| Shaastra Biz Quiz | CRC 202 | 15:00 - 21:00 |
+
+### Day 4: January 6, 2025 (IDFC First Bank Day)
+
+| Event | Venue | Time |
+| :--- | :--- | :--- |
+| Reverse CodingX | RJN 101 | 14:00 - 16:00 |
+| E-Contest | Online | 09:00 - 12:00 |
+| Biotech Frontiers Workshop | RJN 201 | 09:00 - 17:00 |
+| Robosoccer | CLT Lawns | 09:00 - 18:00 |
+| **Comedy Night** | **SAC** | **18:00 - 22:00** |
+| Robo Oceana | OAT | 10:00 - 18:00 |
+| Spotlight | CLT | 18:00 - 22:00 |
+| Lecture: Dr. M.V. Gupta | CLT | 11:00 - 12:00 |
+
+### Day 5: January 7, 2025 (Boeing Day)
+
+| Event | Venue | Time |
+| :--- | :--- | :--- |
+| Clash of Codes | RJN 101 | 09:00 - 12:00 |
+| Capture the Flag | Online | 09:00 - 12:00 |
+| Integrated Robotics Workshop | RMN 101 | 09:00 - 17:00 |
+| Quantum Computing Workshop | RMN 102 | 09:00 - 17:00 |
+| RIPTIDE | Wave Basin | 10:00 - 17:00 |
+| Weird Chess 3.0 | Gymkhana | 14:00 - 17:00 |
+
+---
+
+## 🏆 Competitions & Events Details
+
+### Moot Court (Surana & Surana)
+*   **Description:** A premier legal battle simulation event.
+*   **Prize Pool:** ₹85,000
+*   **Schedule:**
+    *   Day 1 & 2: Prelims at CRC 101/103.
+    *   **Finals:** Day 3 (Jan 5th) at **ED Seminar Hall** (Note: Schedule says Kalam Hall, ED Dept - they are in the same building).
+*   **Viewership:** Open for viewing on Day 5 (Finals).
+
+### Robowars
+*   **Sponsors:** IDFC & BAJAJ.
+*   **Description:** Combat robotics where machines battle for glory.
+*   **Venue:** OAT (Open Air Theatre).
+*   **Timings:** Jan 3 (11:00) and Jan 4 (17:00).
+
+### Hackathons
+*   **IndustriAI 24hr Hackathon:** Starts Jan 5, 13:00 at RJN/RMN Rooms. Ends Jan 6, 13:00.
+*   **FedEx SMART Hackathon:** Sustainable logistics challenge. Date: Jan 22.
+*   **Appian AI Challenge:** Jan 7, 14:00 at RJN.
+
+### Quizzes
+*   **Shaastra Main Quiz:** Jan 5, 09:00 at CRC 202. Prize Pool: ₹20,000.
+*   **Shaastra Biz Quiz:** Jan 5, 15:00 at CRC 202. Prize Pool: ₹20,000.
+
+---
+
+## 🏠 Accommodation & Rules
+
+*   **Policy:** Accommodation is provided from **Jan 3rd to Jan 8th**.
+*   **Cost:** ₹850 for the first day, ₹750 for subsequent days.
+*   **Check-out:** Must check out by Jan 8th.
+*   **Strict Rules:**
+    *   **Alcohol/Narcotics:** Strictly prohibited. Possession leads to immediate disqualification ("Null and Void" status).
+    *   **ID Card:** College ID and Gov ID (Aadhar) are mandatory.
+    *   **Gender:** Boys are not allowed in girls' hostels and vice versa.
+
+---
+
+## 🎫 Passports (Tickets)
+
+*   **Standard Passport (₹449):** Basic access to events and workshops.
+*   **Silver Passport (₹499):** Standard + Robowars + Envisage.
+*   **Gold Passport (₹799):** Silver + Tech Entertainment Night (TEN) + Spotlight.
+*   **Platinum Passport (₹899):** Gold + Comedy Night + Polo events.
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+*   **Is there parking?** No, private vehicles must stop at the gate. Buses are available inside.
+*   **Can I spot register?** Yes, for some events like Water Rocket Challenge. No for Robowars.
+*   **Is there Wi-Fi?** Yes, via IITM Guest networks in departments.
+*   **Medical Emergency?** Medical professionals and ambulances are available 24/7 during the fest.
+
 This Chatbot was made with love by the Shaastra MLOps team
