@@ -14,6 +14,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langgraph.graph import END, StateGraph
 from langchain_core.messages import HumanMessage, AIMessage
 
+# Import setup
 from advanced_rag import create_advanced_retriever, add_reranker, search_graph, load_llm, LLM_CONFIG, CONTEXT_FILE
 from langchain_huggingface import HuggingFaceEmbeddings
 import torch
@@ -23,7 +24,7 @@ class GraphState(TypedDict):
     question: str
     generation: str
     documents: List[Any]
-    chat_history: List[str] # Memory stores string summary of history
+    chat_history: List[str] 
     intent: str 
 
 # --- 2. INITIALIZE MODELS ---
@@ -31,45 +32,66 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"Initializing Embeddings on {device}...")
 embedding_model = HuggingFaceEmbeddings(model_name='BAAI/bge-base-en-v1.5', model_kwargs={'device': device})
 
-# Initialize Retriever AND Knowledge Graph
+# Initialize Hybrid Engines
 base_retriever, knowledge_graph = create_advanced_retriever(CONTEXT_FILE, embedding_model)
 retriever = add_reranker(base_retriever)
 
 config = LLM_CONFIG["Unsloth 3B"]
 llm = load_llm(config["model_id"])
 
-# Global memory list (simple implementation for local run)
+# Global memory
 MEMORY = []
 
 # --- 3. HELPER FUNCTIONS ---
 def format_history(history):
-    return "\n".join(history[-4:]) # Keep last 4 turns
+    # Get last 3 exchanges to keep context window small but relevant
+    return "\n".join(history[-6:]) 
 
 # --- 4. DEFINE NODES ---
 
 def route_query(state):
     print("---ROUTING QUERY---")
     question = state["question"]
+    history = format_history(state["chat_history"])
     
-    # Smarter Router Prompt
+    # --- IMPROVED ROUTER PROMPT ---
+    # We explicitly tell it to assume 'rag' for vague questions if they fit the festival context
     router_prompt = PromptTemplate(
         template="""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-Classify the user question.
-1. 'rag': Questions about Shaastra events, dates, venues, food, workshops, rules, or hackathons.
-2. 'general': Greetings (hi, hello), coding questions (write python code), math, or general knowledge.
-3. 'followup': If the user asks "Where is it?" or "Tell me more" referring to previous chat.
+You are the primary router for the Shaastra 2025 Techfest Chatbot.
+Your job is to decide if a user's question requires looking up the Shaastra database or if it is unrelated.
 
-Return ONLY one word: 'rag', 'general', or 'followup'.<|eot_id|><|start_header_id|>user<|end_header_id|>
-Question: {question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>""",
-        input_variables=["question"]
+CONTEXTUAL AWARENESS:
+The user is attending the fest. If they ask "Where is food?" or "Where is the toilet?", they mean AT SHAASTRA.
+
+INSTRUCTIONS:
+1. Return 'rag' if the question is about:
+   - Events, schedules, venues, dates, workshops, competitions.
+   - Logistics (food, accommodation, parking, wifi, bathrooms).
+   - Vague questions like "Where is it?" (Assume it refers to the event).
+   - Follow-up questions based on chat history.
+
+2. Return 'general' ONLY if the question is:
+   - A pure coding task (e.g., "Write a merge sort in Python").
+   - A math problem (e.g., "What is 2+2?").
+   - A general greeting (e.g., "Hi", "Good morning") with no other text.
+   - Completely unrelated to the event (e.g., "Who is the President of USA?").
+
+RETURN ONLY ONE WORD: 'rag' or 'general'.
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+CHAT HISTORY:
+{history}
+
+CURRENT QUESTION: {question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>""",
+        input_variables=["history", "question"]
     )
     
     chain = router_prompt | llm | StrOutputParser()
-    decision = chain.invoke({"question": question}).strip().lower()
+    decision = chain.invoke({"history": history, "question": question}).strip().lower()
     
-    # Cleaning decision
+    # Hard rules to prevent router failure on simple things
     if "rag" in decision: decision = "rag"
-    elif "followup" in decision: decision = "rag" # Followups usually need context too
     else: decision = "general"
         
     print(f"---DECISION: {decision.upper()}---")
@@ -79,16 +101,23 @@ def retrieve(state):
     print("---RETRIEVING (HYBRID: VECTOR + GRAPH)---")
     question = state["question"]
     
-    # 1. Vector Search + Reranking
+    # 1. Vector Search + Reranking (Standard)
     documents = retriever.invoke(question)
     
-    # 2. Knowledge Graph Search
+    # 2. Knowledge Graph Search (Enhanced)
+    # Use graph to find connections if Vector search feels weak or if specific entities are named
     graph_context = search_graph(knowledge_graph, question)
     
-    # 3. Inject Graph Context into Metadata of first doc (hack to pass it along)
-    if graph_context and documents:
-        documents[0].page_content = f"__GRAPH_KNOWLEDGE__:\n{graph_context}\n\n" + documents[0].page_content
-        print(f"🕸️ Graph found connections: {graph_context}")
+    if graph_context:
+        print(f"🕸️ Graph Knowledge Injected: Found connections for entities in query.")
+        # Create a fake document to inject graph knowledge at the top
+        from langchain_core.documents import Document
+        graph_doc = Document(
+            page_content=f"**KNOWLEDGE GRAPH CONNECTIONS**:\n{graph_context}",
+            metadata={"Header 1": "Knowledge Graph", "Header 2": "Direct Relationships"}
+        )
+        # Insert graph knowledge at position 0 so LLM sees it first
+        documents.insert(0, graph_doc)
     
     return {"documents": documents}
 
@@ -98,11 +127,14 @@ def generate_rag(state):
     documents = state["documents"]
     history_str = format_history(state["chat_history"])
     
-    # Format Context
+    # Format Context nicely with headers
     formatted_context = ""
     for doc in documents:
-        headers = ", ".join([f"{k}: {v}" for k, v in doc.metadata.items() if k.startswith("Header")])
-        formatted_context += f"\n[Source: {headers}]\n{doc.page_content}\n"
+        # Extract headers if available, otherwise default
+        headers = ", ".join([f"{v}" for k, v in doc.metadata.items() if k.startswith("Header")])
+        if not headers: headers = "General Context"
+        
+        formatted_context += f"\n[Section: {headers}]\n{doc.page_content}\n"
     
     prompt = PromptTemplate(
         template=config["prompt_template"],
@@ -124,7 +156,7 @@ def generate_general(state):
     
     prompt = PromptTemplate(
         template="""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-You are a helpful AI assistant. Answer politely and concisely.
+You are a helpful AI assistant. Answer the user's question directly, politely, and concisely.
 <|eot_id|><|start_header_id|>user<|end_header_id|>
 {question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>""",
         input_variables=["question"]
@@ -158,11 +190,12 @@ app = workflow.compile()
 # --- 6. EXECUTION LOOP ---
 
 if __name__ == "__main__":
-    print("\n💡 Shaastra 2025 AI is Online. (Memory Enabled). Type 'exit' to stop.")
+    print("\n💡 Shaastra 2025 AI is Online. (Memory & Intelligent Routing Enabled). Type 'exit' to stop.")
     
     while True:
         try:
             user_query = input("\nUser: ")
+            if not user_query.strip(): continue # Skip empty enters
             if user_query.lower() == 'exit': break
             
             # Run Graph
