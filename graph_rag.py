@@ -8,14 +8,13 @@ except ImportError:
 # -------------------------
 
 import sys
-# Included Any to fix NameError
 from typing import TypedDict, List, Literal, Any 
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langgraph.graph import END, StateGraph
+from langchain_core.messages import HumanMessage, AIMessage
 
-# --- CORRECTED IMPORT: Using create_hybrid_retriever ---
-from advanced_rag import create_hybrid_retriever, load_llm, LLM_CONFIG, CONTEXT_FILE
+from advanced_rag import create_advanced_retriever, add_reranker, search_graph, load_llm, LLM_CONFIG, CONTEXT_FILE
 from langchain_huggingface import HuggingFaceEmbeddings
 import torch
 
@@ -24,50 +23,43 @@ class GraphState(TypedDict):
     question: str
     generation: str
     documents: List[Any]
+    chat_history: List[str] # Memory stores string summary of history
     intent: str 
 
 # --- 2. INITIALIZE MODELS ---
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"Initializing Embeddings on {device}...")
-# Using BGE-Base for better retrieval accuracy than MiniLM
 embedding_model = HuggingFaceEmbeddings(model_name='BAAI/bge-base-en-v1.5', model_kwargs={'device': device})
 
-# --- INITIALIZE HYBRID RETRIEVER ---
-print("Initializing Hybrid Retriever...")
-retriever = create_hybrid_retriever(CONTEXT_FILE, embedding_model)
+# Initialize Retriever AND Knowledge Graph
+base_retriever, knowledge_graph = create_advanced_retriever(CONTEXT_FILE, embedding_model)
+retriever = add_reranker(base_retriever)
 
-# Initialize LLM
 config = LLM_CONFIG["Unsloth 3B"]
 llm = load_llm(config["model_id"])
 
-# --- 3. HELPER: CHUNK VISUALIZER ---
-def print_retrieved_chunks(documents):
-    print("\n" + "="*40)
-    print(f"🔍 DEBUG: Retrieved {len(documents)} Context Chunks")
-    print("="*40)
-    for i, doc in enumerate(documents):
-        # Clean up newlines for display
-        content_preview = doc.page_content.replace('\n', ' ')[:200] 
-        print(f"📄 Chunk {i+1} Metadata: {doc.metadata}")
-        print(f"📝 Content Preview: {content_preview}...")
-        print("-" * 20)
-    print("="*40 + "\n")
+# Global memory list (simple implementation for local run)
+MEMORY = []
+
+# --- 3. HELPER FUNCTIONS ---
+def format_history(history):
+    return "\n".join(history[-4:]) # Keep last 4 turns
 
 # --- 4. DEFINE NODES ---
 
 def route_query(state):
-    """
-    Decides if the query is about Shaastra (needs RAG) or General (needs LLM only).
-    """
     print("---ROUTING QUERY---")
     question = state["question"]
     
+    # Smarter Router Prompt
     router_prompt = PromptTemplate(
         template="""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-You are a router. Classify the user question.
-If it is about 'Shaastra', 'events', 'workshops', 'dates', 'venues', 'moot court', 'hackathons', 'schedule' or 'rules', return 'rag'.
-If it is a general greeting, math problem, or code question, return 'general'.
-Return ONLY the word 'rag' or 'general'.<|eot_id|><|start_header_id|>user<|end_header_id|>
+Classify the user question.
+1. 'rag': Questions about Shaastra events, dates, venues, food, workshops, rules, or hackathons.
+2. 'general': Greetings (hi, hello), coding questions (write python code), math, or general knowledge.
+3. 'followup': If the user asks "Where is it?" or "Tell me more" referring to previous chat.
+
+Return ONLY one word: 'rag', 'general', or 'followup'.<|eot_id|><|start_header_id|>user<|end_header_id|>
 Question: {question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>""",
         input_variables=["question"]
     )
@@ -75,40 +67,55 @@ Question: {question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>""",
     chain = router_prompt | llm | StrOutputParser()
     decision = chain.invoke({"question": question}).strip().lower()
     
-    # Fallback safety
-    if "rag" in decision:
-        decision = "rag"
-    else:
-        decision = "general"
+    # Cleaning decision
+    if "rag" in decision: decision = "rag"
+    elif "followup" in decision: decision = "rag" # Followups usually need context too
+    else: decision = "general"
         
     print(f"---DECISION: {decision.upper()}---")
     return {"intent": decision}
 
 def retrieve(state):
-    print("---RETRIEVING (HYBRID)---")
+    print("---RETRIEVING (HYBRID: VECTOR + GRAPH)---")
     question = state["question"]
-    # This now does Vector Search + BM25 Keyword Search
+    
+    # 1. Vector Search + Reranking
     documents = retriever.invoke(question)
     
-    # DEBUG VISUALIZATION
-    print_retrieved_chunks(documents)
+    # 2. Knowledge Graph Search
+    graph_context = search_graph(knowledge_graph, question)
+    
+    # 3. Inject Graph Context into Metadata of first doc (hack to pass it along)
+    if graph_context and documents:
+        documents[0].page_content = f"__GRAPH_KNOWLEDGE__:\n{graph_context}\n\n" + documents[0].page_content
+        print(f"🕸️ Graph found connections: {graph_context}")
     
     return {"documents": documents}
 
 def generate_rag(state):
-    print("---GENERATING (RAG)---")
+    print("---GENERATING (CoT + MEMORY)---")
     question = state["question"]
     documents = state["documents"]
+    history_str = format_history(state["chat_history"])
     
-    context = "\n\n".join([doc.page_content for doc in documents])
+    # Format Context
+    formatted_context = ""
+    for doc in documents:
+        headers = ", ".join([f"{k}: {v}" for k, v in doc.metadata.items() if k.startswith("Header")])
+        formatted_context += f"\n[Source: {headers}]\n{doc.page_content}\n"
     
     prompt = PromptTemplate(
         template=config["prompt_template"],
-        input_variables=["context", "question"]
+        input_variables=["chat_history", "context", "question"]
     )
     
     chain = prompt | llm | StrOutputParser()
-    generation = chain.invoke({"context": context, "question": question})
+    generation = chain.invoke({
+        "chat_history": history_str, 
+        "context": formatted_context, 
+        "question": question
+    })
+    
     return {"generation": generation}
 
 def generate_general(state):
@@ -117,7 +124,7 @@ def generate_general(state):
     
     prompt = PromptTemplate(
         template="""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-You are a helpful AI assistant. Answer the user's question directly.
+You are a helpful AI assistant. Answer politely and concisely.
 <|eot_id|><|start_header_id|>user<|end_header_id|>
 {question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>""",
         input_variables=["question"]
@@ -141,35 +148,42 @@ workflow.set_entry_point("router")
 def route_decision(state):
     return state["intent"]
 
-workflow.add_conditional_edges(
-    "router",
-    route_decision,
-    {
-        "rag": "retrieve",
-        "general": "generate_general"
-    }
-)
-
+workflow.add_conditional_edges("router", route_decision, {"rag": "retrieve", "general": "generate_general"})
 workflow.add_edge("retrieve", "generate_rag")
 workflow.add_edge("generate_rag", END)
 workflow.add_edge("generate_general", END)
 
 app = workflow.compile()
 
-# --- 6. EXECUTION ---
+# --- 6. EXECUTION LOOP ---
 
 if __name__ == "__main__":
-    print("\n💡 Shaastra Bot is ready! (Type 'exit' to stop)")
+    print("\n💡 Shaastra 2025 AI is Online. (Memory Enabled). Type 'exit' to stop.")
+    
     while True:
         try:
             user_query = input("\nUser: ")
-            if user_query.lower() == 'exit':
-                break
+            if user_query.lower() == 'exit': break
             
-            inputs = {"question": user_query}
+            # Run Graph
+            inputs = {
+                "question": user_query, 
+                "chat_history": MEMORY
+            }
             final_res = app.invoke(inputs)
             
-            print(f"\n🤖 Bot: {final_res['generation']}")
+            # Clean Output
+            raw_ans = final_res['generation']
+            if "Answer:" in raw_ans:
+                clean_ans = raw_ans.split("Answer:")[-1].strip()
+            else:
+                clean_ans = raw_ans
+
+            print(f"\n🤖 Bot: {clean_ans}")
+            
+            # Update Memory
+            MEMORY.append(f"User: {user_query}")
+            MEMORY.append(f"AI: {clean_ans}")
             
         except KeyboardInterrupt:
             print("\nExiting...")
