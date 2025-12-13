@@ -172,11 +172,7 @@ def create_advanced_retriever(file_path, embedding_model):
 def add_reranker(base_retriever):
     print(f"Loading Reranker Model ({RERANKER_MODEL_ID})...")
     model = HuggingFaceCrossEncoder(model_name=RERANKER_MODEL_ID)
-    
-    # IMPROVEMENT: Add score_threshold. 
-    # If the chunk relevance is below 0.3 (out of 1.0), discard it.
-    # This prevents the bot from seeing irrelevant text for "Director" or "JEE" queries.
-    compressor = CrossEncoderReranker(model=model, top_n=3)
+    compressor = CrossEncoderReranker(model=model, top_n=5)
     
     return ContextualCompressionRetriever(
         base_compressor=compressor, 
