@@ -1,68 +1,72 @@
-# config.py
+import os
+import sys
+from pathlib import Path
 
-# --- 1. CRITICAL FIX FOR CHROMA DB (SQLite FTS5) ---
+# --- CRITICAL FIX FOR CHROMA DB ---
 try:
     __import__('pysqlite3')
-    import sys
     sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 except ImportError:
     pass
-# ---------------------------------------------------
+# ----------------------------------
 
-# Model IDs
+# Paths
+BASE_DIR = Path(__file__).parent.resolve()
+CONTEXT_FILE = BASE_DIR / "rag_context.md"
+CHROMA_DB_DIR = BASE_DIR / "chroma_db" / "final"
+
+# --- MODEL CONFIGURATION ---
+# WARNING: 11B Vision requires ~8GB VRAM. Your RTX 3050 has 6GB.
+# I recommend sticking to 3B for speed and stability.
+# LLM_MODEL_ID = "unsloth/Llama-3.2-11B-Vision-Instruct-bnb-4bit" 
 LLM_MODEL_ID = "unsloth/llama-3.2-3b-instruct-bnb-4bit"
+
 EMBEDDING_MODEL_ID = "BAAI/bge-base-en-v1.5"
 RERANKER_MODEL_ID = "cross-encoder/ms-marco-MiniLM-L-6-v2"
-CONTEXT_FILE = "rag_context.md"
 
-# Chain of Thought System Prompt
-SYSTEM_PROMPT = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+# --- PROMPTS ---
+
+# 1. System Prompt (Now includes Summary)
+RAG_SYSTEM_PROMPT = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 You are an intelligent assistant for Shaastra 2025.
-Use the Context and Chat History to answer.
 
-RULES:
-1. If the user asks "Where is it?" or "When is it?", look at the CHAT HISTORY.
-2. If the Context contains conflicting info, prioritize "Event Details" over "Schedule".
-3. Think step-by-step before answering.
+MEMORY CONTEXT:
+{summary}
 
-<|eot_id|><|start_header_id|>user<|end_header_id|>
-
-CHAT HISTORY:
+RECENT CHAT HISTORY:
 {chat_history}
 
-CONTEXT:
+RETRIEVED KNOWLEDGE:
 {context}
 
-QUESTION: {question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
-Thinking Process:
-1. Identify the core entity (Event/Venue) from the question or history.
-2. Locate specific details (Time, Date, Prize, Venue) in the context.
-3. Formulate the final answer based ONLY on the context.
-
-Answer:
-"""
-
-ROUTER_PROMPT = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-You are the primary router for the Shaastra 2025 Techfest Chatbot.
-Your job is to decide if a user's question requires looking up the Shaastra database.
-
-CONTEXTUAL AWARENESS:
-The user is attending the fest. "Where is food?" implies AT SHAASTRA.
-
-INSTRUCTIONS:
-1. Return 'rag' if the question is about:
-   - Events, schedules, venues, dates, workshops, competitions, prizes.
-   - Logistics (food, accommodation, parking, wifi, bathrooms).
-   - Vague questions like "Where is it?".
-
-2. Return 'general' ONLY if the question is:
-   - A pure coding task (e.g., "Write a merge sort").
-   - A math problem (e.g., "What is 2+2?").
-   - A general greeting (e.g., "Hi").
-
-RETURN ONLY ONE WORD: 'rag' or 'general'.
+RULES:
+1. Use the MEMORY and HISTORY to understand context.
+2. Answer the user's QUESTION using the RETRIEVED KNOWLEDGE.
+3. If specific info isn't in the knowledge, say "I don't know".
 <|eot_id|><|start_header_id|>user<|end_header_id|>
-CHAT HISTORY:
-{history}
+{question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
 
-CURRENT QUESTION: {question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
+# 2. Router Prompt
+ROUTER_PROMPT = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+Classify the user question.
+Context: Shaastra 2025 Techfest.
+
+INTENTS:
+- 'rag': Events, schedule, food, venues, rules, or specific fest details.
+- 'general': Greetings, coding, math, or generic chatter.
+
+RETURN ONLY: 'rag' or 'general'.
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+{question}<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
+
+# 3. Summarization Prompt (From PDF Strategy)
+SUMMARY_PROMPT = """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+Progressively summarize the lines of conversation provided, adding to the previous summary returning a new summary.
+
+CURRENT SUMMARY:
+{summary}
+
+NEW LINES:
+{new_lines}
+
+New Summary:<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
