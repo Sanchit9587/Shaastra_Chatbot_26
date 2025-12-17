@@ -2041,5 +2041,28 @@ If a user asks for recommendations or what is popular, suggest these events:
 *   **Can I spot register?** Yes, for some events like Water Rocket Challenge. No for Robowars.
 *   **Is there Wi-Fi?** Yes, via IITM Guest networks in departments.
 *   **Medical Emergency?** Medical professionals and ambulances are available 24/7 during the fest.
+## Moot Court
+**Sponsor:** Surana & Surana
+**Description:** One of the premier events at Shaastra involving simulated court proceedings.
+**Prize Pool:** 85,000 INR
+**Dates:** January 3rd to 5th.
+**Venue:** Day 1-2 at CRC. Finals at ED Seminar Hall.
 
+## Robowars
+**Sponsor:** IDFC & BAJAJ
+**Description:** Combat robotics showdown.
+**Venue:** OAT (Open Air Theatre).
+**Time:** Jan 3 (11am), Jan 4 (5pm).
+
+## Food and Dining
+**Locations:**
+1. Himalaya Food Court (HFC) - Main dining area.
+2. Campus Cafe (CC) - Snacks and Coffee.
+3. Zaitoon & CCD - Inside campus.
+4. Catering Stalls - Near CLT Lawns and KV Grounds.
+
+## Tech Entertainment Night
+**Artist:** Karan Kanchan
+**Venue:** SAC
+**Date:** Jan 5th
 This Chatbot was made with love by the Shaastra MLOps team
