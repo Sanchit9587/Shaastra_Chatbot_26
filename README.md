@@ -1,5 +1,5 @@
 
-# 🐯 Shaastra 2025 Multimodal RAG Chatbot
+#  Shaastra 2025 Multimodal RAG Chatbot
 
 
 
@@ -7,17 +7,17 @@ An intelligent, **local-first** multimodal AI companion for **Shaastra 2025**, t
 
 
 
-## 🚀 Key Features
+##  Key Features
 
-*   **🗣️ Full Voice Interaction:** Speak to the bot and hear it speak back using Indian-accented Neural TTS.
-*   **🧠 Agentic RAG:** Uses a graph-based state machine (LangGraph) to Route, Rewrite, and Retrieve queries intelligently.
-*   **📚 Hybrid Search:** Combines Semantic Vector Search (ChromaDB) with a Knowledge Graph (NetworkX) for precise fact retrieval.
-*   **💾 Context Aware:** Remembers conversation history and summarizes it dynamically to maintain context.
-*   **⚡ Hardware Optimized:** Designed specifically to run on consumer hardware (6GB VRAM) by balancing GPU/CPU offloading.
+*   * Full Voice Interaction:** Speak to the bot and hear it speak back using Indian-accented Neural TTS.
+*   *  Agentic RAG:** Uses a graph-based state machine (LangGraph) to Route, Rewrite, and Retrieve queries intelligently.
+*   * Hybrid Search:** Combines Semantic Vector Search (ChromaDB) with a Knowledge Graph (NetworkX) for precise fact retrieval.
+*   * Context Aware:** Remembers conversation history and summarizes it dynamically to maintain context.
+*   * Hardware Optimized:** Designed specifically to run on consumer hardware (6GB VRAM) by balancing GPU/CPU offloading.
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The system operates on a Client-Server model to separate heavy model inference from the UI.
 
@@ -98,7 +98,7 @@ rm -rf chroma_db_prod
 
 ---
 
-## 🏃‍♂️ How to Run
+##  How to Run
 
 You need to run the **Backend** and the **Frontend** in separate terminals.
 
@@ -113,11 +113,11 @@ This launches the web interface.
 ```bash
 streamlit run ui.py
 ```
-👉 **Open your browser at:** `http://localhost:8501`
+ **Open your browser at:** `http://localhost:8501`
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 shaastra_chatbot/
@@ -135,7 +135,7 @@ shaastra_chatbot/
 
 ---
 
-## ⚠️ Hardware Optimization Notes
+## Hardware Optimization Notes
 
 This project is tuned for **NVIDIA RTX 3050 (6GB VRAM)**. To prevent Out-Of-Memory (OOM) errors:
 
@@ -146,7 +146,7 @@ This project is tuned for **NVIDIA RTX 3050 (6GB VRAM)**. To prevent Out-Of-Memo
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1.  Fork the repo.
 2.  Update `rag_context.md` with new events.
@@ -154,4 +154,4 @@ This project is tuned for **NVIDIA RTX 3050 (6GB VRAM)**. To prevent Out-Of-Memo
 
 ---
 
-**Built for Shaastra 2025** 🐯
+**Built for Shaastra 2025** 
