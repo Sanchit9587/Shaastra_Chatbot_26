@@ -1,5 +1,7 @@
 import networkx as nx
 import re
+import shutil
+import os
 from langchain_community.document_loaders import TextLoader
 from langchain.storage import InMemoryStore
 from langchain_text_splitters import RecursiveCharacterTextSplitter, MarkdownHeaderTextSplitter
@@ -7,46 +9,54 @@ from langchain_chroma import Chroma
 from langchain.retrievers import ParentDocumentRetriever
 import config
 
+# Synonyms to link distinct concepts in the Graph
+SYNONYMS = {
+    "food": ["Himalaya Food Court", "Campus Cafe", "Zaitoon", "Mess"],
+    "eat": ["Himalaya Food Court", "Campus Cafe"],
+    "stay": ["Accommodation", "Hostel"],
+    "sleep": ["Accommodation", "Hostel"],
+    "hackathon": ["IndustriAI", "FedEx SMART", "Appian AI"],
+    "coding": ["Shaastra Programming Contest", "Clash of Codes", "Reverse Coding"],
+    "robot": ["Robowars", "Robosoccer", "Caterpillar Autonomy"]
+}
+
 def build_knowledge_graph(docs):
     print("Building Knowledge Graph...")
     G = nx.Graph()
     text = docs[0].page_content
     lines = text.split('\n')
     
-    current_event = None
+    current_section = "General"
     
     for line in lines:
         line = line.strip()
         if not line: continue
         
-        # 1. Table Parsing (Existing)
+        # Track Sections
+        if line.startswith("## "):
+            current_section = line.replace("## ", "").strip()
+            G.add_node(current_section, type="Event")
+        
+        # 1. Table Parsing
         if "|" in line and "Event" not in line and "---" not in line:
             parts = [p.strip() for p in line.split('|') if p.strip()]
             if len(parts) >= 2:
-                # Event -> Venue
-                G.add_edge(parts[0], parts[1], relation="hosted_at")
+                event = parts[0]
+                venue = parts[1]
+                G.add_edge(event, venue, relation="hosted_at")
                 if len(parts) >= 3:
-                     # Event -> Time
-                    G.add_edge(parts[0], parts[2], relation="happens_at")
+                    G.add_edge(event, parts[2], relation="happens_at")
 
-        # 2. Header Parsing (New: catches "## Moot Court")
-        if line.startswith("## "):
-            current_event = line.replace("## ", "").strip()
-        
-        # 3. Key-Value Extraction from Paragraphs
-        # Looks for "Venue: OAT" or "Prize Pool: 85000"
-        if current_event:
-            # Check for Venue
-            if "Venue" in line or "at " in line:
-                # Simple heuristic to extract potential venues
-                keywords = ["OAT", "CRC", "SAC", "CLT", "KV", "ICSR", "RJN", "RMN"]
-                for k in keywords:
-                    if k in line:
-                        G.add_edge(current_event, k, relation="hosted_at")
+        # 2. Key-Value Extraction
+        match_venue = re.search(r'(?i)\*?Venue:?\*?\s*(.*)', line)
+        if match_venue:
+            venue = match_venue.group(1).strip()
+            G.add_edge(current_section, venue, relation="hosted_at")
             
-            # Check for Dates
-            if "January" in line:
-                 G.add_edge(current_event, line, relation="happens_on")
+        match_date = re.search(r'(?i)\*?Date:?\*?\s*(.*)', line)
+        if match_date:
+            date_info = match_date.group(1).strip()
+            G.add_edge(current_section, date_info, relation="happens_on")
 
     return G
 
@@ -54,13 +64,22 @@ def search_graph(G, query):
     context_strings = []
     query_lower = query.lower()
     
-    # Fuzzy match node names
+    search_terms = [query_lower]
+    for key, values in SYNONYMS.items():
+        if key in query_lower:
+            search_terms.extend([v.lower() for v in values])
+            
+    found_nodes = set()
     for node in G.nodes():
-        if node.lower() in query_lower:
-            neighbors = list(G.neighbors(node))
-            if neighbors:
-                context_strings.append(f"{node} is associated with: {', '.join(neighbors)}.")
-    
+        node_lower = node.lower()
+        if any(term in node_lower for term in search_terms):
+            found_nodes.add(node)
+            
+    for node in found_nodes:
+        neighbors = list(G.neighbors(node))
+        if neighbors:
+            context_strings.append(f"{node} is related to: {', '.join(neighbors)}.")
+            
     return "\n".join(context_strings)
 
 def create_retrieval_engines(file_path, embedding_model):
@@ -68,24 +87,29 @@ def create_retrieval_engines(file_path, embedding_model):
     loader = TextLoader(file_path)
     docs = loader.load()
 
-    # 1. Build Graph
     kg = build_knowledge_graph(docs)
 
-    # 2. Markdown Splitter - CRITICAL FOR RETRIEVAL
-    # We split by Headers so "Moot Court" gets its own chunk
+    # Improved Splitter Strategy
     md_splitter = MarkdownHeaderTextSplitter(headers_to_split_on=[
         ("#", "Header 1"), ("##", "Header 2"), ("**", "Header 3")
     ])
     parent_docs = md_splitter.split_text(docs[0].page_content)
 
-    # 3. Vectorstore (Chroma)
-    # Using smaller chunks for child documents to hit specific facts like "Prize Pool"
-    child_splitter = RecursiveCharacterTextSplitter(chunk_size=300, chunk_overlap=50)
+    child_splitter = RecursiveCharacterTextSplitter(chunk_size=400, chunk_overlap=50)
     
+    # --- CRITICAL FIX: CLEAN START EVERY TIME ---
+    # We force delete the collection to ensure InMemoryStore and Chroma are in sync.
+    if os.path.exists(config.CHROMA_DB_DIR):
+        try:
+            shutil.rmtree(config.CHROMA_DB_DIR)
+            print("🧹 Cleared old vector database cache.")
+        except Exception as e:
+            print(f"⚠️ Could not clear DB: {e}")
+
     vectorstore = Chroma(
         collection_name="shaastra_prod", 
         embedding_function=embedding_model,
-        persist_directory="./chroma_db_prod" 
+        persist_directory=str(config.CHROMA_DB_DIR)
     )
     store = InMemoryStore()
 
@@ -93,12 +117,11 @@ def create_retrieval_engines(file_path, embedding_model):
         vectorstore=vectorstore, 
         docstore=store, 
         child_splitter=child_splitter,
-        parent_splitter=RecursiveCharacterTextSplitter(chunk_size=1000),
-        search_kwargs={"k": 5} # Fetch top 5 relevant docs
+        parent_splitter=RecursiveCharacterTextSplitter(chunk_size=1200),
+        search_kwargs={"k": 4}
     )
     
     print("Indexing Documents...")
     retriever.add_documents(parent_docs, ids=None)
-    
-    # Removed Reranker for speed/stability on 3050 - Vector Search is usually enough if chunking is good
+
     return retriever, kg
