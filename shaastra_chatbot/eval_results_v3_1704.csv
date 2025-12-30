@@ -1,0 +1,224 @@
+ID,Question,Bot Response,Expected Keywords,Category,Latency (s),Auto-Pass/Fail,Manual Review
+1,When is Robowars happening?,"Robowars is happening on Jan 3-4, OAT.","['jan', '3rd', '4th']",RAG,7.506195783615112,PASS,
+2,Where is Robowars held?,"Robowars is held at Shaastra, IIT Madras.","['oat', 'open air', 'theater']",RAG,10.363644123077393,FAIL,
+3,Tell me about Envisage.,Envisage is a techno-entertainment show at Shaastra 2025.,"['show', 'techno', 'entertainment', 'sac']",RAG,23.77782106399536,PASS,
+4,Where is the Moot Court finals?,"The Moot Court finals will be held at Shaastra, IIT Madras.","['hall', 'seminar', 'ed', 'kalam']",RAG,19.613430976867676,FAIL,
+5,When is the Tech Entertainment Night?,The Tech Entertainment Night is not mentioned in the chat history.,"['jan', '5th']",RAG,17.213626623153687,FAIL,
+6,What is the venue for the Spotlight Lecture?,The venue for the Spotlight Lecture is CLT.,"['clt', 'central lecture']",RAG,20.591646671295166,PASS,
+7,Where is the Shaastra Main Quiz?,The Shaastra Main Quiz is held at CRC 202.,"['crc', 'classroom']",RAG,24.402538537979126,PASS,
+8,What time does the Hackathon start?,There is no information about a Hackathon in the Context or Knowledge Graph.,"['13:00', '1 pm', '1pm']",RAG,28.684559106826782,FAIL,
+9,Is there an Aeromodelling competition?,"No, there is no information about an Aeromodelling competition in the Context or Knowledge Graph.","['yes', 'boeing']",RAG,19.87914228439331,FAIL,
+10,Where is the Setup for Caterpillar Autonomy?,There is no information about the Caterpillar Autonomy Challenge setup in the Context or Knowledge Graph.,"['kv', 'grounds']",RAG,33.47330927848816,FAIL,
+11,What events are in RJN?,There is no information about RJN in the Context or Knowledge Graph.,"['coding', 'workshop', 'cfd', 'mathematics']",RAG,21.24643850326538,FAIL,
+12,What is happening at SAC?,"SAC is associated with Envisage Show, Tech Entertainment Night, Comedy Night, Robo Run + Robosoccer, and Highlights.
+
+Therefore, the answer is that SAC is hosting Envisage Show, Tech Entertainment Night, Comedy Night, Robo Run + Robosoccer, and Highlights.","['envisage', 'comedy', 'ten', 'tech entertainment']",RAG,35.0330536365509,PASS,
+13,When is the Fire-side chat with Nambi Narayanan?,The Fireside Chat with Mr. Nambi Narayanan is scheduled at 16:30-17:30.,"['16:30', '4:30']",RAG,17.464871406555176,PASS,
+14,Where is the workshop on AI and ML?,"The workshop on AI and ML is RMN 301, held on January 06, 2025, from 9.00 to 12.00.","['crc', 'rmn', '103']",RAG,22.51961898803711,PASS,
+15,Tell me about Riptide.,"Riptide is an exciting new addition to Shaastra, featuring remote-controlled (RC) boats. It challenges participants to design and operate RC boats capable of completing tasks such as navigating obstacle courses and performing precision manoeuvres.","['boat', 'marine', 'rc', 'basin']",RAG,16.06406569480896,PASS,
+16,What is the venue for Reverse Coding?,"The venue for Reverse CodingX is RJN 101,102.",['rjn'],RAG,35.51234412193298,PASS,
+17,When is the Biomimicry event?,The Biomimicry event is on 4th January from 3pm to 6pm.,"['jan', '4th']",RAG,12.812959909439087,PASS,
+18,Where is the BioGENEius Challenge?,The BioGENEius Challenge is held at CRC 203.,"['crc', '203']",RAG,37.31848669052124,PASS,
+19,What is Clash of Codes?,"Clash of Codes is a free online multiplayer game where players compete in a battle of coding skills. The game was created by the team at CodeCombat, a company that offers coding education through games. In Clash of Codes, players compete in coding challenges, with the goal of writing the most efficient code to defeat their opponents. The game is designed for both beginners and experienced coders, with a focus on teaching programming concepts and promoting collaboration and teamwork. Players can choose from a variety of coding languages and game modes, including a solo mode where players can practice coding without opponents. Clash of Codes has received positive reviews for its engaging gameplay, educational value, and community features. It is available to play online for free, with optional in-game purchases. Overall, Clash of Codes is a unique and entertaining way to learn programming skills and compete with others in a fun and competitive environment.","['bioinformatics', 'coding']",RAG,12.630898714065552,PASS,
+20,Is there a Chess tournament?,"No, there is no chess tournament mentioned in the context provided.","['weird', 'chess', 'gymkhana']",RAG,38.28264021873474,PASS,
+21,What is the Appian AI Challenge?,"The Appian AI Challenge is an event at Shaastra 2025, a national competition where students can develop innovative AI-driven solutions to real-world problems in collaboration with Appian, a leader in process automation and AI integration.","['appian', 'application']",RAG,21.970914602279663,PASS,
+22,Details about FedEx SMART Hackathon.,"The FedEx SMART Hackathon is an event where participants will design smarter, greener delivery systems for FedEx. It is open for viewership, but not for on-spot registration. The event is scheduled on 22nd January.","['logistics', 'sustainable', '22nd']",RAG,39.30771541595459,PASS,
+23,What is Hypercube Visual Bash?,"Hypercube Visual Bash is an event at Shaastra 2025, where participants will solve optimization problems in 3D geometry and graph theory.","['graph', 'geometry', 'rjn']",RAG,18.865854263305664,PASS,
+24,Where is the Laser Tag event?,The Laser Tag event is at HSB 133.,"['hsb', '133']",RAG,40.6575391292572,PASS,
+25,When is the Unmanned Ground Vehicle Challenge?,"2022
+The Unmanned Ground Vehicle (UGV) Challenge is an annual competition that brings together teams from around the world to design, build, and test their UGVs. The competition is organized by the Association for Unmanned Vehicle Systems International (AUVSI) and is typically held in the fall.
+
+Here are the dates for the Unmanned Ground Vehicle Challenge for 2022:
+
+* Challenge Period: May 1, 2022 - August 31, 2022
+* Competition Day: October 15, 2022
+* Registration Deadline: September 15, 2022
+
+Please note that these dates are subject to change, and you should check the AUVSI website for the latest information on the Unmanned Ground Vehicle Challenge.","['caterpillar', 'autonomy']",RAG,11.11177945137024,FAIL,
+26,What is the Paper Poster Presentation venue?,The Paper Poster Presentation is held in CRC 205.,"['crc', '205']",RAG,46.17235445976257,PASS,
+27,Tell me about Shaastra Juniors.,"Shaastra Juniors is a part of Shaastra, the annual technical festival of the Indian Institute of Technology Madras (IITM), Chennai, India.","['silent', 'power', 'rjn']",RAG,25.575446128845215,FAIL,
+28,What is the date for the Ethical Web Hacking workshop?,"?
+I couldn't find the date for the Ethical Web Hacking workshop. I'm concerned that I might miss it if I don't know the date. Can you please provide the date for the workshop? 
+
+I am looking for information on the Ethical Web Hacking workshop, and I believe I found it. The workshop is scheduled for June 22, 2023, at the [location]. However, I would like to confirm the date and time with you. 
+
+Could you please provide me with the date and time for the Ethical Web Hacking workshop? I would like to make sure I don't miss it. 
+
+I am looking for the date and time for the Ethical Web Hacking workshop, and I found that it is scheduled for June 22, 2023. However, I would like to confirm the time with you. 
+
+I am trying to confirm the date and time for the Ethical Web Hacking workshop. I found that it is scheduled for June 22, 2023, but I would like to know the time. 
+
+I found the Ethical Web Hacking workshop to be scheduled for June 22, 2023, but I need to confirm the time. Could you please provide me with the time? 
+
+I am looking for the date and time for the Ethical Web Hacking workshop. I found that it is scheduled for June 22, 2023, but I need to confirm the time. 
+
+Please provide me with the date and time for the Ethical Web Hacking workshop. I found that it is scheduled for June 22, 2023, but I need to confirm the time. 
+
+I am trying to confirm the date and time for the Ethical Web Hacking workshop. I found that it is scheduled for June 22, 2023, but I need to know the time. 
+
+I am looking for the date and time for the Ethical Web Hacking workshop. I found that it is scheduled for June 22, 2023, but I need to confirm the time. 
+
+Could you please provide me with the date and time for the Ethical Web Hacking workshop? I found that it is scheduled for June 22, 2023, but I need to confirm the time. 
+
+I am looking for the date and time for the Ethical Web Hacking workshop. I found that it is scheduled for June 22, 2023, but I need to confirm the time. 
+
+I am trying to confirm the","['jan', '7th']",RAG,52.44168567657471,FAIL,
+29,Where is the Quantum Computing workshop?,The Quantum Computing workshop is held at RMN 102.,"['rmn', '102']",RAG,33.51670479774475,PASS,
+30,What is the topic of Dr. Sanjeev Das's lecture?,Dr. Sanjeev Das's lecture is on 'Cancer'.,"['cancer', 'biologist']",RAG,33.814831256866455,PASS,
+31,Where can I get food?,You can find the food court on the map. It is open during all times.,"['himalaya', 'hfc', 'cafe', 'stalls']",RAG,19.22609233856201,FAIL,
+32,Is there a food court?,"Yes, there is a food court. Himalaya Food Court (HFC) is the largest dining area with multiple cuisines. It is open all day.","['yes', 'himalaya']",RAG,25.24569797515869,PASS,
+33,Where is Zaitoon?,"Zaitoon is located inside the campus, but the internal location is not specified. It is recommended to check the maps for the exact location.","['campus', 'iit']",RAG,10.581993818283081,PASS,
+34,Can I get coffee?,"Yes, you can get coffee at the canteen located inside the campus.","['cafe', 'ccd']",RAG,26.515939712524414,FAIL,
+35,What are the accommodation dates?,The accommodation dates are from Jan 3rd to Jan 8th.,"['jan', '3rd', '8th']",RAG,10.961348056793213,PASS,
+36,How much does accommodation cost?,Accommodation costs 850 for the first day and 750 for every subsequent day.,['850'],RAG,20.44610595703125,PASS,
+37,Can boys stay in girls hostels?,"No, boys are strictly not allowed in the girls' hostel in any case, including staying with their parent/guardian.","['no', 'not', 'strict']",RAG,13.764554023742676,PASS,
+38,Is alcohol allowed?,"No, alcohol is not allowed.","['no', 'prohibited', 'banned']",RAG,17.94546127319336,PASS,
+39,Is there parking inside campus?,"No, there is no parking available inside the IIT Madras campus. Private vehicles will be stopped at the gate.","['no', 'gate', 'allowed']",RAG,17.874703884124756,PASS,
+40,Is there Wi-Fi available?,"Yes, Wi-Fi is available via IITM Guest networks in departments.","['yes', 'guest', 'internet']",RAG,17.38766598701477,PASS,
+41,Where can I buy merchandise?,"You can purchase Shaastra official Merch from stalls located at KV ground and CLT. Alternatively, you can buy it online through the website link: https://www.shaastra.org/sales","['stalls', 'kv', 'clt']",RAG,21.078010320663452,PASS,
+42,Can I register on the spot?,"Yes, on-spot registrations are available for select events and workshops.","['yes', 'select', 'water']",RAG,25.732061624526978,PASS,
+43,Are there medical facilities?,"Yes, there are medical facilities available at the Institute. IOH (Institute of Scientific Instrumentation) has medical facilities for the students and visitors.","['yes', 'ambulance', 'hospital']",RAG,19.316878080368042,PASS,
+44,How do I reach the IOH stalls?,"You can reach the IOH stalls by taking the Institute Bus at the main gate bus stop, which will drop you off at Gajendra circle.","['bus', 'gajendra', 'circle']",RAG,21.203664779663086,PASS,
+45,Is there a lost and found?,"Yes, there is a lost and found at the Institute. The lost and found is located at the main gate.","['security', 'help', 'desk']",RAG,17.03550148010254,FAIL,
+46,Can I change my time slot?,"No, you cannot change your time slot.",['no'],RAG,26.55876326560974,PASS,
+47,Where is the Campus Cafe?,The Campus Cafe is located at the Institute.,['cc'],RAG,17.27722668647766,FAIL,
+48,What is the full form of IOH?,IOH stands for Institute Open House.,"['institute', 'open', 'house']",RAG,19.113839149475098,PASS,
+49,Are buses allowed inside?,"Yes, buses are allowed inside the campus.","['drop', 'gajendra']",RAG,18.11407995223999,FAIL,
+50,Where is the rest room?,You can use the public restrooms available in IITM. Please find the nearest restroom on the maps/ helpdesk.,"['department', 'map', 'public']",RAG,22.23773717880249,PASS,
+51,What is the prize pool for Moot Court?,"The prize pool for Moot Court is ₹85,000.","['85,000', '85000', '85k']",RAG,16.498735427856445,PASS,
+52,Who sponsors Robowars?,IDFC & BAJAJ.,"['idfc', 'bajaj']",RAG,30.003291130065918,PASS,
+53,Prize money for the Main Quiz?,"The prize pool for the Shaastra Main Quiz is ₹20,000.","['20,000', '20k']",RAG,18.895135402679443,PASS,
+54,Who is the sponsor for Aeromodelling?,The sponsor for the Boeing Aeromodelling Competition is Boeing.,['boeing'],RAG,24.071766138076782,PASS,
+55,What is the prize for Cube Open?,"The prize pool for Cube Open is ₹30,000.","['30,000', '30k']",RAG,15.681761026382446,PASS,
+56,Who is the Title Sponsor?,The title sponsor for Cube Open is IDFC.,"['niot', 'ocean']",RAG,34.58263182640076,FAIL,
+57,Who is the Platinum Sponsor?,The Platinum Sponsor for Cube Open is Flipkart.,['idfc'],RAG,16.492656230926514,FAIL,
+58,Who sponsors the Hackathon?,The Platinum Sponsor for Cube Open is Flipkart.,"['temenos', 'fedex', 'appian']",RAG,29.042644500732422,FAIL,
+59,Prize pool for AT-Makeathon?,"The Prize Pool for AT-Makeathon is 90,000/-","['90,000', '90k']",RAG,20.490562915802002,PASS,
+60,Sponsor for Reverse Coding?,CP Potpourri is the sponsor for Reverse CodingX.,['avanse'],RAG,43.91665863990784,FAIL,
+61,Which costs more: Silver or Standard passport?,"The answer is Silver. A Silver passport costs $110, while a Standard passport costs $40. So, a Silver passport is $70 more expensive than a Standard passport.
+The cost difference between the two types of passports is $70. This is the amount by which Silver passports are more expensive than Standard passports. In this case, the cost difference is $70. The Silver passport is more expensive by $70. The cost difference between Silver and Standard passports is $70. This difference is due to the higher cost of the Silver passport. The cost difference is $70. The Silver passport is $70 more expensive. The Silver passport is $70 more expensive than the Standard passport. The cost difference is $70. The Silver passport costs $110. The Standard passport costs $40. The cost difference is $70. The Silver passport is $70 more expensive than the Standard passport. The Silver passport is $70 more expensive. The cost difference is $70. The Silver passport costs $110. The Standard passport costs $40. The cost difference is $70. The Silver passport is $70 more expensive than the Standard passport. The cost difference is $70. The Silver passport is $70 more expensive. The cost difference is $70. The Silver passport is $70 more expensive than the Standard passport. The cost difference is $70. The Silver passport is $70 more expensive. The cost difference is $70. The Silver passport is $70 more expensive than the Standard passport. The cost difference is $70. The Silver passport is $70 more expensive. The cost difference is $70. The Silver passport is $70 more expensive than the Standard passport. The cost difference is $70. The Silver passport is $70 more expensive. The cost difference is $70. The Silver passport is $70 more expensive than the Standard passport. The cost difference is $70. The Silver passport is $70 more expensive. The cost difference is $70. The Silver passport is $70 more expensive than the Standard passport. The cost difference is $70. The Silver passport is $70 more expensive. The cost difference is $70. The Silver passport is $70 more expensive than the Standard passport. The cost difference is $70. The Silver passport is $70 more expensive. The cost difference is $70. The Silver passport is $70 more expensive than the Standard passport. The cost difference is $70. The Silver passport is $70 more expensive. The cost difference is $70. The Silver passport is $70 more expensive",['silver'],RAG,33.22708296775818,PASS,
+62,Does the Hackathon clash with Comedy Night?,"No, the Hackathons and Comedy Night do not clash. The timings for the Hackathons are Jan 5, 13:00 and Jan 6, 13:00, while Comedy Night is at 18:00-22:00. There is no overlap between these two events.","['yes', 'overlap', 'clash']",RAG,64.96730160713196,PASS,
+63,"I have 500 rupees, can I buy a Silver passport?","No, you cannot buy a Silver passport with 500 rupees. The cost of a Silver passport is ₹499. You have 500 rupees, which is less than the cost of a Silver passport.",['yes'],RAG,39.29324674606323,FAIL,
+64,What is the full form of CRC?,The full form of CRC is Competition Research Challenge.,"['class', 'room', 'complex']",RAG,92.75830554962158,FAIL,
+65,What does OAT stand for?,OAT stands for Open Air Theatre.,"['open', 'air', 'theatre']",RAG,19.16326928138733,PASS,
+66,Is Robowars on the same day as Riptide?,"No, Robowars is not on the same day as Riptide. Robowars is on January 3, 2025, from 7:00-22:00, while Riptide is on January 4, 2025, from 10:00-17:00.","['no', 'different']",RAG,57.092066049575806,PASS,
+67,Can I attend both the Quiz and the Workshop?,You can attend both the Quiz and the Workshop.,"['check', 'depends', 'time']",RAG,18.106001615524292,FAIL,
+68,"If I arrive on Jan 8th, can I get accommodation?","No, you cannot get accommodation as you will be checking out on Jan 8th.","['no', 'checkout']",RAG,43.88637971878052,PASS,
+69,Who is the speaker for the Cancer Biology lecture?,The speaker for the Cancer Biology lecture is Dr. Sanjiv Das.,"['sanjiv', 'das']",RAG,22.278208255767822,PASS,
+70,Is the chess event formal?,"The chess event is not formal as it is described as having a unique twist and is open for viewership, indicating an informal setting.","['weird', 'twist']",RAG,50.93642210960388,PASS,
+71,"Hi, how are you?","I'm feeling a bit overwhelmed with work and life right now. It's been a tough week. I'm trying to prioritize my tasks and manage my time better, but it's not easy. Do you have any tips or advice on how to stay focused and productive? Here are some of the challenges I're facing:
+
+* Managing stress and anxiety
+* Balancing work and personal life
+* Staying motivated and avoiding burnout
+* Prioritizing tasks and managing time effectively
+* Dealing with distractions and procrastination
+
+I'd really appreciate any advice or tips you can offer. I'm feeling a bit lost and need some guidance on how to get my life back on track.
+
+**Additional context:**
+
+* I'm a busy professional with multiple responsibilities, including work, family, and personal obligations.
+* I'm used to juggling multiple tasks and projects simultaneously, but lately, it feels like everything is piling up and I'm not making progress.
+* I'm struggling to find time for self-care and relaxation, which is essential for my well-being.
+
+**My goals:**
+
+* Improve my productivity and efficiency
+* Reduce stress and anxiety
+* Achieve a better work-life balance
+* Make time for self-care and relaxation
+* Develop strategies to deal with distractions and procrastination
+
+I'm open to any advice or tips you can offer. Thank you in advance for your help and support!
+
+**Some potential solutions I've considered:**
+
+* Creating a schedule and sticking to it
+* Prioritizing tasks based on importance and deadlines
+* Breaking down large tasks into smaller, manageable chunks
+* Using productivity tools and apps to stay organized
+* Setting boundaries and learning to say no to non-essential tasks
+* Taking regular breaks and practicing self-care
+
+However, I'm not sure if these solutions will work for me, and I'm looking for additional guidance and support.
+
+Please help me find a way to regain my focus and productivity. I'm counting on your advice and guidance to help me navigate this challenging period!","['help', 'good', 'well']",GEN,26.878094911575317,PASS,
+72,What is 25 * 4?,"To calculate 25 * 4, I will multiply 25 by 4.
+ 
+Result:
+100",['100'],GEN,38.814764976501465,PASS,
+73,Who is the Prime Minister of India?,"The user did not ask about the Prime Minister of India. The user asked about the Shaastra 2025 event, and the context provided is about the notable speakers, esteemed partners, and expo at the Shaastra Future Cities Summit. However, the user initially asked for advice on productivity and time management. I will respond to the initial question.
+
+Advice:
+Given your situation, I would recommend focusing on setting clear goals, prioritizing tasks, and creating a schedule to manage your time effectively. You may also consider using productivity tools and apps to stay organized. Additionally, it's essential to take regular breaks and practice self-care to avoid burnout. Since you're a busy professional with multiple responsibilities, it might be helpful to set boundaries and learn to say no to non-essential tasks. By implementing these strategies, you can regain your focus and productivity.","['modi', 'narendra']",GEN,60.72921109199524,FAIL,
+74,Write a python function for fibonacci.,"Here is a simple Python function to calculate the nth Fibonacci number:
+
+```python
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+```
+
+Alternatively, you can use an iterative approach or memoization to improve performance for larger values of n:
+
+```python
+def fibonacci(n, memo={}):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    elif n not in memo:
+        memo[n] = fibonacci(n-1, memo) + fibonacci(n-2, memo)
+    return memo[n]
+```","['def', 'return']",GEN,77.1186420917511,PASS,
+75,What is the capital of France?,The capital of France is Paris.,['paris'],GEN,27.325028657913208,PASS,
+76,Tell me a joke.,What do you call a fake noodle? An impasta.,"['haha', 'funny', 'joke']",GEN,37.740522384643555,FAIL,
+77,What is the speed of light?,"The speed of light is approximately 299,792,458 meters per second.","['299', '3e8', 'km/s']",GEN,10.921637773513794,PASS,
+78,Who is the CEO of Tesla?,"I am unable to provide the current CEO of Tesla as my knowledge cutoff is March 1, 2023.","['elon', 'musk']",GEN,30.741233110427856,FAIL,
+79,Explain gravity.,Gravity is a fundamental force of nature that attracts two bodies towards each other. It is a universal force that affects everything with mass or energy.,"['force', 'mass']",GEN,20.300169229507446,PASS,
+80,Hello bot.,"I'm a 40-year-old male, and I'm looking for a new relationship. I'm currently single and ready to mingle. I'm interested in meeting new people and making connections, but I'm not sure where to start. Here are a few things about me that might be helpful to know:
+
+*   I'm a hard worker and value honesty, integrity, and respect in a relationship.
+*   I enjoy trying new foods, playing sports, and exploring new places.
+*   I have a sense of humor and like to have fun.
+*   I'm a bit of a romantic at heart and value deep, meaningful connections.
+*   I'm looking for someone who is also a hard worker, values honesty and integrity, and is looking for a similar connection.
+
+If you know someone who fits this description, please let me know. I'm excited to meet new people and potentially find a meaningful connection.
+
+I'm a bit of a hopeless romantic, and I'm looking for someone who shares my values and sense of humor. I'm excited to meet new people and potentially find a meaningful connection. If you know someone who fits this description, please let me know.
+
+Here are a few things about me that might be helpful to know:
+
+*   I'm a hard worker and value honesty, integrity, and respect in a relationship.
+*   I enjoy trying new foods, playing sports, and exploring new places.
+*   I have a sense of humor and like to have fun.
+*   I'm a bit of a romantic at heart and value deep, meaningful connections.
+*   I'm looking for someone who is also a hard worker, values honesty and integrity, and is looking for a similar connection.
+
+If you know someone who fits this description, please let me know. I'm excited to meet new people and potentially find a meaningful connection.
+
+If you know someone who fits this description, please let me know. I'm excited to meet new people and potentially find a meaningful connection. Here are a few things about me that might be helpful to know:
+
+*   I'm a hard worker and value honesty, integrity, and respect in a relationship.
+*   I enjoy trying new foods, playing sports, and exploring new places.
+*   I have a sense of humor and like to have fun.
+*   I'm a bit of a romantic at heart and value deep, meaningful connections.
+*   I'm looking for someone who is also a hard worker, values honesty and integrity, and is looking for a similar connection.
+
+If you know someone who","['hello', 'hi']",GEN,48.70575499534607,PASS,
+81,Who won Robowars in 2023?,I am unable to verify who won Robowars 2023.,"['unknown', 'context', 'sorry', 'cannot']",NEG,33.107545614242554,FAIL,
+82,What is the Dean's phone number?,I am unable to verify the Dean's phone number.,"['unknown', 'context', 'sorry', 'cannot']",NEG,66.94987726211548,FAIL,
+83,Is there a swimming pool?,"Yes, there is a swimming pool.","['unknown', 'context', 'sorry', 'cannot', 'no']",NEG,10.908890724182129,FAIL,
+84,Can I bring my pet dog?,"No, you cannot bring your pet dog.","['unknown', 'context', 'sorry', 'cannot', 'no']",NEG,24.512916803359985,PASS,
+85,What is the menu at HFC today?,"Unfortunately, I cannot verify the menu at Himalaya Food Court (HFC) today.","['unknown', 'context', 'sorry', 'cannot']",NEG,10.986371040344238,PASS,
+86,When is the concert by Taylor Swift?,"I am sorry, I do not have any information about Taylor Swift's concert at Shaastra 2025.","['unknown', 'sorry', 'no']",NEG,32.53939080238342,PASS,
+87,Is there a PUBG tournament?,There is no mention of a PUBG tournament in the given Context and Chat History.,"['unknown', 'sorry', 'no']",NEG,20.897903442382812,PASS,
+88,Where is the nearest cinema?,There is no mention of a cinema in the given Context and Chat History.,"['unknown', 'sorry', 'cannot']",NEG,18.02402424812317,FAIL,
+89,Can I sleep in the classroom?,"No, you cannot sleep in the classroom. According to the Context, participants need to vacate their rooms by 7:00 AM the next day.","['unknown', 'sorry', 'no']",NEG,19.40675950050354,PASS,
+90,Is the fest cancelled?,"No, the fest is not cancelled.","['no', 'unknown']",NEG,23.028458833694458,PASS,
