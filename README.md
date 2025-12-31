@@ -9,7 +9,7 @@ An intelligent, **local-first** multimodal AI companion for **Shaastra 2025**, t
 
 ##  Key Features
 
-*   * Full Voice Interaction:** Speak to the bot and hear it speak back using Indian-accented Neural TTS.
+*   * Full Voice Interaction (optional; disabled by default):** Speak to the bot and hear it speak back using Indian-accented Neural TTS. To enable TTS, set `ENABLE_TTS = True` in `config.py` and ensure required libraries (GPU + `parler-tts`) are installed.
 *   *  Agentic RAG:** Uses a graph-based state machine (LangGraph) to Route, Rewrite, and Retrieve queries intelligently.
 *   * Hybrid Search:** Combines Semantic Vector Search (ChromaDB) with a Knowledge Graph (NetworkX) for precise fact retrieval.
 *   * Context Aware:** Remembers conversation history and summarizes it dynamically to maintain context.
@@ -58,7 +58,7 @@ The system operates on a Client-Server model to separate heavy model inference f
 | **Embedding** | Vector Model | `BAAI/bge-base-en-v1.5` |
 | **Database** | Vector Store | `ChromaDB` (Persistent) |
 | **STT** | Speech-to-Text | `Faster-Whisper` (Medium.en) |
-| **TTS** | Text-to-Speech | `AI4Bharat Indic-Parler` |
+| **TTS** | Text-to-Speech (disabled by default) | `AI4Bharat Indic-Parler` |
 | **Backend** | API Framework | `FastAPI` + `Uvicorn` |
 | **Frontend** | Interface | `Streamlit` |
 

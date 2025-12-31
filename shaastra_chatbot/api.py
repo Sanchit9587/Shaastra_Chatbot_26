@@ -117,17 +117,19 @@ async def chat_audio_endpoint(
         response_text = process_query(user_id, transcribed_text)
         print(f"🤖 AI Text: {response_text}")
         
-        # 4. Text to Speech (Parler TTS)
-        print(f"🔊 Generating audio response...")
-        output_audio_path = config.AUDIO_DIR / f"{user_id}_response.wav"
-        
-        # We limit text sent to TTS to avoid OOM on very long RAG answers
-        tts_text = response_text[:500] # Parler can be memory hungry
-        audio_engine.text_to_speech(tts_text, str(output_audio_path))
-        
-        # 5. Return
-        audio_b64 = audio_engine.audio_file_to_base64(output_audio_path)
-        
+        # 4. Text to Speech (Parler TTS) - skipped if disabled
+        audio_b64 = None
+        if config.ENABLE_TTS and getattr(audio_engine, "tts_enabled", False):
+            print(f"🔊 Generating audio response...")
+            output_audio_path = config.AUDIO_DIR / f"{user_id}_response.wav"
+            # We limit text sent to TTS to avoid OOM on very long RAG answers
+            tts_text = response_text[:500] # Parler can be memory hungry
+            audio_path = audio_engine.text_to_speech(tts_text, str(output_audio_path))
+            if audio_path:
+                audio_b64 = audio_engine.audio_file_to_base64(output_audio_path)
+        else:
+            print("🔇 TTS is disabled - returning text-only response.")
+
         return {
             "user_query": transcribed_text,
             "text_response": response_text,

@@ -49,11 +49,13 @@ RERANKER_MODEL_ID = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 WHISPER_MODEL_ID = "base.en" 
 
 # TTS: Parler TTS (Runs on GPU)
-# This was missing in your previous config, causing the crash.
 PARLER_MODEL_ID = "ai4bharat/indic-parler-tts"
 
 # TTS Voice Description: Defines the accent and style
 TTS_DESCRIPTION = "A female speaker delivers a slightly expressive and animated speech in English with a clear Indian accent."
+
+# Toggle to enable/disable TTS functionality (set to False to disable Parler TTS and avoid heavy GPU usage)
+ENABLE_TTS = False
 
 # =============================================================================
 # 📝 PROMPT ENGINEERING (PHASE 2 UPGRADE)
