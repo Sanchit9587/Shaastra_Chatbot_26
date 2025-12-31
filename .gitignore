@@ -13,3 +13,7 @@ chroma_db_md/
 # Ignore the experimental scripts in the root
 *.py
 !shaastra_chatbot/**/*.py  # Do NOT ignore python files inside our target folder
+chatbot_venv/
+venv/
+__pycache__/
+*.pyc
