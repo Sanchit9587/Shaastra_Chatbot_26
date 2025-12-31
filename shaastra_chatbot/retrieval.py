@@ -3,7 +3,7 @@ import re
 import shutil
 import os
 from langchain_community.document_loaders import TextLoader
-from langchain.storage import InMemoryStore
+from langchain_core.stores import InMemoryStore
 from langchain_text_splitters import RecursiveCharacterTextSplitter, MarkdownHeaderTextSplitter
 from langchain_chroma import Chroma
 from langchain.retrievers import ParentDocumentRetriever
