@@ -6,7 +6,7 @@ from langchain_community.document_loaders import TextLoader
 from langchain_core.stores import InMemoryStore
 from langchain_text_splitters import RecursiveCharacterTextSplitter, MarkdownHeaderTextSplitter
 from langchain_chroma import Chroma
-from langchain.retrievers import ParentDocumentRetriever
+from langchain_community.retrievers import ParentDocumentRetriever
 import config
 
 # Synonyms to link distinct concepts in the Graph
