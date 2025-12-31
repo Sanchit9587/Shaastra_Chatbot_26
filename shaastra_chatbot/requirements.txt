@@ -1,7 +1,7 @@
-# Shaastra Chatbot - Dependencies
+# Shaastra Chatbot - Final Dependencies
 # Python 3.10+ required
 
-# Core ML/DL & Transformers
+# ===== Core ML/DL & Transformers =====
 torch==2.9.1
 transformers==4.55.4
 accelerate==1.12.0
@@ -11,35 +11,31 @@ xformers==0.0.33.post2
 unsloth==2025.9.7
 unsloth-zoo==2025.9.9
 
-# LangChain & RAG
-langchain==0.3.12
-langchain-community==0.3.12
-langchain-core==0.3.25
-langchain-huggingface==0.1.2
-langchain-text-splitters==0.3.3
-langgraph==1.0.4
-langgraph-checkpoint==3.0.1
-langgraph-prebuilt==1.0.5
-langsmith==0.2.11
+# ===== LangChain & RAG (Modern Stack) =====
+# NO version pins here to allow pip to resolve the modern stack
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langchain-chroma
+langgraph
 
-# Vector Store
+# ===== Vector Store =====
 chromadb==0.6.3
-langchain-chroma==0.2.2
 
-# Audio (Speech-to-Text only)
+# ===== Audio Processing (Speech-to-Text only) =====
 faster-whisper==1.2.1
 soundfile==0.13.1
 sounddevice==0.5.3
 av==16.0.1
 ctranslate2==4.6.2
 
-# Web Framework
+# ===== Web Framework & API =====
 fastapi==0.120.3
 uvicorn==0.38.0
 python-multipart==0.0.20
 streamlit==1.49.1
 
-# Utilities
+# ===== Core Utilities =====
 requests==2.32.5
 pydantic==2.11.10
 pysqlite3-binary==0.5.4.post2
@@ -48,16 +44,7 @@ numpy==1.26.4
 scipy==1.16.3
 pandas==2.2.3
 
-# Web Scraping
+# ===== Web Scraping =====
 selenium==4.35.0
 webdriver-manager==4.0.2
 beautifulsoup4==4.13.4
-
-# ML/NLP Tools
-huggingface-hub==0.36.0
-safetensors==0.6.1
-tokenizers==0.21.4
-datasets==3.6.0
-trl==0.8.6
-sentence-transformers==5.1.2
-sentencepiece==0.2.1
