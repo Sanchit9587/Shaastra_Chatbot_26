@@ -1,2068 +1,2285 @@
+> **SHAASTRA** **CONTEXT** **DOC** **2026**
 
-This document contains all information about Shaastra 2025, which one can use to answer any queries related to the Techfest.
+Shaastra is the annual technical festival of IIT Madras and one of the
+largest student-run technical festivals in the world. Held every
+January, it brings together students, researchers, industry
+professionals, and innovators from across the globe to celebrate
+technology, science, and engineering. Shaastra features a wide spectrum
+of events including competitions, workshops, hackathons, lectures,
+exhibitions, and social initiatives, spanning domains such as artificial
+intelligence, robotics, electronics, sustainability, entrepreneurship,
+and public policy. With a strong emphasis on learning, innovation, and
+real-world impact, Shaastra serves as a platform where ideas are
+explored, skills are built, and technology is used to inspire meaningful
+change in society.
 
-** Day Wise Schedule of Shaastra 2025 **
+Venues:
 
-NIOT DAY 1
+Open Air Theatre (OAT)
 
-JANUARY 3, 2025
+A large stepped amphitheatre under the open sky, usually used for movie
+screenings, cultural shows, and late-night gatherings.
 
-| Event                                                | Venue       | Time        |
-| ---------------------------------------------------- | ----------- | ----------- |
-| Hypercube Visual Bash                                | RJN 101     | 9:00-11:00  |
-| Shaastra Juniors: Silent Power                       | RJN 201     | 9:00-14:00  |
-| SJIO Augustine Workshop                              | RMN 101     | 9:00-17:00  |
-| Intro AI and ML Workshop                             | CRC 103     | 9:00-17:00  |
-| Chanakyaneeti                                        | CRC 201     | 14:00-17:00 |
-| TIF (Closed Expo: Networking Event)                  | ICSR Hall 4 | 10:00-16:00 |
-| Envisage Show                                        | SAC         | 17:30-18:30 |
-| Robowars                                             | OAT         | 7:00-22:00  |
-| Laser Tag                                            | HSB 133     | 7:00-22:00  |
-| Spotlight Lecture Series: Lecture by Dr. Sanjeev Das | CLT         | 11:00-12:00 |
-| Fireside Chat with Dr. Sujatha Ramdorai              | CLT         | 15:00-16:00 |
-| Bajaj Auto Lecture - Industry Insights               | ICSR Hall 3 | 15:00-16:00 |
-| Brain Maze                                           | KV          | 9:00-18:00  |
-| Caterpillar Autonomy Challenge                       | KV          | 7:00-22:00  |
-| Shaastra Moot Court                                  | NAC 222     | 16:30-18:00 |
+Shaastra vibe: The heart of the fest after sunset—talks, shows, and
+crowds buzzing with energy under the stars.
 
+[<u>https://www.google.com/maps/search/Open+Air+Theatre+IIT+Madras</u>](https://www.google.com/maps/search/Open+Air+Theatre+IIT+Madras)
 
+Central Lecture Theatre (CLT)
 
+A massive lecture hall complex with tiered seating and professional AV
+setups, built for high-capacity academic lectures.
 
+Shaastra vibe: Flagship talks, keynote speakers, and packed sessions
+where big ideas take center stage.
 
+[<u>https://www.google.com/maps/search/Central+Lecture+Theatre+IIT+Madras</u>](https://www.google.com/maps/search/Central+Lecture+Theatre+IIT+Madras)
 
+Class Room Complex (CRC)
+
+A cluster of standard classrooms connected by corridors, commonly used
+for regular classes and tutorials.
+
+Shaastra vibe: Transforms into a workshop and competition zone—coding,
+robotics, quizzes, and intense problem-solving.
+[<u>https://www.google.com/maps/search/Class+Room+Complex+IIT+Madras</u>](https://www.google.com/maps/search/Class+Room+Complex+IIT+Madras)
+
+Central Electronics Centre (CEC)
+
+A lab-heavy academic building with electronics workspaces and project
+rooms, usually home to hardware and circuit labs.
+
+Shaastra vibe: Where LEDs blink, robots move, and hands get dirty
+building real tech.
+[<u>https://www.google.com/maps/search/Central+Electronics+Centre+IIT+Madras</u>](https://www.google.com/maps/search/Central+Electronics+Centre+IIT+Madras)
+
+Raman Block (RMN)
+
+A quieter academic block with classrooms and department spaces,
+typically used for core science and engineering courses.
+
+Shaastra vibe: Focused events, technical talks, and deep-thinking
+sessions away from the main rush.
+
+[<u>https://www.google.com/maps/search/Raman+Block+IIT+Madras</u>](https://www.google.com/maps/search/Raman+Block+IIT+Madras)
+
+Ramanujan Block (RMJ)
+
+An academic building often associated with mathematics, theory, and
+analytical courses. Shaastra vibe: Logic-heavy contests, puzzles, and
+events that reward clean thinking over brute force.
+
+[<u>https://www.google.com/maps/search/Ramanujan+Block+IIT+Madras</u>](https://www.google.com/maps/search/Ramanujan+Block+IIT+Madras)
+
+New Academic Complex (NAC2)
+
+A modern, multi-floor academic complex with many classrooms and wide
+corridors.
+
+Shaastra vibe: High-density action—multiple events running in parallel,
+volunteers everywhere, constant movement.
+[<u>https://www.google.com/maps/search/New+Academic+Complex+IIT+Madras</u>](https://www.google.com/maps/search/New+Academic+Complex+IIT+Madras)
+
+Centre for Industrial Consultancy and Sponsored Research (ICSR)
+
+A professional, office-style building that connects IITM with industry,
+startups, and funded research.
+
+Shaastra vibe: Industry talks, sponsor events, and startup
+showcases—where ideas meet the real world.
+
+[<u>https://www.google.com/maps/search/ICSR+IIT+Madras</u>](https://www.google.com/maps/search/ICSR+IIT+Madras)
+
+Humanities and Social Sciences Block (HSB)
+
+A calm academic block used for humanities, economics, and social science
+classes. Shaastra vibe: Thought-provoking discussions on ethics, policy,
+and the human side of technology.
+
+[<u>https://www.google.com/maps/search/HSB+IIT+Madras</u>](https://www.google.com/maps/search/HSB+IIT+Madras)
+
+Gajendra Circle
+
+A central open junction and landmark where people naturally converge.
+
+Shaastra vibe: Help desks, hospitality, and the place you end up at when
+you’re lost (or meeting friends).
+
+[<u>https://www.google.com/maps/search/Gajendra+Circle+IIT+Madras</u>](https://www.google.com/maps/search/Gajendra+Circle+IIT+Madras)
+
+KV Grounds
+
+A large open ground normally used for sports and school events.
+
+Shaastra vibe: Grand outdoor showcases—expos, drones, large
+installations, and crowd-heavy events.
+
+[<u>https://www.google.com/maps/search/KV+Grounds+IIT+Madras</u>](https://www.google.com/maps/search/KV+Grounds+IIT+Madras)
+
+Campus Cafe (CC)
+
+A small, cozy café space popular with students for snacks, tea, and
+late-night conversations. Shaastra vibe: Quick refuels, informal
+meetups, and idea-sharing over coffee.
+[<u>https://www.google.com/maps/search/Campus+Cafe+IIT+Madras</u>](https://www.google.com/maps/search/Campus+Cafe+IIT+Madras)
+
+Himalaya Food Court (HFC)
+
+One of the busiest food courts on campus with multiple stalls and full
+meals.
+
+Shaastra vibe: The survival zone—long lines, loud chatter, and
+much-needed food breaks.
+[<u>https://www.google.com/maps/search/Himalaya+Food+Court+IIT+Madras</u>](https://www.google.com/maps/search/Himalaya+Food+Court+IIT+Madras)
+
+Student Activity Center (SAC)
+
+A vibrant hub for student clubs, cultural activities, and informal
+gatherings.
+
+Shaastra vibe: Where volunteers regroup, participants chill, and
+off-schedule magic happens.
+[<u>https://www.google.com/maps/search/Student+Activity+Center+IIT+Madras</u>](https://www.google.com/maps/search/Student+Activity+Center+IIT+Madras)
+
+New Academic Complex 1 (NAC-1)
+
+One of the earliest blocks of the New Academic Complex, featuring
+multiple classrooms connected by long corridors and common waiting
+areas. Usually hosts regular lectures and tutorials.
+
+Shaastra vibe: A high-throughput event zone—back-to-back workshops,
+prelim rounds, and screening tests happening simultaneously, with
+volunteers directing traffic and schedules running tight.
+
+[<u>https://www.google.com/maps/search/NAC+1+IIT+Madras</u>](https://www.google.com/maps/search/NAC+1+IIT+Madras)
+
+Schedule
+
+IMC Day 1 January 2, 2026
+
+> Events
+>
+> Spotlight Lecture Series
+>
+> Robo Soccer
+>
+> ROBO GP
+>
+> Escape Room
+>
+> Ethical Web Hacking Workshop
+>
+> PCB Design Workshop
+>
+> Kindle your inner innovator – Building from first
+>
+> principles
+>
+> Venue
+>
+> CLT
+>
+> OAT
+>
+> KV Grounds
+>
+> RMN 101, 102
+>
+> RMN 202
+>
+> BSB 202
+
+Newton Hall, Aerospace
+
+> dept
+>
+> Time
+
+10:00–17:00
+
+> 7:00–22:00
+>
+> 7:00–22:00
+>
+> 7:00–22:00
+>
+> 9:00–17:00
+>
+> 9:00–17:00
+
+14:00–17:00
+
+> AI in marketing Workshop
+>
+> CFD Workshop
+>
+> Shaastra Juniors
+>
+> Reverse Coding
+>
+> Bio Buzz
+>
+> Quantathon
+>
+> Moot court
+>
+> Vetri Padikattu Quiz
+>
+> Envisage GameZone & TechZone
+>
+> RMN 301
+>
+> RMN 302
+>
+> RJN 102
+>
+> RJN 201, 202
+>
+> RJN 101
+>
+> RJN 301, 302
+>
+> MRC hall, Library
+>
+> RJN 201, 202
+
+KV Grounds, Streets
+
+> 9:00–17:00
+>
+> 9:00–17:00
+>
+> 9:00–12:00
+
+10:00–12:00
+
+10:00–13:00
+
+14:00–16:00
+
+14:00–20:00
+
+16:00–17:00
+
+> 7:00–17:00
+
+CATERPILLAR DAY 2 JANUARY 3, 2026
+
+> Events
+>
+> Digital Governance summit
+>
+> BNY Service Design Jam
+>
+> Envisage Shows
+>
+> EV day-1 Workshop
+>
+> Robo soccer, Robo wars, Robo oceana
+>
+> Moot court
+>
+> Venue
+>
+> ICSR TTJ Hall
+>
+> RMN 301
+>
+> SAC
+>
+> ICSR Hall 4
+>
+> OAT
+
+HSB - 211, 217, 317, 334, 335RMN -
+
+> 201, 202RJN - 201, 202
+>
+> Time
+>
+> 7:00–18:00
+>
+> 9:30–17:00
+
+18:00–19:00
+
+> 9:00–17:00
+>
+> 7:00–22:00
+>
+> 7:00–19:00
+>
+> Caterpillar Autonomy Challenge
+>
+> Spotlight Lecture series
+
+Additive Manufacturing from Nature to Space Workshop
+
+> Solidworks AI Hackathon
+>
+> Spark Junior Conference
+>
+> Industry Insights Lecture Series
+>
+> Full stack development workshop
+>
+> Shaastra Biz Quiz
+>
+> JMT (Junior Makeathon) – Closed
+>
+> Bionics Buildoff
+>
+> Tech and Innovation Fair – Closed
+>
+> Digital Address DPI Innovation Hackathon Finals
+>
+> Digitalize
+>
+> CP potpourri
+>
+> Vetri Padikattu Quiz
+>
+> Quantified Dilemma
+>
+> The Healing Algorithms
+>
+> Envisage GameZone & TechZone
+>
+> KV Grounds
+>
+> CLT
+>
+> KCB 124
+>
+> RMN 202
+>
+> ICSR Hall 2
+>
+> ICSR Hall 3
+>
+> BSB 202
+>
+> KCB 204, 205
+>
+> RMN 302
+>
+> KCB 134
+>
+> ICSR Hall 1
+>
+> KCB 222
+
+BSB – VSH Hall
+
+> RJN 101, 102
+>
+> MSB 301, 302
+>
+> RJN 302
+>
+> RJN 101
+>
+> KV Grounds,
+>
+> Streets
+>
+> 7:00–22:00
+>
+> 10:00–17:00
+>
+> 8:00–17:00
+>
+> 9:00–12:00
+>
+> 9:00–13:00
+>
+> 8:00–13:00
+>
+> 8:00–17:00
+>
+> 8:00–17:00
+>
+> 8:00–20:00
+>
+> 9:00–12:00
+>
+> 9:00–14:00
+>
+> 9:00–18:00
+>
+> 10:00–17:00
+>
+> 10:00–13:00
+
+12:00–13:0016:00–17:00
+
+> 14:00–17:00
+>
+> 14:00–17:00
+>
+> 7:00–17:00
+>
+> Eleckart
+>
+> Dataverse
+>
+> Launcher
+
+IE lab – New
+
+> MSB 240
+>
+> RJN 301
+
+14:00–17:00
+
+> 8:30–12:30
+
+13:00–17:00
+
+BOEING DAY 3 JANUARY 4, 2026
+
+> Events
+>
+> Escape Room
+>
+> EV day-2 Workshop
+>
+> Robowars
+>
+> Caterpillar Autonomy Challenge
+>
+> Spotlight Lecture series
+>
+> Digital Governance summit
+>
+> Glideator
+>
+> Quantum computing Workshop
+>
+> Realms of Finance Workshop
+>
+> Drone Tech Workshop
+>
+> Robotics Workshop
+>
+> JMT (Junior Makeathon) – Closed
+>
+> Moot Court Finals
+>
+> Full stack development workshop
+>
+> Deep Learning Using YOLO
+>
+> Shaastra Main Quiz
+>
+> Venue
+
+RMN 101, 102
+
+ICSR Hall 4
+
+OAT
+
+KV Grounds
+
+CLT
+
+ICSR TTJ Hall
+
+SAC
+
+RJN 101
+
+RJN 102
+
+RJN 201, 202
+
+BSB 317
+
+RMN 302
+
+ICSR Hall 3
+
+BSB 202
+
+> RJN 202
+>
+> KCB 124, 134
+>
+> Time
+
+6:00–21:00
+
+9:00–17:00
+
+6:00–22:00
+
+6:00–22:00
+
+10:00–17:00
+
+7:00–18:00
+
+7:00–15:00
+
+8:00–17:00
+
+8:00–17:00
+
+8:00–17:00
+
+8:00–17:00
+
+8:00–20:00
+
+8:00–17:00
+
+8:00–17:00
+
+> 8:00–17:00
+>
+> 8:00–17:00
+>
+> AI and ML Workshop
+>
+> Smart Digital Innovation Challenge
+>
+> Embedded Programming Challenge
+>
+> Petri Dish Challenge
+>
+> Vidyavahak’s educators conclave
+>
+> Enable Panel Discussion
+>
+> Industry Insights Lecture Series
+>
+> Visa 24hrs AI Hackathon
+>
+> Bio Battle: Survival of the fittest
+>
+> Tech and Innovation Fair – Closed
+>
+> Signal Quest
+>
+> Comedy Night by Pranav Sharma
+>
+> Upaya Kaushalya
+>
+> Chanakyaneti
+>
+> Envisage GameZone & TechZone
+
+KCB 204, 205
+
+KCB 222
+
+IE Lab – New
+
+MST UG Lab
+
+TLC, Library
+
+ICSR Hall 1
+
+ICSR Hall 2
+
+RMN 301
+
+RMN 201
+
+ICSR Hall 2
+
+IE Lab – New
+
+SAC
+
+RJN 302
+
+RJN 301
+
+KV Grounds,
+
+Streets
+
+8:00–17:00
+
+8:00–16:00
+
+9:00–12:00
+
+9:00–12:00
+
+9:30–11:0011:30–13:0014:30–16:0 0
+
+10:00–14:00
+
+11:00–12:00
+
+13:00–23:59
+
+14:00–17:00
+
+14:00–17:00
+
+14:00–17:00
+
+18:00–19:15
+
+8:30–12:30
+
+13:00–17:00
+
+7:00–17:00
+
+IDFC FIRST BANK DAY 4 JANUARY 5, 2026
+
+> Events
+>
+> Visa 24hrs AI Hackathon
+>
+> Spotlight Lecture series
+>
+> Digital Governance summit
+>
+> SARC
+>
+> Venue
+
+RMN 301
+
+CLT
+
+ICSR TTJ Hall
+
+SAC
+
+> Time
+
+6:00–16:00
+
+10:00–17:00
+
+7:00–18:00
+
+7:00–15:00
+
+Design Shift – Skills for Tomorrow Workshop
+
+IOT Quantum Sensing Workshop
+
+Rocketry Workshop
+
+Exobotics Workshop
+
+Building and experimenting with LLMs
+
+JMT (Junior Makeathon) – Closed
+
+Synaptix Frontier AI Hack
+
+Shaastra Smart City Challenge
+
+Tech and Innovation Fair – Closed
+
+Industry Insights Lecture Series
+
+RJN 102
+
+RJN 201
+
+RJN 301, 302
+
+RMN 102
+
+RMN 201, 202
+
+RMN 302
+
+RJN 101
+
+RJN 202
+
+ICSR Hall 1
+
+ICSR Hall 3
+
+8:00–17:00
+
+8:00–17:00
+
+8:00–17:00
+
+8:00–17:00
+
+8:00–17:00
+
+8:00–20:00
+
+9:00–12:00
+
+9:00–12:00
+
+9:00–14:00
+
+9:00–16:00
+
+MOSIP decode Hackathon
+
+Petri Dish Challenge
+
+E-Contest
+
+Synaptix Frontier AI Hack
+
+Shaastra Cube Open
+
+Shaastra Programming Contest
+
+Immuno Case study Challenge
+
+Reverse Engineering Challenge
+
+Prize Distribution for VISA 24hrs AI Hackathon
+
+Techno Entertainment Night by Lost Stories
+
+Opsium
+
+Envisage GameZone & TechZone
+
+Finvent
+
+MRC Hall, Library
+
+NAC 531
+
+KCB 205
+
+RJN 101
+
+Gymkhana
+
+RMN 101
+
+RJN 101
+
+IE Lab – New
+
+ICSR Hall 2
+
+SAC
+
+RMN 202
+
+KV Grounds, Streets
+
+RMN 201
+
+9:00–18:00
+
+9:00–12:00
+
+9:00–12:00
+
+9:00–12:00
+
+9:00–2:00
+
+13:00–17:00
+
+14:00–17:00
+
+14:00–17:00
+
+16:00–18:00
+
+18:30–21:30
+
+8:30–12:30
+
+7:00–17:00
+
+13:00–17:00
+
+BAJAJ AUTO DAY 5 JANUARY 6, 2026
+
+> Events
+>
+> Robo Run
+>
+> Spotlight Lecture series
+>
+> Inrun
+>
+> XR Workshop
+>
+> AI & ML Healthcare Workshop
+>
+> IOT with Arduino Workshop
+>
+> Neuro Hack
+>
+> Weird Chess
+>
+> Analog Circuit Design Challenge
+>
+> Appian AI Application Challenge
+>
+> Capture the Flag
+>
+> Envisage GameZone &
+>
+> TechZone
+>
+> Venue
+
+SAC
+
+CLT
+
+NAC II – 601
+
+RJN 201
+
+RJN 202
+
+RJN 301
+
+RJN 101
+
+Gymkhana
+
+IE Lab – New
+
+RJN 102
+
+RMN 101
+
+KV Grounds,
+
+Streets
+
+> Time
+
+7:00–22:00
+
+10:00–17:00
+
+7:00–22:00
+
+8:00–16:00
+
+8:00–13:00
+
+8:00–16:00
+
+9:00–17:00
+
+9:00–12:00
+
+9:00–12:00
+
+14:45–18:30
+
+14:00–17:00
+
+7:00–17:00
+
+MC DAY 1
+
+SPOTLIGHT LECTURE SERIES
+
+DR. S. JAISHANKAR
+
+SAC (STUDENT ACTIVITY CENTRE) 10AM–11AM
+
+2ND JAN
+
+ROBOSOCCER
+
+Robotics meets football in this fast-paced battle of strategy and
+control. Build a bot that dribbles, passes, and scores all under
+pressure. It’s the ultimate fusion of game-play, tech, and teamwork on a
+thrilling robotic football field.
+
+OAT (OPEN AIR THEATRE) STARTS 9:00 AM
+
+2ND JAN
+
+ROBO GP
+
+Robo GP is a high-speed Nitro RC car racing challenge where precision
+engineering meets pure adrenaline. Build, tune, and race your machine on
+a competitive track every turn, drift, and millisecond counts. Push your
+design, control, and driving skills to the limit.
+
+KV GROUNDS 9AM–6PM 2ND JAN
 
 CATERPILLAR DAY 2
 
-JANUARY 4, 2025
+SPOTLIGHT LECTURE SERIES DR. ASHOK KHEMKA
 
-| Event                                       | Venue             | Time        |
-| ------------------------------------------- | ----------------- | ----------- |
-| IoT Automation with Raspberry Pi Workshop   | RJN 101           | 9:00-17:00  |
-| KLA Lecture - Industry Insights             | ICSR Hall 3       | 11:00-12:00 |
-| Launcher                                    | RJN 102           | 14:00-17:00 |
-| Computational Fluid Dynamics Workshop       | RJN 201           | 9:00-17:00  |
-| Intro to DL Workshop                        | RJN 202           | 9:00-17:00  |
-| Basics of Investing Workshop                | RJN 301           | 9:00-17:00  |
-| CAD for Industrial Design Workshop          | RJN 302           | 9:00-17:00  |
-| Cognify - The Toy Design Contest Finale     | HSB 210           | 9:00-17:00  |
-| The Teacher Conference                      | MRC Hall, Library | 15:00-18:00 |
-| Future Cities Summit Expo                   | CLT Lawns and KV  | 8:30-17:00  |
-| IDFC FIRST Bank Lecture - Industry Insights | ICSR Hall 3       | 14:00-15:00 |
-| Cognify - Inclusive Toy Prototype Display   | KV Ground         | 9:00-17:00  |
-| CP Potpourri Wildcard                       | RMN 101,102,201   | 9:00-10:00  |
-| CP Potpourri Finals                         | RMN 101,102,201   | 11:00-13:00 |
-
-
-
-
-
-
-
-BAJAJ AUTO DAY 3
-
-JANUARY 5, 2025
-
-| Event                                         | Venue                | Time         |
-| --------------------------------------------- | -------------------- | ------------ |
-| Quantathon                                    | RJN 101,102          | 9:00-11:00   |
-| Building and Experimenting LLMs Workshop      | CRC 101              | 9:00-17:00   |
-| App Development Workshop                      | CRC 102              | 9:00-17:00   |
-| Cloud Computing Workshop                      | CRC 103              | 9:00-17:00   |
-| Future Cities Summit                          | ICSR TTJ             | 9:30-17:30   |
-| Tech Entertainment Night                      | SAC                  | 18:00-22:00  |
-| Laser Tag                                     | HSB 133              | 7:00-22:00   |
-| Fireside Chat with Dr. Arokiaswamy Velumani   | CLT                  | 14:00-15:00  |
-| Fireside Chat with Mr. Nambi Narayanan        | CLT                  | 16:30-17:30  |
-| Embedded Programming Challenge                | IE Lab NEW           | 9:00-12:00   |
-| JMT (Build-a-thon)                            | NAC Hall             | 7:00-21:00   |
-| Caterpillar Autonomy Challenge                | KV Grounds           | 6:00-21:00   |
-| Flipkart Grid Robotics 6.0                    | Newton Hall          | 7:00-22:00   |
-| Shaastra Moot Court Finals                    | Kalam Hall (ED Dept) | 9:30-13:00   |
-| Brain Maze                                    | KV                   | 9:00-18:00   |
-| Product Management Workshop                   | CRC 201              | 9:00-17:00   |
-| Shaastra Main Quiz                            | CRC 202              | 9:00-14:00   |
-| Finvent                                       | CRC 204              | 9:00-13:00   |
-| Ignite the Future: Rocket Propulsion Workshop | CRC 304              | 9:00-17:00   |
-| Crypto Trading Workshop                       | CRC 305              | 9:00-17:00   |
-| IndustriAl 24hr Hackathon                     | RJN/RMN Rooms        | 13:00 onward |
-| Shaastra Smart City Challenge                 | CRC 203              | 14:00-18:00  |
-| Smart Innovation Challenge Finale             | CRC 204              | 14:00-18:00  |
-| Paper Poster Presentation                     | CRC 205              | 14:00-17:00  |
-| Shaastra Biz Quiz                             | CRC 202              | 15:00-21:00  |
-| Synergy Sustainability Contest                | CRC 205              | 9:00 onward  |
+CLT (CENTRE LECTURE THEATRE) 11AM–12PM
 
+3RD JAN
 
+ROBO WARS
 
+Where engineering meets adrenaline. Watch heavyweight combat robots
+clash in an electrifying arena of sparks, strategy, and sheer power.
+With international teams entering the battlefield, this year’s Robowars
+promises bigger hits, louder roars, and unforgettable metal carnage.
 
+OAT (OPEN AIR THEATRE) 9AM ONWARDS
 
+3RD JAN
 
+LASER TAG
 
-# IDFC FIRST BANK DAY 4
+A high-octane tactical arena where cutting-edge technology meets
+competitive strategy for an adrenaline-fueled experience.
 
-JANUARY 6, 2025
+HSB 133 10AM–6PM 3RD JAN
 
-| Event                                              | Venue          | Time          |
-| -------------------------------------------------- | -------------- | ------------- |
-| Reverse CodingX                                    | RJN 101,102    | 14:00-16:00   |
-| E-Contest                                          | Online         | 9:00-12:00    |
-| Biotech Frontiers Workshop                         | RJN 201        | 9:00-17:00    |
-| C++ Development Workshop                           | RJN 202        | 9:00-17:00    |
-| IoT Prototyping with Arduino Workshop              | RJN 301        | 9:00-17:00    |
-| Simulation Techniques in ML Workshop               | RJN 302        | 9:00-17:00    |
-| IndustriAl 24hr Hackathon Ends                     | RJN/RMN Rooms  | Ends at 13:00 |
-| Blockchain Development Workshop                    | RMN 301        | 9:00-17:00    |
-| EV Ecosystem Workshop                              | RMN 302        | 9:00-17:00    |
-| Robosoccer                                         | CLT Lawns      | 9:00-18:00    |
-| Future Cities Summit                               | ICSR TTJ       | 9:30-18:00    |
-| NAF's Uzhavu Hackathon                             | CRC 201        | 10:00-15:00   |
-| Ecomatrix                                          | CRC 202        | 14:00-17:00   |
-| BioGENEius Challenge                               | CRC 203        | 14:00-17:00   |
-| Brain Maze                                         | KV             | 9:00-18:00    |
-| Comedy Night                                       | SAC            | 18:00-22:00   |
-| Robo Oceana                                        | OAT            | 10:00-18:00   |
-| Laser Tag                                          | HSB            | 18:00-22:00   |
-| Spotlight                                          | CLT            | 18:00-22:00   |
-| Reverse Engineering Challenge                      | IE Lab         | 14:00-17:00   |
-| Cube Open                                          | UTIL (Near GC) | 9:00-18:00    |
-| Petri Dish Challenge                               | ED             | 10:00-12:00   |
-| Lecture by Dr. Modadugu Vijay Gupta                | CLT            | 11:00-12:00   |
-| Lecture-cum-Fireside Chat with Prof. Subir Sachdey | TTJ Auditorium | 15:00-16:00   |
+BOEING DAY 3
 
+MOOT COURT FINALS
 
+Step into the shoes of a lawyer in Shaastra’s Moot Court Competition,
+one of the premier events of the fest, powered by Surana & Surana
+International Attorneys. From drafting persuasive memorials to
+delivering compelling oral arguments, participants engage in intense
+simulated court proceedings that demand intellect, strategy, and
+articulation.
 
+ICSR HALL 3 8AM–5PM 4TH JAN
 
+COMEDY NIGHT
 
+Pranav Sharma brings a sharp, observational comedy set that blends
+relatable storytelling with witty social commentary. Known for his
+engaging stage presence and effortless humor, his performance delivers
+laughter through everyday experiences and clever insights. The comedy
+show promises a lively, feel-good atmosphere and an entertaining break
+packed with punchlines.
 
+SAC (STUDENT ACTIVITY CENTRE) 4TH JAN, 2026
 
-BOEING DAY 5
+ENREACH FINALS ICSR HALL 1
 
-JANUARY 7, 2025
+10 AM – 2 PM 4TH JAN, 2026
 
-| Event                                                     | Venue       | Time        |
-| --------------------------------------------------------- | ----------- | ----------- |
-| Clash of Codes                                            | RJN 101,102 | 9:00-12:00  |
-| Capture the Flag                                          | Online      | 9:00-12:00  |
-| Appian AI Challenge                                       | RJN 101,102 | 14:00-17:00 |
-| Appian Lecture - Industry Insights                        | ICSR Hall 3 | 11:00-12:00 |
-| Integrated Robotics Workshop                              | RMN 101     | 9:00-17:00  |
-| Quantum Computing Workshop                                | RMN 102     | 9:00-17:00  |
-| Brain Maze                                                | KV          | 9:00-18:00  |
-| Maths Intersection Programming Workshop                   | RMN 103     | 9:00-17:00  |
-| UI/UX with Figma Workshop                                 | CRC 101     | 9:00-17:00  |
-| Ethical Web Hacking Workshop                              | CRC 102     | 9:00-17:00  |
-| Atom Quest                                                | CRC 201,202 | 9:00-13:00  |
-| Robo Run + Robosoccer                                     | SAC         | 9:00-18:00  |
-| RIPTIDE                                                   | Wave Basin  | 10:00-17:00 |
-| Fireside Chat with Hon'ble Justice Shri Dinesh Maheshwari | CLT         | 11:00-12:00 |
-| Lecture by Thiru T. Udhayachandran                        | CLT         | 15:30-16:30 |
-| Analog Circuit Design Challenge                           | IE Lab      | 14:00-17:00 |
-| JMT Finals                                                | NAC         | 8:00-18:00  |
-| Weird Chess 3.0                                           | Gymkhana    | 14:00-17:00 |
-| Online Lecture by Mr. Satish Pai                          | CLT         | 17:30-18:30 |
-
-
-
-
-
+IDFC FIRST BANK DAY 4
 
+SPOTLIGHT LECTURE SERIES PROF. SUBRA SURESH
 
+CLT (CENTRE LECTURE THEATRE) 2PM–3PM
 
+5TH JAN
 
-** EVENTS **
+TECHNO ENTERTAINMENT NIGHT
 
-The following information is formatted as follows:
-Event Name, Sponsor(if any)
-Event Description
-Date, Time, Venue
-Open for viewership (yes/no)
-On-spot registration (yes/no)
+Lost Stories brings an electrifying techno experience that blends
+powerful beats, immersive soundscapes, and high-energy visuals. Known
+for their globally acclaimed productions and
 
-Robo Oceana. NIOT.
-Robo Oceana is an exhilarating underwater robotics challenge where teams design and deploy advanced robots to conquer marine-inspired tasks.
-From navigating underwater terrains to retrieving objects and performing precision tasks, it's a true test of innovation, engineering, and problem-solving. Experience the thrill as cutting-edge tech meets real-world maritime challenges!!
-6th January. 10am to 4pm. OAT.
-Open for viewership - yes
-On-spot registration - no
+festival performances, the duo delivers a night where progressive techno
+meets pure crowd energy. This Techno Entertainment Night promises an
+unforgettable atmosphere, uniting music, lights, and rhythm into a
+seamless live experience.
 
-Boeing Aeromodelling Competition. Boeing.
-Boeing Aeromodelling is the ultimate test of aerodynamic innovation and engineering brilliance! Participants design and build high-performance model aircraft to take on exciting challenges like precision gliding, acrobatic manoeuvres, and long-distance flights. With Boeing's legacy of aviation excellence as inspiration, this event pushes creativity and technical skills to new heights.
-25th January - 26th January. 10am to 4pm. IIITDM Kancheepuram
-Open for viewership - yes
-On-spot registration - no
+SAC (STUDENT ACTIVITY CENTRE) 5TH JAN, 2026
 
-Riptide. NIOT.
-Riptide is an exciting new addition to Shaastra, featuring remote-controlled (RC) boats. This event challenges participants to design and operate RC boats capable of completing tasks such as navigating obstacle courses and performing precision manoeuvres. It introduces a fresh avenue for innovation in marine technology and hands-on engineering.
-7th January. 10am to 3pm. Wave Basin (ocean engineering department)
-Open for viewership - no
-On-spot registration - no
+BAJAJ AUTO DAY 5
 
-SARC. FedEx.
-A new event at Shaastra, SARC challenges participants to design autonomous drones capable of performing complex tasks like obstacle navigation and object handling, pushing innovation in aerial robotics.
-4th January. 10am to 4pm. SAC.
-Open for viewership - no
-On-spot registration - no
+SPOTLIGHT LECTURE SERIES PROF. JEFFREY ULLMAN
 
-Flipkart Grid Robotics Challenge 6.0.
-Flipkart.
-"GRID 6.0 | Smart Vision" challenges participants to design innovative camera vision solutions for quality and quantity testing in e-commerce.
-5th January. 9am to 6pm. Newton hall, Aero department.
-Open for viewership - yes
-On-spot registration - no
+CLT (CENTRE LECTURE THEATRE) 11AM–12PM
 
-Water Rocket challenge.
-A thrilling event for school students, the Water Rocket Challenge tasks
+6TH JAN
 
+ROBO RUN
 
+Race the future with autonomous line-following bots that rely on speed,
+precision, and perfect logic. Every millisecond counts as robots make
+split-second decisions on a dynamic track. Simple in concept, intense in
+competition — only the smartest bot wins.
 
+SAC (STUDENT ACTIVITY CENTRE) 9AM – 5 PM
 
-participants with designing and launching water-powered rockets to achieve maximum distance, combining creativity with basic principles of physics.
-3rd January. 10am to 2pm. Institute Hockey Ground.
-Open for viewership - yes
-On-spot registration - yes
+6TH JAN
 
-Petri Dish Challenge. NIOT.
-Petri Dish Challenge is a two-day event that challenges participants to identify unknown bacteria through a series of rigorous laboratory experiments.
-5th January 9am to 12pm BT ug lab. 6th January. 10am to 12pm. ED108
-Open for viewership - No
-On-spot registration - No
+WEIRD CHESS
 
-Biomimicry: Nature's Best Builders.
-This two-round event challenges participants to design innovative, nature-inspired architectural solutions for a sustainable future.
-4th January. 3pm to 6pm. ED108.
-Open for viewership - yes
-On-spot registration - no
+Main objective of this event is to tweak the rules of chess to make the
+game more interesting and fun-filled. This is India’s biggest unreal
+chess event, by unreal we mean that chess event with unconventional
+rules.
 
-Clash of Codes. D-link.
-Clash of Codes is the ultimate challenge for bioinformatics enthusiasts, combining the thrill of coding with the intrigue of biology.
-7th January. 9am to 12pm. Rjn 101 and 102.
-Open for viewership - No
-On-spot registration - no
+GYMKHANA 9AM–12PM 6TH JAN
 
-BioGENEius Challenge.
-The BioGENEius Challenge is a premier case study competition that invites students to explore innovative solutions to global challenges using biotechnology.
-6th January. 2pm to 5pm. CRC203.
-Open for viewership - Yes
-On-spot registration - no
+TECH CREATIONS GAME STALLS
 
-Paper and Poster Presentation.
-"This event offers a unique platform for participants to dive deep into real-world biological and genetic engineering challenges, conduct meaningful research, and showcase their findings.
-5th January. 2pm to 5pm. CRC205.
-Open for viewership - yes
-On-spot registration - no
+The synergy of engineering and play at our interactive stalls, where
+basic electronics and creativity-powered ingenuity bring gaming concepts
+to life.
 
-BioIntern Connect
-BioIntern Connect is an exciting initiative in connecting students with research internship opportunities in biotechnology professors' labs in just one day.
-4th January. 9am to 1pm. ED Department, ED-108.
-Open for viewership - no
-On-spot registration - no
+Dates: 2nd – 6th January Time: 10 AM to 6 PM Venue: In front of CLT
 
-Shaastra Programming Contest. KLA.
-This annual Competitive Coding Contest, centered on algorithmic thinking and problem-solving skills, is a flagship event of Shaastra. This year, it debuted as a Starters 164 rated contest on CodeChef, marking a first in its history. With prelims conducted online and offline finals in ICPC style, this premier competition is sponsored by KLA and boasts a prize pool of 1.2 lakh.
-4th January. 2PM to 5PM. RMN.
-Open for viewership - No
-On-spot registration - No
+PLANETARIUM
 
+A captivating voyage through the cosmos, where immersive visuals and
+celestial wonders bring the mysteries of the universe to life.
 
+Venue: TBD
 
+Time: 10 AM – 6 PM Dates: All days
 
-CP Potpourri. IDFC bank.
+EXPO
 
-CP Potpourri blends competitive programming with quirky challenges like code golfing and debugging. Sponsored by IDFC Bank, it's an exciting platform to showcase creativity and skill in unconventional ways. Expect surprises and unique twists in this vibrant coding showdown. CP Potpurri boasts a prize pool of 50000 rupees.
+Exhibitions at Shaastra 2026 is a vibrant platform that brings together
+cutting-edge technology, innovation, and real-world applications under
+one roof. It is a space where ideas turn into reality, and where
+students, industry professionals, and innovators come together to
+explore the future. Serving as a meeting point for opportunity,
+technology, and the market, the exhibitions showcase impactful solutions
+and emerging technologies that shape tomorrow. Join us at KV Grounds and
+experience firsthand how innovation meets industry at Shaastra 2026.
 
-4th January.11AM to 1PM. RMN.
+Venue: KV Grounds Time: 9 AM – 5 PM
 
-Open for viewership - No
+Dates: 2nd – 6th January 2026
 
-On-spot registration - No
+JMT – Junior Makeathon
 
-Reverse CodingX. Avanse.
+An event conducted for school students of grades 6–12, where they will
+be solving a problem statement and the top 18 finalists will build and
+present their prototype.
 
-Uncover hidden logic in this one-of-a-kind event featuring puzzles, brainteasers, and coding challenges. Reverse Coding X demands creative thinking and sharp reasoning as you solve mysteries from given inputs and outputs.
+Venue: RMN
 
-6th January. 2PM to 4PM. RJN.
+Dates: 3rd, 4th, 5th January 2026
 
-Open for viewership - No
+TIF – Tech and Innovation Fair
 
-On-spot registration - No
+An event focusing on college students who have a hardware prototype,
+where they network, gain mentorship to develop their prototypes, receive
+funding, and learn.
 
-Quantathon. Avanse.
+Venue: ICSR
 
-Love numbers, logic and creative thinking? Thrive on cracking patterns and solving tough problems? Quantathon is the ultimate event for bold thinkers and problem solvers! It includes probability, math and logical thinking challenges.
+Dates: 3rd, 4th, 5th January 2026
 
-5th January. 11AM to 1PM. RJN.
+SHOWS
 
-Open for viewership - No
+Techno Entertainment Night
 
-On-spot registration - No
+Lost Stories brings an electrifying techno experience that blends
+powerful beats, immersive soundscapes, and high-energy visuals. Known
+for their globally acclaimed productions and festival performances, the
+duo delivers a night where progressive techno meets pure crowd energy.
+This Techno Entertainment Night promises an unforgettable atmosphere,
+uniting music, lights, and rhythm into a seamless live experience.
 
-E contest. Arcesium.
+Venue: SAC
 
-Step away from conventional coding languages like Java, C++, and Python, and embrace the unexpected in the E-Contest. Here, participants explore esoteric programming languages that challenge both logic and creativity. It's a unique opportunity to broaden your programming horizons and think outside the box, making it a standout event in Shaastra's lineup.
+Date: 5th January 2026 Time: 6:30 PM
 
-6th January. 9AM to 12noon. Online.
+WORKSHOPS
 
-Open for viewership - No
+PCB Design
 
-On-spot registration - Yes
+This workshop offers a complete overview of PCB design, from basics to
+board fabrication. Participants will learn design rules, signal
+integrity, and create their own PCB using KiCad. Date: 2nd January
 
-CTF. IDFC bank.
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-Dive into the exciting world of cybersecurity with Capture the Flag, sponsored by IDFC Bank. A high-stakes competition where participants tackle cryptic puzzles, uncover hidden vulnerabilities, and race against time to capture flags. This event is not just about problem-solving; it's an adrenaline-pumping journey into the realm of ethical hacking and security expertise.
+EV Day 1, 2
 
-7th January. 9AM to 12noon. Online.
+This workshop provides a fully hands-on introduction to electric
+2-wheeler engineering through real battery pack assembly and complete
+vehicle teardown. Participants learn how EV subsystems work, from cells,
+BMS, and wiring to motors, controllers, and communication networks.
 
-Open for viewership - No
+Dates: 3rd and 4th January
 
-On-spot registration - Yes
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-HyperCube. Visual Bash.
+DesignShift – Skills for Tomorrow
 
-Making its debut this year, Hypercube Visual Bash blends graph theory and 3D geometry into a single, exhilarating competition. Packed with optimization strategies and unique problem formats, this event promises to challenge participants in ways they've never experienced before.
+This workshop focuses on using CAD tools like SolidWorks and Onshape for
+industrial design. Participants will learn to integrate design
+principles with hands-on CAD techniques and online modeling.
 
-3rd January. 9AM to 11AM. RJN.
+Date: 4th January
 
-Open for viewership - No
-
-On-spot registration - No
-
-Strategic Show Down (Stall Event)
-
-Master the art of strategy in this engaging event where you devise winning plans for a variety of games. Stay ahead of your opponents and outsmart the competition. It's a game of wits where every move counts.
-
-All days.
-
-All time.
-
-
-
-
-Open for viewership - Yes
-On-spot registration - Yes
-
-## Weird Chess
-This is an exciting chess-themed event with a unique twist. The rules will be customized by us!
-7th January. 2PM to 5PM. Institute Gymkhana
-Open for viewership - No
-On-spot registration - No
-
-## IndustriAI 24hr hackathon. Temenos.
-"Get ready for an intense 24-hour innovation sprint from January 5 to January 6 at IIT Madras. ð Dive into the world ofŸš€ AI/ML, software development, and digital security, tackling intriguing challenges and showcasing your creativity. MacBooks for the top 3 winning teams! Whether you're a coding ninja or just starting out, this is your chance to collaborate, learn, and push the boundaries of technology.
-5th January - 6th January. 1PM 5th January to 1PM 6th January. RMN and RJN
-Open for viewership - No
-On-spot registration - Yes
-
-## Appian AI Challenge. Appian.
-We are excited to announce the national Appian AI Application Challenge, a premier event at Shaastra 2025, the annual technical festival of IIT Madras. This competition offers students a unique platform to develop innovative AI-driven solutions to real-world problems, in collaboration with Appian, a leader in process automation and AI integration.
-7th January. 2PM to 5PM. RJN.
-Open for viewership - No
-On-spot registration - No
-
-## FedEx SMART Hackathon. FedEx Smart.
-Get ready for FedEx SMART Hackathon! Gear up to solve cutting-edge challenges in software development, AI, and sustainable logistics to design smarter, greener delivery systems for a global leader in transportation. Prizes include an internship opportunity with FedEx SMART, IIT Madras. Whether you're a seasoned developer or eager to learn, this is your chance to leave a mark on the future of logistics.
-22nd January
-Open for viewership - No
-On-spot registration - No
-
-## Wild Card Round for CP Potpourri
-Missed the prelims? Don't worry, here's your chance to secure a spot in the finals through this exciting wildcard round! With fresh and innovative challenges revealed on the spot, this event ensures no coder is left behind in the race to compete in CP Potpourri's grand finale.
-4th January. 9AM to 10AM. RMN.
-Open for viewership - Yes
-On-spot registration - Yes
-
-## Robowars. IDFC & BAJAJ.
-Get ready for an electrifying clash of metal and sparks at Robowars 2025, hosted at Shaastra, IIT Madras! Witness the ultimate showdown as cutting-edge combat robots battle it out for glory. Experience the thrill of roaring machines, strategic manoeuvres, and raw power in an adrenaline pumping arena. Don't miss this spectacular event where technology meets destruction! Join us and be part of the crowd that witnesses the most thrilling event at Shaastra!
-3rd January:11 am, 4th January 5:00 pm. OAT.
-
-
-
-
-Open for viewership - Yes
-On-spot registration - Yes
-
-**Caterpillar Autonomy Challenge. CATERPILLAR.**
-
-Attention Tech enthusiasts! Witness the ultimate test of engineering and innovation at the Caterpillar Autonomy Challenge. Watch autonomous rovers conquer obstacles, mine sand, and deposit it with precision and skill. Marvel at the perfect blend of AI, robotics, and problem-solving in action. Don't miss the thrill as these ™ intelligent machines tackle every challenge thrown their way.
-
-3rd and 5th January- 9:00 am. KV ground.
-
-Open for viewership - yes
-On-spot registration - No
-
-**Robosoccer. NIOT.**
-
-Get ready for a thrilling showdown at Robosoccer. Watch as robots showcase their agility, strategy, and precision in passing and scoring goals in the match. Feel the buzz as technology takes centre stage in this unique blend of sport and innovation.
-
-6&7 January. 9:00 AM 6th - CLT area 7th - OAT.
-
-Open for viewership - yes
-On-spot registration - yes
-
-**RoboRun. NIOT.**
-
-xperience the excitement of Robo Run, where talented teams design autonomous robots that navigate complex paths with precision and speed. This event highlights creativity, engineering skills, and innovation. Don't miss this thrilling showcase of technology in action!
-
-7 January. 9:00 AM. SAC
-
-Open for viewership - yes
-On-spot registration - yes
-
-**Shaastra Smart City Challenge. L&T Edutech.**
-
-Transform urban living with cutting-edge innovations! Join us in reimagining cities as smarter, more efficient hubs of technology and progress.
-
-5th January. 2pm-6pm. CRC.
-
-Open for viewership - No
-On-spot registration - No
-
-**Atom Quest. Atomberg.**
-
-Solve real-world Mech-Electronics challenges, collaborate with Atomberg's R&D team, and unlock exciting prizes, internships, and career opportunities
-
-07/01/2025. 9am-1pm. CRC
-
-Open for viewership - No
-On-spot registration - No
-
-**ElecKart. DIGIKEY.**
-
-Explore the world of digital electronics in this hands-on event designed for enthusiasts and problem-solvers. Participants will design, build, and optimize digital circuits to meet real-world challenges. From logic gates to complex combinational and sequential systems, showcase your creativity and technical skills. Step into the fast-paced digital domain and bring your ideas to life!
-
-04/01/2025. 2 pm - 5 pm. IE Lab.
-
-Open for viewership - No
-On-spot registration - No
-
-**EPC. Bajaj.**
-
-The Embedded Systems Challenge tests your microcontroller skills, focusing on practical implementation with actuators like servos, LDRs, and sensors, beyond just theoretical knowledge.
-
-05/01/25. 9am to 12 noon. IE Lab
-
-Open for viewership - no
-
-
-
-
-On-spot registration - no
-
-ACDC. Bajaj.
-Analog Circuit Design Challenge tests your circuit building skills
-and your ability to quickly come up with solutions to modify your design so that
-it starts working!
-07/01/25 .2pm - 5pm. IE Lab.
-Open for viewership - no
-On-spot registration - no
-
-Reverse engineering. NIOT.
-Dive into the fascinating world of digital, embedded, and analog systems as you
-decode and recreate complex circuits. Participants will analyse black-box
-systems, troubleshoot designs, and reconstruct their functionality using
-theoretical and practical knowledge. Test your skills in deciphering FSMs,
-embedded controllers, and analog designs. Unleash your problem-solving abilities
-and take on this ultimate engineering challenge!
-06/01/2025. 2pm - 5pm. IE LAB.
-Open for viewership - no
-On-spot registration - no
-
-WildCard Challenge.
-The Wildcard Round of Elecfest, Shaastra 2025, held at IIT Madras, will be based
-on Embedded Systems, Analog Circuits, and Digital Circuits. It offers students
-across India a chance to qualify directly for the finals of Eleckart, Embedded
-Programming Challenge, Analog Circuit Design Challenge, and Reverse Engineering
-Challenge. Participants can compete individually or in teams of 2.
-04/01/2025. 9am-12pm. IE LAB.
-Open for viewership - no
-On-spot registration - yes
-
-Shaastra Biz Quiz
-Are you ready to test your business knowledge and have a fun time quizzing with
-us at Shaastra 2025? The Biz Quiz is the perfect event for anyone who loves
-learning about the world of business and all the fascinating stories it has to
-offer. Prize Pool: 20,000/-.
-5th January. 3PM-9PM. CRC-202.
-Open for viewership - No
-On-spot registration - Yes
-
-Shaastra Main Quiz
-Shaastra Main Quiz, the centrepiece of Shaastra's quiz lineup; is one's chance
-to showcase their abilities in the realm of sci-tech quizzing, and demonstrate
-their prowess when facing off against other such enthusiasts. Prize Pool:
-20,000/-
-5th January. 9AM-12PM. CRC-202.
-Open for viewership - No.
-On-spot registration - Yes.
-
-Shaastra Cube Open Cubelelo.
-The team of Shaastra, IIT Madras, brings you a Rubik's cube competition,
-Shaastra Cube Open. Get ready to put your muscle memory and spatial thinking
-skills to the test. With 5 events - 3x3, 2x2, 4x4, One Handed, Skewb, and a Team
-Relay event where you get to challenge your coordination and understanding with
-fellow cubers. Prize Pool: 30,000/-
-6th January. 9AM-6PM. UTIL.
-Open for viewership - No
-On-spot registration - Yes
-
-
-
-
-AT-Makeathon. R2D2.
-
-The event's primary goal is to provide an effective solution by combining students' innovative ideas with the resources of R2D2. By implementing successful prototypes designed by students, we aim to enhance the quality of life for the elderly, adults, and children with disabilities. Prize Pool: 90,000/-.
-
-6th January. 2PM-6PM. CRC 304.
-
-Open for viewership - No
-
-On-spot registration - No
-
-Moot Court. Surana & Surana.
-
-One of the premier events at Shaastra, sponsored by Surana & Surana international Attorneys, is the Moot Court competition. Participants engage in simulated court proceedings, drafting memorials, and presenting oral arguments.
-
-Registration Deadline: December 18
-
-Prize Pool: 85,000/-
-
-3rd January -5th January 9AM-6PM. Day 1: CRC 101. Day 2: CRC 103,201-205,304,305.
-
-FINALS (Day 3): ED SEMINAR HALL"
-
-On 5th viewers are allowed
-
-On-spot registration - No
-
-
-
-
-** WORKSHOPS **
-
-All workshops, independent of passport, need to be registered for individually.
-
-The following information is formatted as follows:
-Workshop Title
-Description
-Venue Date
-Trainer Name
-Session -1-time Session - 2 time
-Registration fee
-Registration end date (MM-DD-YYYY)
-
-Full stack development
-In a technology-driven era, Full Stack Development stands at the forefront of building robust and scalable digital solutions. This workshop offers a comprehensive introduction to both front-end and back-end development, equipping participants with the knowledge to design and implement end-to-end web applications. From mastering HTML, CSS, and JavaScript to understanding server-side programming, databases, and APIs, attendees will get hands-on experience with the tools and technologies shaping modern software development. Whether you're aspiring to be a versatile developer or simply exploring a career in tech, this workshop provides the foundation to build your first full-stack project and beyond.
-CRC102 January-04
-Shivaram
-9:00 to 12:00|14:00 to 17:00
-649/-
-01-03-2025
-
-Product Management
-In today's product-driven world, successful products drive market growth and innovation, making Product Management a crucial role in any digital company. Product Managers play a key role in overseeing a product's journey from concept through to launch and beyond. This workshop is designed to introduce the idea of Product Management so they can make informed career decisions.
-CRC 201 January-05
-Karan Gohil
-9:00 to 12:00|14:00 to 17:00
-499/-
-01-04-2025
-
-Integrated Robotics: Mechanics to Automation
-The ""Integrated Robotics Workshop"" is designed to provide participants with a deep understanding of the various application-specific robotics and explore the fundamental ideas and methods for building and operating robots effectively
-RMN 101|January-07
-Prashanna Rangan R
-9:00 to 12:00|13:00 to 16:00
-649/-
-01-06-2025
-
-Biotech Frontiers: Discover to Destiny!
-Dive into the world of modern biotechnology with this hands-on workshop exploring key segments like green, red, and computational biotechnology. Engage
-
-
-
-
-in practical lab activities, analyse Nobel-winning research, and learn bioinformatics tools to solve real-world challenges.
-RJN 201|January-06
-Krishna K
-9:00 to 12:00|14:00 to 17:00
-499/-
-01-05-2025
-
-Computational Fluid Dynamics
-Computational Fluid Dynamics (CFD) is a vital tool in academia and industries like aerospace and environmental engineering. This workshop equips students with practical skills and insights into using CFD to solve real-world fluid flow challenges.
-RJN 201|January-04
-Ritu Raj
-9:00 to 12:00|14:00 to 17:00
-499/-
-01-03-2025
-
-Cad for industrial design
-This workshop explores industrial design concepts through hands-on CAD software (SolidWorks and OnShape) applications. Participants will learn design thinking, brainstorming, and rapid prototyping while creating 3D models and 2D drafts adhering to ISO and ANSI standards. It covers material selection, manufacturing processes, and collaborative assembly building. Emphasis is placed on ergonomics, quality control, and product lifecycle management for user-centric design.
-RJN 302|January-04
-Prashanna Rangan R
-9:00 to 12:00|14:00 to 17:00
-499/-
-01-05-2025
-
-Ignite The Future: Rocket Propulsion Workshop
-Hands-on experience with rocket simulation software like OpenRocket and learn the theory, calculations, and science behind rocket design. We'll also explore Fusion 360, a powerful tool for creating CAD models of rockets and their components.
-CRC 304|January-05
-Siddhesh Yadav
-9:00 to 12:00|14:00 to 17:00
-649/-
-01-04-2025
-
-Quantum Computing
-In this workshop, we aim to introduce you to the world of quantum computation by taking you through the fundamentals of realizing a quantum computer as well as tackling some problems using by implementing quantum algorithms on well-known quantum software.
-RMN 102|January-07
-Krishna
-9.00 to 12.00|13.00 to 16.00
-649/-
-01-06-2025
-
-C++ Development
-C++ is widely known as a language which provides a lot of freedom to the
-
-
-
-
-programmer, a freedom which can often cause hard-to-detect errors with deadly consequences. The workshop aims to explain often overlooked features of C++ which can help users write maintainable, safe, and descriptive code.
-RJN 202|January-06
-Hari Haran Naveen
-9.00 to 12.00|14.00 to 17.00
-649/-
-01-05-2025
-
-Building and Experimenting LLMs
-The ""Building and Experimenting with LLMs"" workshop by IIT Madras offers a hands-on introduction to Generative AI and Large Language Models (LLMs). Led by experts Parthasarathy and Dr. Mahesh Balan, the workshop covers key concepts like prompt engineering, OpenAI Playground experimentation, and retrieval-augmented generation (RAG). Participants will gain practical skills to explore and apply LLMs effectively, equipping them to build innovative AI solutions for real-world challenges.
-CRC 101|January-05
-Mahesh Balan
-9.00 to 12.00|14.00 to 17.00
-649/-
-01-04-2025
-
-Implementing AI using Microsoft Azure
-This hands-on workshop provides participants with comprehensive insights into implementing Artificial Intelligence (AI) solutions using Microsoft Azure. It covers Azure AI Services, including computer vision, natural language processing (NLP), and generative AI. Participants will explore Azure's tools and platforms to create innovative AI applications. The sessions are structured to combine theoretical concepts with practical labs, offering an engaging learning experience. Designed for participants with diverse backgrounds, this workshop equips attendees with the skills to leverage AI technologies effectively, even with minimal prior expertise in the field.
-RJN 202|January-04
-Piyush Wairale
-9.00 to 12.00|14.00 to 17.00
-649/-
-01-03-2025
-
-IoT Prototyping with Arduino
-This workshop on ""IoT Prototyping with Arduino"" introduces participants to the fundamentals of building smart, connected devices using the Arduino platform. Designed for beginners and enthusiasts, the session provides hands-on experience with Arduino boards and sensors to create functional IoT applications. By integrating sensors, actuators, and connectivity modules, attendees will gain practical skills in designing IoT projects and controlling devices over the internet.
-RJN 301|January-06
-9:00 to 12:00|14:00 to 17:00
-649/-
-01-05-2025
-
-Maths Intersection Programming
-This workshop explores fascinating mathematical concepts and their computational applications using Python libraries like NumPy, Matplotlib, Manim, and Turtle. Participants will engage in coding and theory, covering five key topics: optimization, linear algebra, probability, geometry, and calculus.
-RMN 201|January-07
-
-
-
-
-9:00 to 12:00|13:00 to 16:00
-649/-
-01-06-2025
-
-Intro to DL Workshop
-Embark on a journey into the world of Deep Learning with this comprehensive workshop. Explore the foundations of neural networks, master key concepts like forward and backward propagation, and gain hands-on experience building and training models using PyTorch. Dive into advanced topics such as CNNs, transfer learning, and their real-world applications.
-CRC101|January-04
-9:00 to 12:00|14:00 to 17:00
-649/-
-01-03-2025
-
-Simulation Techniques and Estimation in ML
-This workshop explores intriguing statistical problems with surprising outcomes, showcasing how simulation provides practical and insightful solutions. Learn to write simple, efficient simulation codes that outperform numerical methods in tackling complex real-world challenges.
-RJN 302|January-06
-9:00 to 12:00|14:00 to 17:00
-649/-
-01-05-2025
-
-Basics of Investing
-This workshop provides an overview of finance and investment essentials, covering topics such as money management, investment types, risk and return, diversification, mutual funds, and SIPs. It also explores financial goal setting and career opportunities in finance. The session includes practical insights and an interactive Q&A to enhance financial literacy and decision-making.
-RJN 301|January-04
-9:00 to 12:00|14:00 to 17:00
-649/-
-01-03-2025
-
-Crypto Trading
-Unlock the world of cryptocurrency trading with this comprehensive workshop! Learn the fundamentals of blockchain, market analysis, and trading strategies, while mastering tools and risk management techniques. Explore advanced concepts like DeFi, leverage, and futures trading. Gain the knowledge to navigate crypto markets with confidence and avoid common pitfalls.
-RJN 301|January-05
-9.00 to 12.00|14.00 to 17.00
-649/-
-01-04-2025
-
-App Development
-This workshop on App Development introduces participants to the fundamentals of Flutter, enabling them to create cross-platform mobile applications. It combines theoretical insights with hands-on practice, covering topics such as setting up the development environment, understanding Flutter's architecture, and exploring essential widgets and layout techniques. Participants will design user interfaces, implement app logic, connect to APIs for dynamic data, and learn debugging and deployment processes. By the end of the workshop, attendees will have built a functional app and acquired foundational skills to further explore Flutter development.
-
-
-
-
-CRC 102|January-05
-9.00 to 12.00|14.00 to 17.00
-649/-
-01-04-2025
-
-Blockchain development
-Transform your React skills into Web3 development! Join us for a hands-on workshop where you'll learn blockchain fundamentals, smart contracts with Solidity, and how to build your first decentralized application (DApp). Through practical examples and guided exercises, you'll bridge the gap between traditional frontend and blockchain development. Limited seats available - join the Web3 revolution!
-RMN 301|January-06
-9.00 to 12.00|14.00 to 17.00
-649/-
-01-05-2025
-
-Intro to AI and ML
-This workshop offers a comprehensive introduction to AI and ML, highlighting their real-world applications, core concepts, and practical workflows. Participants will gain a solid understanding of datasets, algorithms, neural networks, and ethical challenges in AI. Through hands-on activities, they will implement ML models, visualize results, and explore their applications in industries like healthcare, finance, and retail.
-CRC 103|January-03
-9.00 to 12.00|14.00 to 17.00
-499/-
-01-02-2025
-
-From Motors to Wireless Charging: The EV Ecosystem
-Electric Vehicles (EVs) represent a paradigm shift in the automotive industry, driving the transition towards sustainable and efficient mobility. This workshop explores the EV ecosystem, covering advancements in technology, components like electric motors and power electronics, and emerging trends such as wireless charging, IoT integration, and nuclear batteries. Practical demonstrations of mid-drive and hub motor technologies will provide real-world insights into EV systems.
-RMN 302|January-06
-9.00 to 12.00|14.00 to 17.00
-499/-
-01-05-2025
-
-IoT Automation with Raspberry Pi
-This workshop provides a comprehensive introduction to Internet of Things (IoT) automation using Raspberry Pi and Node-RED, offering a hands-on experience. Participants will learn how to set up and program a Raspberry Pi, use sensors and actuators, and build IoT dashboards and applications using Node-RED. The sessions will also cover IoT protocols and REST APIs, providing a strong foundation for IoT projects.
-RJN 101|January-04
-9.00 to 12.00|13:00 to 16:00
-649/-
-01-06-2025
-
-UI/UX with Figma
-This workshop offers a foundational understanding of modern web design principles, combining theory with hands-on practice. Participants will explore
-
-
-
-
-responsive design, UI/UX guidelines, accessibility standards, and user-centered design techniques. By learning to analyse effective design, balance aesthetics with usability, and apply best practices, attendees will gain valuable insights into creating engaging and functional digital interfaces. The workshop also highlights current trends and emerging technologies, equipping participants with practical skills to tackle real-world web design challenges.
-
-CRC 101|January-07
-
-9.00 to 12.00|13:00 to 16:00
-
-649/-
-
-01-06-2025
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
 Cloud Computing
 
-This workshop introduces the fundamentals of cloud computing, covering virtualization, Git, GitHub, and the basics of Continuous Integration/Continuous Deployment (CI/CD). Participants will explore cloud tools like GitHub Actions, Codespaces, and Docker, learning to build and deploy applications using containerized environments. The hands-on sessions focus on practical skills such as hosting backend systems with containers, providing in-demand expertise for the cloud-driven job market.
+This workshop introduces students to the rapidly evolving world of
+agentic AI systems capable of reasoning, taking action, calling tools,
+and operating autonomously. Participants will explore how AI agents are
+reshaping industries, the underlying models and architectures that power
+them, and how cloud platforms enable scalable AI deployment.
 
-CRC 103|January-05
+Date: 3rd January Time: 9 AM – 12 PM Venue: IITM
 
-9.00 to 12.00|14.00 to 17.00
+Additive Manufacturing – From Nature to Space
 
-649/-
+An engaging introduction to additive manufacturing, exploring
+bio-inspired designs, ceramic printing, and futuristic trends like 4D
+printing and smart materials.
 
-01-04-2025
+Date: 3rd January
+
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
+
+XR Workshop
+
+The XR workshop introduces participants to extended reality
+technologies, including AR, VR, and MR, through interactive
+demonstrations and hands-on activities.
+
+Date: 6th January
+
+Time: 9 AM – 12 PM, 1 PM – 4 PM Venue: IITM
+
+Quantum Computing
+
+This workshop by Professor Prabha Mandayam builds a strong foundation in
+quantum computing concepts and provides hands-on experience in
+implementing quantum algorithms and simulations on real platforms for
+practical insights.
+
+Date: 4th January
+
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
 Ethical Web Hacking
 
-This Cybersecurity Workshop introduces participants to the fundamentals of ethical hacking and bug bounty programs, empowering them to identify vulnerabilities and contribute to a safer digital landscape. It covers key topics such as networking basics, web application architecture, reconnaissance techniques, and the exploitation of vulnerabilities like XSS and SQL injection. Through practical, hands-on sessions, participants will gain valuable skills in ethical hacking, responsible disclosure practices, and using tools like Burp Suite, making it an ideal learning experience for aspiring cybersecurity enthusiasts.
+This workshop builds a strong foundation in ethical web hacking concepts
+and provides hands-on experience in identifying vulnerabilities,
+penetration testing, and securing web applications on real-world
+scenarios for practical insights.
 
-CRC 102|January-07
+Date: 2nd January
 
-9.00 to 12.00|13:00 to 16:00
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-649/-
+Smart Manufacturing
 
-01-06-2025
+This workshop explores how MATLAB and Simulink enable industrial
+automation through predictive maintenance, digital twins, and
+data-driven modeling. Participants learn how deep learning, image and
+signal processing, and embedded AI support defect detection, object
+detection, and early failure prediction in industrial systems.
 
-Sijo Augustine workshop on Rocketry
+Date: 5th January Time: 2 PM – 5 PM Venue: IITM
 
-In a world racing ahead with breakthroughs in Launch Vehicles and Space Technologies, where ISRO has soft-landed on the Moon and SpaceX is catching rockets mid-air with "chopsticks," the impossible in aerospace is now closer than ever. Step into the fascinating world of rocketry and space tech through this exciting workshop - your gateway to exploring the future of aerospace innovation!
+Kindle Your Inner Innovator – Building from First Principles
 
-RMN 101|January-03
+A two-session experience that builds first-principles thinking and
+essential inventor habits through interactive activities encouraging
+creativity, sustainability, and problem-solving. Date: 2nd January
 
-9.00 to 12.00|14.00 to 17.00
+Time: 2 PM – 5 PM Venue: IITM
 
-0/-
+AI and ML
 
-01-02-2025
+This workshop builds a strong foundation in AI and machine learning
+concepts, followed by hands-on experience in building, training, and
+evaluating models on real datasets for practical insights.
 
+Date: 3rd January
 
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
+AI in Marketing
 
-** LABS **
+This workshop introduces how AI is transforming marketing through
+data-driven insights, personalization, and creative automation, with
+hands-on experience using modern AI tools for real-world applications.
 
-The following information is formatted as follows:
-Title
-Description
-Venue
-Start Time| End Time
-Department
+Date: 2nd January
 
-Interface lab
-INTERFACE lab works on multi-disciplinary problems cutting across mechanics of materials, bio-inspired robotics, using experiments, theory and simulation. The lab hosts in-house 3D printing and fabrication facility to develop experimental set-ups and is currently developing new frameworks for control of large degree of freedom robotic systems.
-KCB (NAC1)
-02:00PM|04:00PM
-Applied Mechanics and Biomedical Department
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-Automotive Systems Lab
-This lab would demonstrate typical systems found in automobiles such as engine, transmission, steering, suspension and brakes.
-Department of Engineering Design
-09:30AM|05:30PM
-Department of Engineering Design
+Building and Experimenting with LLMs
 
-Optomechatronics Laboratory
-Optomechatronics Laboratory focuses on applications of LASERs in Processing and Sensing
-Engineering Design Block ED217
-9:00AM|5:00PM
-Department of Engineering Design
+This workshop offers a hands-on exploration into how large language
+models can be transformed into intelligent, autonomous agents capable of
+reasoning, decision-making, and task execution. Participants will
+understand the foundations of agentic AI and build a working system that
+combines LLMs with external tools and knowledge sources.
 
-Robotics Laboratory
-One will be able to interact with different types of Industrial robots.
-ED404,3rd Floor, Engineering Design Building
-9:00AM|5:00PM
-Department of Engineering Design
+Date: 5th January
 
-AMSS lab (Active Materials, Structures and Systems Lab
-SMART MATERIALS LAB
-Mechanical Sciences Block (MSB)
-08:00AM|10:00PM
-Applied Mechanics and Biomedical Department
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-Biomedical Ultrasound Lab (BUSi Lab)
-Our research interests and projects revolve around developing novel Ultrasonic Methods, including Ultrasound Elastography, for diagnostics, therapeutics, biopsy guidance and treatment monitoring applications. We are also interested in
+Robotics 101
 
+This workshop introduces beginners to robotics through a 2-DOF robotic
+arm, offering hands-on experience in forward and inverse kinematics, PID
+control, and gravity compensation using CoppeliaSim.
 
+Date: 4th January
 
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-high-frequency, pre-clinical, ultrasound imaging and multi-modality imaging, including, Photoacoustics. We are also working on exploiting different applications of acoustic radiation force (ARF).
+IoT with Quantum Sensing
 
-Recent efforts have been on developing Affordable yet advanced ultrasound imaging systems for various applications.
+The workshop introduces IoT, AI, and quantum technologies, showing how
+sensor data becomes intelligent insights and how quantum innovations
+address challenges of scale, security, and precision.
 
-MSB 204
+Date: 5th January
 
-10:00AM|05:00PM
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-Applied Mechanics and Biomedical Department
+Computational Fluid Dynamics
 
-Protein Biophysics Lab
+This workshop aims to introduce CFD through numerical modeling and
+hands-on Fortran coding. Participants will solve 1D and 2D heat
+equations using the finite difference method and master essential
+post-processing techniques.
 
-Our research areas are broadly classified as:
+Date: 2nd January
 
-1. Experimental Characterization of Protein Conformational Behaviour and its Relation to Function: Our primary aim is to understand the mapping of protein sequence onto the structure and hence onto the function. Since protein function is the overriding force that drives the evolution of protein sequences, we are currently studying a collection of homologous transcription factors (both ordered and disordered) to identify the extent to which function and its structural requirements influence the folding mechanistic features of proteins.
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-2. Modelling and Predicting Folding Landscapes using Statistical Models: Protein folding studies, however complex, are typically interpreted with simple two state or three-state chemical models. On the other hand, theoretical treatments of folding point to the fact that the polymeric chain can sample multitudes of conformations (microstates) and that the folded-functional structure is just one among many that could be populated. It is of course possible that this complexity has been simplified through natural selection, thus eventually resulting in a simple two-state or three-state-like folding. But trying to understand folding mechanisms from these chemical models would trivialize the problem and hide the mapping of sequence patterning on the folding features. We are currently building a web server that takes solely the protein structure as input and predicts multiple folding-related features using this model (in a few hours). Experimentalists could employ the output to better understand the folding mechanism, fine-tune their experiments, or identify novel avenues in their approaches.
+Exoskeleton / Robotics 2
 
-3. Understanding Protein Folding and Dynamics through Simulations: We perform both conventional and replica-exchange molecular dynamics (MD) simulations of proteins (thanks to GROMACS). Because they are time-consuming, we are currently employing them as tools to validate the predictions of statistical models in cases where experiments are not immediately possible and to also look for any consistency with experimental results. We perform coarse-grained (CG) simulations (thanks to the SMOG web server) to improve sampling and to obtain seed points for atomistic MD. We have recently shown that CG simulations are powerful enough, if carefully calibrated against experimental observables, to identify partially structured states that are functionally relevant, i.e. evidence for the mechanism of conformational selection in binding"
+This workshop provides a deep dive into wearable robotics for industrial
+and medical applications. Participants will explore biomechanics,
+high-power actuation, and sensor integration using IMUs and EMG for
+human strength augmentation and rehabilitation. Date: 5th January
 
-Room no. 103, 1st Floor, Department of Biotechnology Block 2
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-2:00 pm |4:00 pm
+Arduino and IoT
 
-Department of Biotechnology
+This workshop introduces embedded systems through hands-on Arduino
+projects and TinkerCAD simulations. Participants build a mini automation
+system, explore cloud monitoring with ThingSpeak, and compare Raspberry
+Pi capabilities.
 
-Rehabilitation Bioengineering Group
+Date: 6th January
 
-RBG Labs is an interdisciplinary group with competencies in Human Factors and Transportation, Innovation & Lean Operations and Medical Devices & Implants. We are pioneers to objectively evaluate driver performance and behaviour. We work with multiple stakeholders from Government and Industry to develop innovative solutions to improve road safety in the Country.
+Time: 9 AM – 12 PM, 1 PM – 4 PM Venue: IITM
 
-Engineering Design Block, ED407
+Realms of Finance
 
-11:00AM|1:00PM
+Realms of Finance is an introductory workshop that explains the
+evolution of economic markets and their impact on individual lives. It
+covers financial literacy, risk management, and the psychology of money
+through theory, interaction, and assessment, helping participants build
+a practical and informed approach to today’s dynamic financial world.
 
-Department of Engineering Design
+Date: 3rd January
 
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
+Basics of Trading
 
+Basics of Trading is a hands-on introductory workshop designed to
+familiarize participants with financial markets, trading concepts, and
+analysis techniques. It covers fundamental and technical analysis,
+trading psychology, and risk management across two three-hour sessions,
+concluding with an interactive trading competition that helps
+participants apply their learning in a practical and engaging manner.
 
-Centre of Excellence for Zero Emission Trucking (CoEZET)
+Date: 6th January
 
-The Centre of Excellence for Zero Emission Trucking (CoEZET) is a nodal centre for enabling the transition to Zero Emission Trucks in our country.
+Time: 9 AM – 12 PM, 1 PM – 4 PM Venue: Online
 
-Department of Engineering Design
+Deep Learning: Hands-On Object Detection with YOLO and Transformers
 
-09:30AM|05:00PM
+Learn how machines detect objects and their locations in images and
+videos. This hands-on workshop introduces modern object detection using
+YOLO for real-time performance and transformer-based models like DETR.
+Participants will build, train, evaluate, and deploy a real-world object
+detection model.
 
-Department of Engineering Design
+Date: 4th January
 
-Computational systems biology
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-Just like humans live in communities with various groups of races, ethnicity and nationality living together, microbes also live in communities. They co-operate and compete with each other to survive in the environment. The goal of systems biology lab is to study those microbes and how they sustain in the community. How they influence humans is also one of the major goals of our lab. We have worked on gut, corals, hydrothermal vents, space, and city microbiome.
+AI ML in Healthcare
 
-Biotechnology Block,2nd Floor 201
+This introductory workshop explores causal machine learning in
+healthcare, focusing on understanding cause-and-effect beyond
+correlations. Participants will learn key concepts such as causal
+reasoning, directed acyclic graphs (DAGs), counterfactuals, and how
+these enable better healthcare decision-making.
 
-11:00AM|2:00PM|
+Date: 6th January Time: 9 AM – 12 PM Venue: IITM
 
-Department of Biotechnology
+Drone Workshop
 
-Applied Nanostructure Engineering and Nano chemistry
+This workshop introduces the fundamentals of unmanned aerial vehicles,
+including their history, types, and real-world applications.
+Participants gain hands-on experience in drone assembly, software setup,
+Arduino projects, and basic drone programming and control.
 
-We work in the area of nanomaterials for
+Date: 5th January
 
-(i) solar energy harvesting and conversion,
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-(ii) energy storage (supercapacitors, hybrid energy storage systems),
+Rocketry Workshop
 
-(iii) clean hydrogen production at low temperatures:
+This workshop introduces the fundamentals and practical applications of
+rocketry. Participants will explore rocket design and propulsion,
+followed by hands-on simulation and refinement of a sounding rocket
+using OpenRocket. The workshop also provides insights into avionics,
+control systems, payloads, and manufacturing techniques.
 
-https://sites.google.com/view/tiju-thomas
+Date: 4th January
 
-Materials Processing Section, MME, IIT Madras
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-09:00AM|05:00PM
+Full Stack Development Workshop
 
-Department of Metallurgy
+This workshop introduces the fundamentals and practical aspects of full
+stack development. Participants will explore front-end and back-end
+technologies, including user interface design, APIs, and databases. The
+workshop includes hands-on development of a complete web application
+using modern frameworks and provides insights into deployment, system
+architecture, and industry best practices.
 
-Creative Design Laboratory
+Dates: 3rd and 4th January
 
-Clay modelling and Painting
+Time: 9 AM – 12 PM, 2 PM – 5 PM Venue: IITM
 
-ED108, Ground Floor, Engineering Design Building.
+AeroFest – Boeing Aeromodelling Competition
 
-9:00AM|5:00PM
+Participants design and build high-performance model aircraft to compete
+in precision gliding, acrobatics, and long-distance flights inspired by
+Boeing’s legacy of aviation excellence. Dates: 3rd and 4th January
 
-Department of Engineering Design
+Time: 8 am to 5 pm
 
-Global Water and Climate Adaptation Centre (ABCD Centre)
+Venue: IITDM Kancheepuram
 
-The Global Water and Climate Adaptation Centre â Aachen, Bangkok, Chennai, Dresden addresses the pressing issue of humanity's adaptation to the consequences of climate change with a special focus on water. As a joint effort between leading scientific institutions, it enables a global dialogue, the transfer of research results into practice and the education of future environmental leaders.
+Robo Oceana
 
-231, 2nd floor, NAC II
+An underwater robotics challenge where teams design and deploy robots to
+navigate underwater terrains, retrieve objects, and perform precision
+tasks.
 
-9:00AM|5:00PM
+Date: 3rd January Time: 8 am to 3 pm Venue: OAT
 
-Centre of Excellence
+Glideator
 
-CODE
+An RC glider challenge testing stability, maneuverability, and control
+precision through obstacle courses relying purely on aerodynamic
+efficiency and pilot skill.
 
-A Session on opportunities within IIT Madras, which doesn't require JEE
+Date: 4th January Time: 8 am to 3 pm Venue: SAC
 
-CRC 301
+Shaastra Aerial Robotics Challenge
 
-10:00AM,2:00PM|12:00PM,4:00PM
+A flagship drone competition testing stability, agility, and control
+precision of drones navigating complex obstacle courses under manual
+control.
 
-CODE
+Date: 5th January Time: 8 am to 3 pm Venue: SAC
 
-National Technology Centre for Ports, Waterways, and Coasts
+Chanakyaneeti
 
-National Technology Centre for Ports Waterways and Coasts (NTCPWC) has established a wave basin of size 65 m x 90 m x 2 m with working water depth of 1.25m. The multidirectional wave basin is equipped with modular wave generator
+A consulting case competition where teams analyze real-world business
+problems, develop structured solutions, and present boardroom-level
+recommendations.
 
+Date: 4th January Time: 1 pm to 5 pm Venue: RJN 301
 
+Opsium
 
+A logistics strategy event where participants use AI and analytics to
+forecast demand, optimize capacity, and improve pricing efficiency and
+customer experience.
 
-that consist of 152 Wavemakers. The wavemakers consists of 19 modules, each module consists of 8 wave paddles with a 0.4m width. These modules can be interconnected or can act as a separate entity. The wavemakers can be moved anywhere inside the facility to create the basin/flume size depends upon the project requirements.
+Date: 5th January
 
-Room Number 3,4, Ground Floor, Port Centre.
+Time: 8:30 am to 12:30 pm Venue: RMN 202
 
-9:00AM|5:00PM
+Finvent
 
-National Technology Centre for Ports, Waterways, and Coasts
+A finance competition involving online quizzes, portfolio construction,
+and live simulation rounds to test financial knowledge and
+decision-making.
 
-Geomechanics Lab
+Date: 5th January Time: 1 pm to 5 pm Venue: RMN 201
 
-Advanced geomechanically characterization laboratory for soils and gas hydrates
+Dataverse
 
-Room No.139, Ground Floor, Building Sciences Block
+An analytics event where teams solve real-life business problems using
+actual data, building models and presenting data-driven insights.
 
-9:00AM | 5:00PM
+Date: 3rd January
 
-dept18
+Time: 8:30 am to 12:30 pm Venue: MSB 240
 
-INSPIRE Lab
+Upaya Kaushalya
 
-INSPIRE Lab develops robotic systems for image-guided interventions.
+A multi-stage HR strategy competition tackling real and future people
+management challenges through quizzes, case analysis, and surprise
+rounds.
 
-Engineering design department
+Date: 4th January
 
-10:00AM|01:00PM
+Time: 8:30 am to 12:30 pm Venue: RJN 302
 
-Department of Engineering Design
+Launcher
 
-MST
+A marketing competition testing fundamentals, creativity, and strategy
+through quizzes, product pitching, and real-world case analysis.
 
-Anatomy, physiology
+Date: 3rd January Time: 1 pm to 5 pm Venue: RJN 301
 
-NAC 2
+Petri Dish Challenge
 
-9:00AM|12:00PM
+A flagship wet-lab microbiology challenge where participants identify
+unknown bacterial samples using classical lab techniques.
 
-Department of Biotechnology
+Dates: 4th and 5th January Time: 9 am to 12 pm Venue: MST UG Labs
 
-DAWN Lab
+Bionics Buildoff – Design and Pitch
 
-DAWN lab works in the field of programmable networks and 5G communications field.
+An interdisciplinary design and pitch competition focused on biomimetic
+solutions inspired by biological systems.
 
-Subramanian Shankar Block (SSB) - CSE
+Date: 3rd January Time: 9 am to 12 pm Venue: KCB 134
 
-10:00AM|05:00PM
+Biobuzz
 
-dept10
+A two-stage biology-themed quiz blending logical thinking, teamwork, and
+applied biology across online and offline rounds.
 
-Mechatronics Laboratory
+Date: 2nd January Time: 10 am to 1 pm Venue: RJN 101
 
-Mobile Planetarium + Science Exhibition (Tamil Nadu Science and Technology Centre)
+Immuno Case Files
 
-Room No.107,207, Engineering Design Building
+A case study and presentation challenge focused on immune-based
+treatments against resistant microbes using real immunology research
+problems.
 
-09:00AM|05:00PM
+Date: 5th January Time: 2 pm to 5 pm Venue: RJN 101
 
-Department of Engineering Design
+The Healing Algorithms
 
-Pavement Laboratory
+A data-driven challenge where participants build AI models using real
+medical datasets to solve healthcare problems.
 
-Exploring the science behind pavement: Ensuring stronger and safer roads
+Date: 3rd January Time: 2 pm to 5 pm Venue: RJN 101
 
-Room No.103, Ground Floor, Building Sciences Block
+NeuroHack
 
-10:00AM|4:00PM
+A brain-computer interface hackathon where participants decode EEG
+signals to detect emotions and stress using neural networks and signal
+processing.
 
-dept18
+Date: 6th January Time: 8 am to 6 pm Venue: RJN 101
 
-Driving Simulator Laboratory
+BioBattle: Survival of the Fittest
 
-Showcases advanced equipment's used for driver training and safety studies.
+A biomimicry challenge where teams research, prototype, and pitch
+nature-inspired solutions to real-world problems.
 
-Room No.106 Ground Floor Building Sciences Block
+Date: 4th January Time: 9 am to 12 pm Venue: RMN 201
 
-10:00AM|4:00PM
+Robowars
 
-dept18
+A heavyweight combat robotics competition featuring international teams
+and high-intensity mechanical battles.
 
+Dates: 3rd and 4th January Time: 9 am to 6 pm
 
+Venue: OAT
 
+Caterpillar Autonomy Challenge
 
-Recycled Aggregates Laboratory
-Recycled Aggregates Laboratory: Innovating Sustainable Solutions for Tomorrow's Roads
-Room No.107B,107C, Ground Floor, Building Sciences Block
-10:00AM|4:00PM
-dept18
+A rover challenge where autonomous machines navigate simulated
+extraterrestrial terrain, testing precision navigation and construction
+tasks.
 
-Geotechnical Engineering Main Lab
-Basic physical and mechanical characterization laboratory for soils
-Room No.148 Ground Floor, Building Sciences Block
-9:00AM|5:00PM
-dept18
+Dates: 3rd and 4th January
 
-Structural Engineering Lab (SEL)
-Structural Engineering Lab (SEL@iitm) conducts research related to behaviour and design of various structures like buildings, bridges, towers, etc. using material like steel, concrete, glass, or composites. Experimental testing facilities include full-scale beam and column (600 Tonnes) testing machines, large shake table to study seismic behaviour, blast load testing, fire testing, prestressing strand testing, etc. Theoretical research includes computational mechanics, mechanical metamaterials, origami engineering, earthquake engineering, finite element studies of structures, etc.
-Ground Floor, Structural Engineering Block
-9:00AM|5:00PM
-dept18
+Time: 9 am to 8 pm on 3rd January, 9 am to 6 pm on 4th January Venue: KV
+Grounds
 
-Geo Synthetics Lab
-Physical models of geo-reinforced soils and elemental testing
-Room No.139 Ground Floor, Building Sciences Block
-9:00AM|5:00PM
-dept18
+ROBOSOCCER
 
-Rock Mechanics Lab
-Rock strength testing laboratory with advanced equipment
-Room No.127, Ground Floor, Building Sciences Block.
-9:00AM|5:00PM
-dept18
+Robotics meets football in this fast-paced battle of strategy and
+control. Participants build robots that dribble, pass, and score under
+pressure. The event combines game play, technology, and teamwork on a
+robotic football field.
 
-Environmental Engineering Lab
-Greetings! There are lots of fun filled activities at our Envi labs. Few of them are:
-Bring your 1 litre ground water and get your water quality report!
-Coke to water: A recycling journey via RO Cooking Microwave - suitable for dye removal/ water treatment too.
-Do an awesome soil health test with us.
-Check out our fantastic prototypes on BSF larvae and compost, plastic pyrolysis and Ecofert. A cool electrochemical treatment for textile effluents, Wow!
-Could incredible algae treat dairy wastewater?
-Oh no, microplastics in paper cups.
-Oops, how emerging pollutants are messing with zebrafish.
-Can your waste power up your homes - Waste to Energy Biogas plants!
-Learn about incredible constructed wetlands, amazing jar tests and impressive dual media bucket filter! A mini metaphorical model - view different components of the Earth's systems.
-And many more...
-Don't miss it!!!
-Room Nos.304,319,315,316,346,362, New Academic Complex-2
-10:00AM|5:00PM
+Dates: 2nd and 3rd January Time: Starts at 9 AM Venue: OAT
 
+ROBO GP
 
+Robo GP is a high-speed nitro RC car racing challenge where precision
+engineering meets adrenaline. Participants build, tune, and race their
+machines on a competitive track where every turn, drift, and millisecond
+matters.
 
+Date: 2nd January Time: 9 AM to 6 PM Venue: KV Grounds
 
-dept18
+ROBORUN
 
-Scanning Electron Microscopy
-Visually seeing the tiny features which are ranging in size less than the thickness of the hair to atoms
-MSB 103A,Ground Floor, Mechanical Sciences Block
-9:00AM|5:00PM
-Department of Metallurgy
+Race autonomous line-following robots that rely on speed, precision, and
+logic. Robots must make split-second decisions on a dynamic track.
+Simple in concept but intense in competition, only the smartest robot
+wins.
 
-Hydraulics and water resources engineering lab
-This lab conducts experiments to understand the flow, measurement, and dynamics of water in open channels and pipes.
-New Academic Complex-2, 14B, Ground Floor
-9:00AM|5:00PM
-dept18
+Date: 6th January Time: 9 AM to 5 PM Venue: SAC
 
-Mechanical performance of Civil Engineering Materials (MPCEM) Lab
-The Mechanical Performance of Civil Engineering Materials (MPCEM) Lab is a specialized laboratory designed to assess the strength, durability, and overall performance of various construction materials used in civil engineering. This lab focuses on testing materials such as concrete, steel, and composites to evaluate their mechanical properties under different conditions. Common tests conducted in the lab include tensile strength, compressive strength, fatigue, and impact testing. The lab is equipped with state-of-the-art instruments, including universal testing machines, and compression testers, enabling precise analysis of material behaviour. Research and experiments in this lab are crucial for ensuring the structural integrity, safety, and longevity of engineering projects. The results inform material selection, design optimization, and the development of new materials and construction methods.
-101A, Ground Floor, Building Sciences Block
-10:00AM|5:00PM
-dept18
+IGNITE
 
-Casting Yard
-The lab will provide hands-on experience related to construction materials such as cement, aggregate, concrete.
-Ground Floor, Building Sciences Block
-10:00AM|5:00PM
-dept18
+Mind Marathon (Shaastra Juniors Event)
 
-VR Lab
-The lab develops Virtual Reality Scenarios for Construction site and leverages the technology to design training programs for construction workforce.
-BSB 207, First Floor, Building Sciences Block
-11:00AM|5:30PM
-dept18
+Shaastra Juniors offers quizzes, problem-solving challenges, and
+interactive sessions designed to spark curiosity and creativity among
+school students. Participants enjoy a fun and rewarding experience that
+connects classroom learning to real-world applications and nurtures
+critical thinking and interest in STEM.
 
+Date: 2nd January Time: 9 AM to 11 AM Venue: RJN 102
 
+ESCAPE ROOM
 
+A high-energy interactive challenge that tests logical reasoning,
+analytical thinking, and teamwork under time pressure. Teams solve
+interconnected puzzles and clues within a themed environment to escape
+before time runs out, blending strategy, creativity, and
+problem-solving. Dates: 2nd, 3rd, and 4th January
 
-# Shaastra Future Cities Summit
+Time: 9 AM to 4 PM Venue: Raman
 
-## Preface
+MOOT COURT
 
-We proudly present the Shaastra Future Cities Summit. The summit serves as a platform where visionaries, professionals, and enthusiasts converge to navigate the intricate landscape of future cities. This conference is a collective endeavor to shape the future of urban spaces.
+Participants step into the role of lawyers in Shaastra’s Moot Court
+Competition, one of the premier events of the fest. From drafting
+persuasive memorials to delivering compelling oral arguments, teams
+engage in intense simulated court proceedings demanding intellect,
+strategy, and articulation.
 
-Our distinguished lineup of speakers, thought leaders, and experts spans the vast spectrum of technology, law, architecture, urban planning, and sustainability. Through engaging lectures, panel discussions, fireside chats, and interactive workshops, we aim to foster a dynamic dialogue that transcends disciplinary boundaries.
+Dates and Times:
 
-----
+2nd January: 2 PM to 5 PM 3rd January: 9 AM to 6 PM 4th January: 9 AM to
+12 PM
 
-## Schedule Overview
+Venues: MCR Hall Library, HSB (IIT Madras), ICSR (IIT Madras)
 
-### Day 1: January 4th
+SHAASTRA MAIN QUIZ
 
-* **9:30 AM to 10:30 AM:** Verification, ID card distribution, and Inauguration Ceremony
+A flagship quiz event that challenges participants with tough questions
+in science and technology. Teams battle it out to showcase their
+quizzing skills against some of the brightest minds.
 
-* **10:30 AM to 11:30 AM:** Lecture: "Integration of Industry Partners with Academic Institutions in the Planning and Development of Smart and Future Cities"
+Date: 4th January
 
-    o *Speaker:* Mr. Kok-Chin Tay, Chairman, Smart Cities Network
+Time: 9 AM to 12 PM and 2 PM to 5 PM Venue: KCB
 
-* **11:30 AM to 12:30 PM:** Lecture: "Low Carbon Computer Coding - The Future of Sustainability"
+SHAASTRA BIZ QUIZ
 
-    o *Speaker:* Mr. Ian Chew, Founder, Greenie Web
+A quiz designed to test business knowledge while offering an engaging
+and fun quizzing experience. Ideal for participants interested in
+learning about business concepts and real-world business stories.
 
-* **12:30 PM to 1:30 PM:** Networking Lunch
+Date: 3rd January
 
-* **1:30 PM to 2:30 PM:** Lecture: L&T Representative
+Time: 9 AM to 12 PM and 2 PM to 5 PM Venue: KCB
 
-* **2:30 PM to 3:30 PM:** Lecture: Ms. Aswathy Dilip, Managing Director, ITDP India
+CUBE OPEN
 
-* **3:30 PM to 4:30 PM:** Panel Discussion: "Reimagining Urban Futures: Mobility and Technology"
+A speed-cubing competition that challenges precision, memory, and speed.
+Events include 3x3, 2x2, 4x4, one-handed solving, skewb, and team relay.
+Participants compete against top cubers under pressure.
 
-    o *Panelists:* Dr. Ashish Verma, Dr. Satya Chakravarty, Ms. Aswathy Dilip, L&T Edutech Representative
+Date: 5th January Time: 9 AM to 1 PM Venue: Gymkhana
 
-* **4:30 PM to 6:00 PM:** Workshop: Astrikos AI
+INTURN
 
-### Day 2: January 5th
+An initiative that connects students across departments with professors’
+labs for research internships in a single day. The process is designed
+to be fast, smooth, and impactful, opening doors to research
+opportunities.
 
-* **9:30 AM to 10:30 AM:** Fireside Chat: Mr. Steven Metzler and Ms. Julia McCarthy
+Date: 6th January Time: 9 AM to 3 PM Venue: NAC 2
 
+CODING AND LOGIC
 
+Shaastra Programming Contest
 
+An annual competitive coding contest focused on algorithmic thinking and
+problem-solving. Hosted on platforms like CodeChef and Codeforces, it
+attracts participants from institutions across India competing for top
+ranks.
 
-• **10:30 AM to 11:30 AM:** Lecture: "AI-Driven City Unified Operations"
-    ○ *Speaker:* Dr. Chinmay Hegde, CEO, Astrikos AI
+Date: 5th January Time: 1 PM to 5 PM Venue: RMN 101
 
-• **11:30 AM to 12:30 PM:** Lecture: "Resilient Cities and Human-Centered Approach"
-    ○ *Speakers:* Mr. Shravan Bendapudi and Mr. Aditya Goel, Gensler
+CP POTPOURRI
 
-• **12:30 PM to 1:30 PM:** Networking Lunch
+A unique coding challenge featuring a mix of programming styles such as
+code golfing, debugging, and traditional competitive programming. The
+contest includes strategy-based rounds, puzzles, and riddles,
+culminating in finals with the same structure as prelims. Date: 3rd
+January
 
-• **1:30 PM to 3:00 PM:** Event by the Centre of Excellence for Road Safety
+Time: 10 AM to 1 PM Venue: RJN 101, 102
 
-• **3:00 PM to 4:00 PM:** Lecture: Dr. Satya Chakravarty
+REVERSE CODINGX
 
-• **4:00 PM to 5:30 PM:** Panel Discussion: "Planning Resilient and Sustainable Future Cities: The Role of Public-Private Collaboration in Energy Systems"
-    ○ *Panelists:* Dr. Chinmay Hegde, Dr. Ashwin Mahalingam, Dr. Prashant Anand, Ms. Surjyatapa Ray, Surana & Surana Representative
+A logic-focused event that tests participants through unconventional
+logical problems and reverse-coding challenges. Finals are entirely
+based on reverse coding.
 
-## Day 3: January 6th
+Date: 2nd January Time: 10 AM to 12 PM Venue: RJN 201, 202
 
-• **9:30 AM to 11:30 AM:** Workshop: Gensler
+WEIRD CHESS
 
-• **11:30 AM to 12:30 PM:** Lecture: "Net Zero for Buildings and Built Environment"
-    ○ *Speaker:* Mr. Sampath Kumar, Counselor, CII-IGBC
+An unconventional chess event that tweaks traditional rules to make the
+game more interesting and fun. Known as India’s biggest unreal chess
+event, it challenges players with creative rule changes.
 
-• **12:30 PM to 1:30 PM:** Lecture: "Disaster Recovery in Cities"
-    ○ *Speaker:* Ms. Suchismita Goswami, PhD Fellow, University of Copenhagen
+Date: 6th January Time: 9 AM to 12 PM Venue: Gymkhana
 
-• **1:30 PM to 2:30 PM:** Networking Lunch
+QUANTATHON
 
-• **2:30 PM to 3:30 PM:** Lab Tours
+A problem-solving competition emphasizing logical reasoning,
+probability, and statistical understanding. Participants tackle
+mind-stimulating questions that test quantitative aptitude and
+analytical creativity.
 
-• **3:30 PM to 4:30 PM:** Expo Tour
+Date: 2nd January Time: 2 PM to 4 PM Venue: RJN 301, 302
 
-• **5:00 PM to 6:00 PM:** Closing Ceremony
+CAPTURE THE FLAG
 
-----
+A cybersecurity challenge beginning with a mock round followed by a main
+three-hour CTF. Participants solve challenges involving cryptography,
+web exploitation, reverse engineering, and forensics to uncover the
+final message.
 
-## Highlights
+Date: 6th January Time: 2 PM to 5 PM Venue: RJN 101
 
-### Day 1 Highlights
+E-CONTEST
 
-• Kick-off with an impactful Inauguration Ceremony
+A coding contest based on esoteric programming languages. Participants
+solve problems using less common languages, with instructions provided
+beforehand. The contest emphasizes logic and problem-solving rather than
+prior language knowledge.
 
-• Keynote lecture by Mr. Kok-Chin Tay on integrating industry with academic institutions for future city planning.
+Date: 5th January Time: 9 AM to 12 PM Venue: KCB 204
 
-• Inspiring sessions on sustainability and urban mobility.
+QUANTIFIED DILEMMA
 
-• Workshop by Astrikos AI focusing on cutting-edge applications in urban planning.
+A strategic event blending game theory, decision science, and
+psychology. Participants face challenges such as auctions and
+negotiation scenarios that test intuition, adaptability, and strategic
+thinking under uncertainty.
 
-### Day 2 Highlights
+Date: 3rd January Time: 2 PM to 5 PM Venue: RJN 302
 
+APPIN AI APPLICATION CHALLENGE
 
+We are excited to announce the national Appian AI Application Challenge,
+a premier event at Shaastra 2026, the annual technical festival of IIT
+Madras. This competition offers students a unique platform to develop
+innovative AI-driven solutions to real-world problems, in collaboration
+with Appian, a leader in process automation and AI integration.
 
+Date: 6th January
 
-• Fireside chat exploring visionary concepts in future cities.
+Time: 2:30 PM to 6:30 PM Venue: RJN 102
 
-• Insights into AI-driven city operations and resilient city design by Gensler experts.
+SOLIDWORKS AI HACKATHON
 
-• Panel discussions on public-private collaboration in energy systems.
+The SOLIDWORKS AI Hackathon, sponsored by Dassault Systemes, challenges
+students to build machine learning models that identify and count
+mechanical components from images. Blending real-world engineering
+problems, participants compete through online rounds and an on-campus
+finale judged by Dassault Systemes experts at IIT Madras.
 
-**Day 3 Highlights**
+Date: 3rd January
 
-• Workshop by Gensler on practical approaches to resilient city planning.
+Time: 9:00 AM to 12:00 PM Venue: RJN 302
 
-• Lectures on Net Zero for buildings and disaster recovery strategies.
+VISA 24 HR AI HACKATHON
 
-• Immersive lab tours and expo showcasing innovations in urban development.
+Participants can choose from four problem statements spanning machine
+learning and software development. This hackathon offers a high-energy
+competitive environment to tackle real-world challenges, collaborate
+with peers, and build impactful solutions within a tight deadline.
 
-----
+Dates: 4th and 5th January Time: 9:00 AM to 5:00 PM Venue: RMN 301
 
-**Notable Speakers**
+SYNAPTIX FRONTIER AI HACK
 
-• **Mr. Kok Chin Tay:** Chairman, Smart Cities Network. Expertise in smart city development across ASEAN nations.
+The Synaptix Frontier AI Hack explores post-transformer era technology
+that goes beyond the memory limitations of current large language
+models. Powered by Pathway on NVIDIA infrastructure, this challenge
+focuses on frontier AI applications rather than conventional
+wrapper-based hackathons.
 
-• **Ms. Aswathy Dilip:** South Asia Director, ITDP, specializing in sustainable and inclusive urban mobility.
+Date: 5th January Time: From 9:00 AM Venue: RJN 101
 
-• **Mr. Shravan Bendapudi & Mr. Aditya Goel:** Gensler leaders in workplace design and resilient city strategies.
+BNY SERVICE DESIGN JAM 2026
 
-• **Ms. Suchismita Goswami:** PhD Fellow, University of Copenhagen, focused on urban disaster recovery.
+Organised by Bank of New York, this collaborative and intensive
+hackathon focuses on creating innovative solutions through
+action-oriented design. The emphasis is on researching, ideating, and
+rapidly prototyping user-centric solutions by engaging directly with
+real users.
 
-• **Mr. Sampath Kumar:** CII-IGBC, expert in carbon-neutral urban development.
+Date: 3rd January Time: From 9:30 AM Venue: RMN 301
 
-----
+FEDEX SMART HACKATHON
 
-**Esteemed Partners**
+This hackathon challenges participants to rethink how overdue customer
+accounts are managed through debt collection agencies. The focus is on
+designing a centralized, transparent digital solution to improve
+tracking, accountability, and collaboration for better recovery
+outcomes. Date: 31st January
 
-Our partners are pivotal to the success of the Shaastra Future Cities Summit, bringing expertise, resources, and vision to this transformative event.
+Time: 9:00 AM to 1:00 PM Venue: CRC 101
 
-**\*\*Expo\*\***
+ELECFEST EVENTS
 
-Advanced technologies such as AI/ML, Cloud Computing, Blockchain, and Augmented Reality are revolutionizing the landscape of Industry 4.0. The integration of such technologies into manufacturing plants is leading to the transformation of industries into â smart factories.
+ELECKART
 
-The Exposition (Expo) at IndustriAI offers a platform for companies, particularly startup ventures, to showcase pioneering innovations and disruptive technologies in smart manufacturing. This presents a unique opportunity for companies to elevate their brand, network with industry leaders, and boost their visibility in the market.
+ElecKart is a digital circuits challenge where participants face two
+rounds of
 
-The organizing team invites companies and emerging startups to exhibit their products/services, working prototypes, or promote via digital marketing. The conference presents a scope for potential partnerships and collaborations, capturing investor interest, and securing financial support.
+question-and-answer testing their knowledge of digital circuits, circuit
+design, and HDL. Finalists receive a problem statement and must build a
+circuit against time while managing point deductions for components
+used.
 
-**\*\*Paper submission guidelines\*\***
-Full Paper Submission
-General Instructions
+Date: 3rd January
 
+Time: 2:00 PM to 5:30 PM
 
+Venue: Annex Lab, ESB 2, IIT Madras
 
+EMBEDDED PROGRAMMING CHALLENGE
 
-- Only those authors whose abstracts are accepted for the conference, are eligible to submit full paper. 
-- The paper must be presented at the conference in-person by one of the listed authors (preferably the presenting author), in order to be considered for review. If the paper is not presented at the conference, it will not be considered for the proceedings. 
-- It is mandatory for the presenting author to register for the conference, before the registration deadline. Authors are not allowed to present their paper without registration. 
-- Co-authors (authors excluding the presenting author) who are listed in the paper, but are not presenting the paper at the conference; have the option of attending the conference as a delegate. However, a co-author needs to register for the conference if he/she chooses to attend.
-- Registrations can be done via the link:
+This hands-on competition tests participants’ ability to design and
+program embedded systems. The challenge focuses on real-time problem
+solving using microcontrollers, sensors, and peripherals, emphasizing
+practical embedded skills over theoretical knowledge.
 
-https://industriai.shaastra.org/register
+Date: 4th January
 
-Upon successful registration, authors will be advised on the next steps: payment of registration fees, verification, etc. via email. 
-- Each paper will be reviewed by the technical committee. Reviews are traditional single-blind peer reviews where the identity of the reviewer is not visible to the author(s). Note: All submissions will be screened for plagiarism as part of the review process. 
-- Only those papers which are selected upon completion of the peer review procedure, will be published in the conference proceedings.
+Time: 9:00 AM to 12:00 PM
 
-Guidelines for Paper submission
+Venue: Annex Lab, ESB 2, IIT Madras
 
-- All submissions must be written in English.
-- All papers must be original, unpublished work. Papers either submitted or published at other international/national conferences, symposia, or journals; will NOT be considered. 
-- All papers must be submitted via the official website:
+SIGNAL QUEST
 
-https://industriai.shaastra.org/ Submissions via email or other modes will NOT be accepted. 
-- The length of the paper should not exceed 10 pages; including all text, tables, figures, and references. Authors are encouraged to use the recommended space to explain their work in a concise and effective manner. Note: A page refers to A4 standard size.
-- Authors can refer to this template for preparing their papers.
-- Papers must be submitted in PDF format.
+Signal Quest focuses on digital signal processing concepts such as
+sampling, filtering, Fourier analysis, and system behavior. Participants
+apply DSP theory to analytical problem statements, highlighting the
+importance of signal processing in modern engineering systems.
 
-Info to be entered in the website
+Date: 4th January
 
-- Abstract number, Presenting author, Designation, email, Affiliation, Contact number
-- Add option for adding co-authors,
-- Title of the paper,
-- Upload abstract acceptance proof (screenshot/mail in PDF),
-- Upload manuscript in PDF,
+Time: 2:00 PM to 5:00 PM
 
+Venue: Annex Lab, ESB 2, IIT Madras
 
+REVERSE ENGINEERING CHALLENGE
 
+This event focuses on understanding, diagnosing, and improving existing
+electronic systems. Participants analyze circuits to identify faults,
+hidden design choices, and performance issues, emphasizing logical
+reasoning and system-level troubleshooting.
 
-**IndustriAI: An International Research Conference on Smart Manufacturing**
+Date: 5th January
 
-Tentative Agenda
-5 January 2025
+Time: 2:00 PM to 5:00 PM
 
-Time slot Program/Event
+Venue: Annex Lab, ESB 2, IIT Madras
 
-8.30 AM - 9 AM Distribution of welcome kit to delegates
-9 AM - 9.15 AM Introductory remarks
-9.15 AM - 9.30 AM Welcome Address
-9.30 AM - 9.45 AM Address by Director and introduction to Chief Guest
-9.45 AM - 10 AM Inauguration of Conference by Chief Guest and other dignitaries; lighting of lamp
-10 AM - 10.20 AM Address by Chief Guest
-10.20 AM - 10.30 AM Vote of thanks
-10.30 AM - 11 AM High tea & Networking
-11 AM - 12 PM Keynote lecture 1
-12 PM - 12.30 PM Plenary talk 1
-12.30 PM - 1 PM Plenary talk 2
-1 PM - 2 PM Networking lunch
-2 PM - 3 PM Panel discussion 1
-3 PM - 4.30 PM Oral presentation session
-4.30 PM - 5 PM Tea and refreshments
-5 PM - 6.30 PM Poster presentation session & Expo/product showcase
+SHAASTRA SMART CITY CHALLENGE
 
-6 January 2025
+This challenge focuses on developing technology-driven solutions for
+urban problems using IoT, sensing, automation, and data-driven
+approaches. It addresses real-world challenges related to sustainability
+and smart infrastructure while encouraging interdisciplinary innovation.
 
-Time slot Program/Event
+Date: 5th January
 
-8.30 AM - 9 AM Plenary talk 3
-9 AM - 9.30 AM Plenary talk 4
-9.30 AM - 10.30 AM Keynote lecture 2
-10.30 AM - 11 AM High tea
-11 AM - 11.30 PM Plenary talk 5
-11.30 AM - 12 PM Plenary talk 6
-12 PM - 1 PM Panel discussion 2
-1 PM - 2 PM Networking lunch
-2 PM - 4.30 PM Oral presentation session
-4.30 PM - 5 PM Tea and refreshments
-5 PM - 6.30 PM Poster presentation session & Expo/product showcase
+Time: 9:00 AM to 12:00 PM Venue: RJN 202
 
-7 January 2025
+ANALOG CIRCUIT DESIGN CHALLENGE
 
-Time slot Program/Event
+The flagship Elecfest event at Shaastra, this challenge focuses on
+real-world analog system design. Participants work with operational
+amplifiers, filters, and feedback networks to solve engineering problems
+while emphasizing robustness, performance analysis, and
 
-8.30 AM - 9 AM Plenary talk 7
-9 AM - 9.30 AM Plenary talk 8
-9.30 AM - 10.30 AM Keynote talk session 3
-10.30 AM - 11 AM High tea
-11 AM - 12 PM Industry talk
-12 PM - 1 PM Panel discussion 3
-1 PM - 2 PM Networking lunch
-2 PM - 4.30 PM Tour of IITM Research Park
-4.30 PM - 5 PM Tea and refreshments
-5 PM - 6.30 PM Valedictory function and Prize distribution
+industry-relevant practices. Date: 6th January
 
+Time: 9:00 AM to 12:00 PM
 
+Venue: Annex Lab, ESB 2, IIT Madras
 
+ENVISAGE
 
-** SHOWS**
+Rewind reality. Reboot the fun.
 
-Tech Entertainment Night:
-Tech-Entertainment Night is a sonic kaleidoscope, blending techno's essence into a vibrant mix of beats, melodies, and boundless energy featuring EDM artist Karan Kanchan and International DJ Camilla. It wove together beams of vibrant hues, creating an extraordinary experience that captivated the audience.
-Artists: Karan Kanchan, Camilla Lynx
-Venue: OAT, IIT Madras
-Date: 5th January 2025
-Duration: 2hrs 30min
+Welcome to Shaastra 2026. Envisage presents an immersive journey through
+three dynamic zones, transforming the charm of retro gaming into a
+spectacle of innovation and creativity.
 
-Comedy Night:
-Shaastra Comedy Night features a diverse lineup of talent, each bringing their unique perspective and style to the mic. From relatable everyday experiences to absurd observations, our comedians will have you laughing out loud. Featuring Standup Comedian Gurleeen Pannu
-Artist: Gurleen Pannu
-Venue: SAC, IIT Madras
-Date: 6th January 2025
-Duration: 40 to 55mins
+SHOW
 
+Envisage Show: The Pixel Paradox
 
+A fully student-run techno-entertainment spectacle featuring
+gaming-inspired visuals, immersive effects, and an electrifying laser
+show with TRON-style dance elements. The experience blends retro pixel
+aesthetics with modern technology to create a glitch-filled, high-energy
+performance. Date: 3rd January
 
+Time: 6 PM to 7 PM Venue: SAC
 
-**Accommodation Rules**
+TECH ZONE
 
-Hospitality Policy Document
+Tech Zone Hardware Hacks and Power-Ups
 
-Registration and Accommodation Allocation
+A showcase of interactive hardware projects designed to entertain and
+inspire. The Tech Zone features innovative gadgets, experimental
+devices, and arcade-inspired technology projects that blend hands-on
+engineering with entertainment.
 
-1. Registration for accommodation will be based on a first-come, first-serve basis via online registration.
+GAME ZONE
 
-2. Accommodation will only be given to teams/individuals whose accommodation has been confirmed via the online registration process.
+Game Zone offers a collection of immersive and innovative games built by
+the team. Experiences range from VR-based adventures to creative
+gameplay challenges. The zone is designed to provide engaging challenges
+for players of all skill levels, encouraging exploration, creativity,
+and competition.
 
-NOTE: The accommodation is charged on basis of per person and not per room, so for one day's booking, one person's accommodation is booked. You can't share a room with your friend/team mate if they have registered for accommodation, you will be given accommodation only if booked for yourself
+SPOTLIGHT LECTURES
 
-NOTE: The accommodation costs 850 for the first day you check in and costs 750 for every subsequent day you renew your stay. For example, staying for one day costs 850 Rs while staying for three days cost 850+750+750 Check-In and Stay Duration
+The Spotlight Lecture Series (SLS) is Shaastra, IIT Madras’ flagship
+platform where science, technology, and human stories converge. Each
+year, the series brings together pioneers from diverse fields including
+science, technology, entrepreneurship, governance, and public policy.
+Through keynote lectures, fireside chats, and live demonstrations, SLS
+presents complex ideas in an accessible and engaging manner, fostering
+dialogue and inspiration among students and experts.
 
-3. Participants will not be allowed to occupy rooms beyond the dates for which they have registered. Irrespective of when the participant checks in, one day will be counted until the following day at 7:00 AM. Beyond this time, participants must vacate or pay for the next day.
+Over the years, speakers have included aerospace scientist and former
+ISRO engineer Nambi Narayan, former President of India Ram Nath Kovind,
+entrepreneur Arokiaswamy Velumani, business leader Vineeta Singh,
+parliamentarian Shashi Tharoor, and Olympic gold medalist Carolina
+Marín.
 
-NOTE: Even if you are checking in at 4 AM on one night, you will be paying the price of a full day till the same day's 7 AM even though it's only 3 hours and the next day's charges starts at 7 AM and are valid till the next day's 7 AM for the next 24 hours. Similarly, you cannot Check In the night / early morning before your booked slot starts unless you pay for the previous day ID Verification
+SPOTLIGHT LECTURE SCHEDULE
 
-4. Participants need to carry an Original or Xerox of their college ID card and Government ID proof (Aadhar, PAN). Legal Online ID like Digi Locker is also accepted. Failure to do so may result in denial of accommodation.
+Dr. S. Jaishankar
 
-Accommodation Details
+Venue: SAC (Student Activity Centre) Date: 2nd January
 
-5. Participants would necessarily need to share accommodation if asked to. Single rooms will not be guaranteed. Large teams or teams from the same college may or may not be put up in the same rooms.
+Time: 10 AM to 11 AM
 
-6. Lodging facilities are provided for all Shaastra 2025 participants who have confirmed their registration with Hospitality only through the website. Hospitality Token and Food Facilities
+Ms. Nigar Shaji
 
-7. A Hospitality Token will be issued to all the outstation participants who have availed of accommodation at the Hospitality Control room which can be traded in for room keys in the allocated Hostels.
+Venue: CLT (Centre Lecture Theatre) Date: 2nd January
 
-8. In case of loss of the Hospitality Token, a new one will be issued against the total payment required for the same.
+Time: 4 PM to 5 PM
 
+Dr. Ashok Khemka
 
+Venue: CLT (Centre Lecture Theatre) Date: 3rd January
 
+Time: 11 AM to 12 PM
 
-9. We will be providing complimentary breakfast everyday opted in for rooms, but Lunch and Dinner have to be purchased at the Shaastra's Food Stalls.
+Dr. Vidita Vaidya
 
-Refund and Cancellation Policy
+Venue: CLT (Centre Lecture Theatre) Date: 3rd January
 
-10. No refund is possible for the accommodation under general circumstances and is not encouraged. General Guidelines
+Time: 2 PM to 3 PM
 
-11. Participants are responsible for any damage/theft found in their allocated room. Anything found against the rules inside the room will be considered as the possession of the participants.
+Dr. Milan Patnaik
 
-12. Possession and consumption of alcohol, tobacco-based products and narcotics in any form is strictly prohibited. If reported, the participant status of the person will be ipso facto null and void, and the case will be severely dealt with.
+Venue: CLT (Centre Lecture Theatre) Date: 3rd January
 
-13. Valuable items should not be kept along with the luggage in the room. Shaastra 2025 will not be responsible for any loss or damage of property. Please secure your belongings and put your details on the same.
+Time: 4 PM to 5 PM
 
-14. Accommodation for Shaastra 2025 will be provided from 3rd January - 8th January. No requests for accommodation earlier or later than the above-mentioned dates will be entertained. Check-in will be allowed only until 7th January 2025, and participants must check out by 8th January 2025.
+Mr. Anil Ananthaswamy
 
-Legal and Security
+Venue: CLT (Centre Lecture Theatre) Date: 4th January
 
-15. In the event of a lost key or lock, the individual will be responsible for covering the associated replacement costs.
+Time: 11 AM to 12 PM
 
-16. It's the same case for any items provided by Shaastra including mattress and pillows, loss of item is supposed to be repaid by the individual
+Dr. Bharat Balasubramanian
 
-Important Details
+Venue: CLT (Centre Lecture Theatre) Date: 4th January
 
-17. Boys (irrespective of age, including babies) are strictly not allowed in the girl's hostel in any case, even to stay with their parent/guardian. It's the same case for girls not being allowed into the boy's hostel.
+Time: 2 PM to 3 PM
 
-18. Accommodation fees are to be paid irrespective of age of the occupant, including babies and toddlers as it is considered as a registration
+Dr. Atul Gurtu
 
+Venue: CLT (Centre Lecture Theatre) Date: 5th January
 
+Time: 11 AM to 12 PM
 
+Prof. Subra Suresh
 
-**Locations**
+Venue: CLT (Centre Lecture Theatre) Date: 5th January
 
-Campus Cafe (CC): https://maps.app.goo.gl/CEt9PNfJtNrKjTwG8
+Time: 2 PM to 3 PM
 
-Central Electronics Centre (CEC): https://maps.app.goo.gl/tPfmnYcZV5b4V8yZA
+Prof. Jeffrey Ullman
 
-Class Room Complex (CRC): https://maps.app.goo.gl/uTs6FanKCp2qHQQP9
+Venue: CLT (Centre Lecture Theatre) Date: 6th January
 
-Himalaya Food Court (HFC): https://maps.app.goo.gl/aQGoXp9os79oasx77
+Time: 11 AM to 12 PM
 
-Open Air Theatre (OAT): https://maps.app.goo.gl/MWWfZjNYYQNLKoJGA
+Prof. Spenta Wadia
 
-Central Lecture Theatre (CLT): https://maps.app.goo.gl/gesC3WEokDWxMbUM8
+Venue: CLT (Centre Lecture Theatre) Date: 6th January
 
-Gajendra Circle (GC): https://maps.app.goo.gl/bgzUnnARY7i6vzZt8
+Time: 2 PM to 3 PM
 
-Ramanujan Block (RJN) : https://maps.app.goo.gl/G8pjMXtCnEpGLKsF9
+HEAR4YOU – SHAASTRA 26 SOCIAL CAMPAIGN
 
-Student Activity Centre (SAC): https://maps.app.goo.gl/3sUJeNWgqMGF1SS49
+Hear4You is Shaastra’26’s social campaign, initiated with a simple
+question: how many people struggle to hear yet go unnoticed?
 
-Centre for Industrial Consultancy and Sponsored Research (ICSR):
-https://maps.app.goo.gl/C9BnM8GWs5Enhe4v8
+Hearing health is often ignored until it becomes irreversible, even
+though most cases are preventable. Hear4You aims to break this silence
+by spreading awareness early, building empathy, and creating support
+systems so that hearing disability never becomes a barrier to
+communication, dignity, or opportunity.
 
-New Academic Complex 1 (KCB):
-https://maps.app.goo.gl/PqEHNkXomTfizyeR7
+Over recent months, the campaign has taken meaningful steps. One
+initiative, Hear2Heart, brought students from Clarke School for the Deaf
+to IIT Madras for a day of shared activities and connection.
 
-New Academic Complex 2: https://maps.app.goo.gl/KyvQHGUUr5Hg8dLEA
+Indian Sign Language Day was celebrated in collaboration with the Hear
+Million Foundation, bringing together nearly 500 deaf participants. The
+event featured ISL performances, cultural showcases, and stalls run by
+deaf-led businesses.
 
-Raman Block (RMN): https://maps.app.goo.gl/5P5mXTf4Nt88yXNG9
+The Hear4You 5K Run became the campaign’s largest public engagement
+event, bringing participants together in an act of awareness and
+solidarity. Flagged off by Jerlin Anika, a three-time Deaflympics
+badminton gold medalist and Arjuna Awardee, the run sparked
+conversations around hearing health and accessibility.
 
-Kendra Vidyalaya Grounds (KV): https://maps.app.goo.gl/qveSLuJa1mQ8vttXA
+CORPORATE LECTURE SERIES – INDUSTRY INSIGHTS
 
-Gymkhana : https://maps.app.goo.gl/1htEyR4UPkMXnghv8
+Shaastra presents the fourth edition of Industry Insights, an exclusive
+lecture series bringing participants face-to-face with industry leaders
+from companies such as KLA, IDFC First Bank, Bajaj Auto, and more.
 
-DOST(UTIL) : https://maps.app.goo.gl/AVj7Ef85a9LvhGmk9
+These sessions provide insights into groundbreaking technologies and
+innovative solutions shaping the future. Participants can network and
+learn directly from professionals tackling today’s most pressing
+challenges.
 
-Room Number 3,4, Ground Floor, Port Centre, National Technology Centre for Ports, Waterways, and Coasts :
-https://maps.app.goo.gl/xdwZqX7WBJ2w1geb7
+INDUSTRY INSIGHTS SCHEDULE
 
-**Departments:**
+3rd January
 
-Humanities Sciences Block (HSB):
+Caterpillar – 8 AM to 9 AM – ICSR Hall 3 KLA – 10 AM to 11 AM – ICSR
+Hall 3
 
-https://maps.app.goo.gl/FhcH1xPArEK91oZy8
+IDFC First Bank – 12 PM to 1 PM – ICSR Hall 3
 
-Mechanical Sciences Block (MSB):
+IITM FedEx SMART Centre – 2 PM to 3 PM – ICSR Hall 3
 
-https://maps.app.goo.gl/t8BQLkW6p3HdMt8r9
+4th January
 
-Ocean engineering (OE):
+DigiKey – 11 AM to 12 PM – ICSR Hall 2
 
-https://maps.app.goo.gl/JR356SkQPUA4DUHi9
+5th January
 
+Appian – 11 AM to 12 PM – ICSR Hall 3 BNY – 12 PM to 1 PM – ICSR Hall 3
+Bajaj – 3 PM to 4 PM – ICSR Hall 3
 
+DIGITAL GOVERNANCE SUMMIT
 
+The Digital Governance Summit is Shaastra’s flagship three-day
+conference bringing together innovators, government leaders, industry
+experts, and think tanks to shape the future of governance.
 
-Bio Technology (BT):
+The summit focuses on Digital Public Infrastructure, AI-driven policy
+systems, cybersecurity, and digital platforms redefining public services
+and citizen experience. It includes keynote lectures, panel discussions,
+and certified industry-led workshops.
 
-https://maps.app.goo.gl/eeJUCuvym6m3udWW9
+DIGITAL GOVERNANCE SUMMIT FEATURES
 
-Engineering Design (ED):
+Lectures and case presentations by leaders shaping India’s digital
+systems, including speakers from Google, MOSIP, and Global Policy
+Insights.
 
-https://maps.app.goo.gl/7WgvfLQN6gWDECoSA
+Workshops include Data Empowerment and Digital Architecture (DEPA),
+Child Safety and AI, and Dhruva: The Digital Address DPI, offering
+insights into large-scale digital governance systems.
 
-Aerospace (AE):
+ENREACHENREACH is a student initiative aimed at democratizing
+technology. It focuses on bridging the gap between innovation and
+accessibility, ensuring that technology reaches communities and creates
+meaningful impact.
 
-https://maps.app.goo.gl/tdjND22TmiGArAn1A
+DIGITALIZE: TECHNOLOGY ROADMAP SESSION
 
-Building Sciences Block (BSB): https://maps.app.goo.gl/sw6F9Wtvs2iHGtLi9
+Built a business? Now build the tech behind it.
 
-Structural Engineering Block:
+Digitalize focuses on helping organisations identify digital gaps,
+assess their digital maturity, and take confident first steps toward
+building their technological backbone.
 
-https://maps.app.goo.gl/7WgvfLQN6gWDECoSA
+The session will feature a talk by Walmart, offering insights into their
+software tools and AI integration. It will also include talks by CeDISI
+and tech experts, who will cover topics such as workflow automation and
+low-code/no-code tools, along with real-world case studies of SMEs they
+have guided through digital transformation challenges.
 
-Subramaniam Shankar Block (SSB):
+The session offers insights from:
 
-https://maps.app.goo.gl/VJjkrVknRGpYEsDU6
+Dr. Kavitha M: Post-Doctoral Research Fellow, IIT Madras at Walmart
+Center for Tech Excellence
 
-Materials Processing Section, MME:
+Gowri Shankar: Senior Project Officer, WCTE – Walmart Center for Tech
+Excellence
 
-https://maps.app.goo.gl/uy7XyfM7JosZBHn66
+Piyush Singh: Entrepreneur, Author and Global Speaker on FinTech and
+MSME Digitalisation
 
-IE lab: https://maps.app.goo.gl/J8R4RdUQcNVqz9J19
+Kasthuri Rangan Bhaskar: Vice President of Products at BCT Digital,
+working on AI use cases for BFS
 
-Hockey Ground: https://maps.app.goo.gl/N2sug5MuHDB4Z9ne8
+Alok Ranjan: Co-Founder and Partner, Tauran Advisors, Startup Mentor
 
-TTJ Auditorium: https://maps.app.goo.gl/bw5REWkftNQPbUs69
+Arpit Shrivastava: Power Platform, Azure and Dynamics 365 CE Specialist,
+Global Speaker and Trainer
 
+Register for the session: https://forms.gle/XizxkLB4QQhDxfPX9
 
+Venue: IIT Madras Time: 10 AM to 5 PM Date: 3rd January, 2026
 
+If your business is growing but your technology feels fragmented or
+unclear, Digitalize is where you start.
 
-# Monetary Slab Deals
+PANEL DISCUSSION ON DESIGN THINKING IN ACCESSIBILITY
 
-**Company Header to appear with company name 50-word description to appear in the passport**
+Bringing together researchers, advocates of digital inclusivity,
+accessibility professionals and developers, the panel explores the
+integration of inclusive designs in Information Technology.
 
-**National Institute of Ocean Technology (NIOT) Title Sponsor** National Institute of Ocean Technology (NIOT) is an autonomous institute under the Ministry of Earth Sciences (MoES), Government of India, Chennai. NIOT develops and promotes indigenous technologies to explore living and non-living marine resources through sustainable efforts. Currently, NIOT is developing technologies for marine renewable energy, deep sea mining & explorations, manned submersible and ocean observations.
+Insights from the discussion will be published to act as guidance for
+developers, promoting accessible solutions.
 
-**Caterpillar Diamond Sponsor**
+Venue: ICSR Hall 1 Time: 10 AM
 
-**IDFC FIRST Bank Ltd Platinum Sponsor** IDFC FIRST Bank is on the mission to build a world-class bank right here in India that is guided by ethics, powered by technology, and a force for social good. Join us and embark on a transformative journey filled with dynamic opportunities to learn, grow and contribute to the evolving world of banking.
+Date: 4th January, 2026
 
-**Bajaj Auto Gold Sponsor**
+ENABLE: DIGITAL INCLUSIVITY IDEATHON
 
-**"FedEx SMART Supply Chain Modelling, Algorithms, Research and Technology Centre IIT Madras" Silver Sponsor** the Indian Institute of Technology Madras, (IITM) has teamed up with FedEx, a global leader in express transportation, to drive logistics sustainability through digital intelligence and technological advancements. With a mission to reshape Global Logistics and Supply Chain Management, the newly established FedEx SMART Centre of Excellence will drive innovation and deliver substantial benefits that extend beyond consumers, touching the lives of communities worldwide. This initiative promises to set new standards in logistics, fostering a future where sustainability and technological advancement go hand in hand for the greater good.
+A competition to ideate on accessible solutions in software
+development.Conducted in collaboration with the Accessibility Research
+Centre, judges from accessibility-forward companies like Target,
+Anacity, and NGOs promoting inclusivity, this competition aims to
+produce solutions to the pressing problem of accessibility.The finals
+will be held during 6–8 February at IIT Madras.
 
-**Appian Co-Sponsor** Appian is a software company that automates business processes. The Appian AI Process Platform includes everything you need to design, automate and optimize even the most complex processes from start to finish. The world's most innovative organizations trust Appian to improve their workflows, unify data and optimize operations, resulting in better growth and superior customer experiences.
+Registrations are open.
 
-**Temenos RC Title** Temenos is to power a world of banking that creates opportunities for everyone, serving 3000 customers worldwide. Our open platform enables over 1.2 billion people to carry out their daily banking needs. The passion for making banking better drives us to be the banking platform for all kinds of players in the industry – for large and small banks, for non-banks, and fintech's, for partners and developers, for everyone.
+For more information visit: https://linktr.ee/enreach.shaastra
 
-**KLA Co-Sponsor** KLA Corporation develops industry-leading equipment and services that enable innovation throughout the electronics industry. We provide advanced process control and process-enabling solutions for manufacturing wafers and reticules, integrated circuits, packaging, printed circuit boards and flat panel displays. In close collaboration with leading customers across the globe, our expert teams of physicists, engineers, data scientists and problem-solvers design solutions that move the world forward.
+ANIMAL AND ENVIRONMENT SAFETY Savings for the future:
 
-**Avanse Financial Services Limited Co-Sponsor** Avanse Financial Services was established in 2013 with the sole purpose of enabling students to achieve their academic aspirations. We're an education-focused NBFC that provides customised education financing solutions to every deserving Indian student. Our range of
+The biodiversity seen on our campus is under severe pressure due to
+activities like construction, increasing human population, and
+increasing non-biodegradable waste. Every year, the forest area in our
+campus is shrinking further. To ensure this beautiful forest exists for
+future generations, collective responsibility and conscious living are
+essential.
 
+Drive slowly and carefully inside the campus. Do not tease or hurt
+wildlife inside the campus.
 
+Encourage children to be compassionate and caring.
 
+Do not use slings, crackers, snares or any methods to frighten, hurt or
+injure animals. If you see anyone involved in such acts, discourage them
+and report the incident. Almost all forms of wildlife on campus are
+protected under the Wildlife Protection Act.
 
-solutions covers the holistic requirements of an education aspirant. We have a vast network of students enrolled in 1,550+ educational institutions spanning across 49 countries.
+Avoid using vehicles inside the campus for short distances, as it
+increases pollution with minimal benefit.
 
-Atomberg Event Sponsor Atomberg is the fastest-growing tech-driven Indian company, known for revolutionizing homes with smart, energy-efficient solutions. From pioneering BLDC motor fans that cut electricity use by 65% to innovating everyday tech, it embraces a "Why Not?" spirit. With cutting-edge R&D and a pan-India reach, Atomberg transforms lifestyles with passion and purpose.
+ANY QUERIES?
 
-L&T Summit Associate Title Sponsor L&T EduTech is an initiative under Larsen & Toubro to bridge the gap between industry and academia. The core objective is to enhance the employability of students and career progression for professionals across Engineering, Technology & other various sectors. It enables globally employable, industry-ready talent through state-of-the-art, application-oriented learning, skilling, assessment, and certification programs, powered by L&T's decades-long expertise in Engineering, Technology, Manufacturing, Finance, Management & IT sectors.
+For prompt assistance and streamlined resolution, please primarily use
+the complaints form. This helps us address concerns efficiently. If a
+quicker response is required, you may contact the following.
 
-Arcesium Technology Sponsor
+Emergency Numbers
 
-Flipkart Event Sponsor Flipkart is committed to the cause of transforming commerce in India through our investments in made-in-India technology innovations, customer-centric features and constructs, a diverse category landscape and a world-class supply chain. With a customer base of over 350 million, product coverage of over 150 million across 80+ categories, focus on generating direct and indirect employment and a commitment to empowering generations of entrepreneurs and MSMEs and a sustainable growth strategy – Flipkart is maximizing for our customers, stakeholders, and the planet at large! Flipkart is a part of the Walmart-owned Flipkart Group, which also includes group companies Flipkart Health+, Myntra, and Cleartrip.
+Note: Dial prefix 2257, i.e., +91-44-2257-xxxx Animals related: 8280 /
+9999
 
-Macmillan Budding Scientist Sponsor Macmillan Education is a global publisher with a local presence, where we connect with students, teachers, educational institutes and authorities. Since inception, we have advanced the learning curve for millions of students and educators with curated and innovative educational content and resources. Our solutions cater to everyone from children learning their first words to teachers looking to advance their knowledge and skills.
+Bus transport: 5971
 
-DigiKey Event Sponsor DigiKey, headquartered in Thief River Falls, Minn., USA, is recognized as the global leader and continuous innovator in the cutting-edge commerce distribution of electronic components and automation products worldwide. We get technical by providing more than 15.9 million components from over 3,000 quality name-brand manufacturers with an industry-leading breadth and depth of product in stock and available for immediate shipment. DigiKey also supports engineers, designers, builders, and procurement professionals with a wealth of digital solutions, frictionless interactions, and tools to make their jobs more efficient.
+Electrical emergency: 8185 (24x7) Hospital ambulance: 8333 / 8888 (24x7)
+Hospital office: 8300
 
-Surana Surana Presenting Sponsor (Event) Surana & Surana International Attorneys is a Top ranked "go-to" law firm in South India (headquartered in Chennai), known for its competence, quick response & commercial soundness. It assists MNCs, Corporates, Foreign Governments, Central & State Government organizations, individuals & social institutions. The firm's Academic Initiatives programmes over 37 years partnered with legal institutions sponsoring, administering & co-hosting what is the world's largest Moot Court project besides Law & Policy Track, Public Policy, Arbitral Award writing, Judgement writing & Essay competitions.
+Hospital reception: 8330 Security duty room: 8280 / 9999 Security
+office: 8260
 
-Autodesk Event Sponsor Autodesk is a global leader in software solutions for
+For further assistance: outreach@shaastra.org
 
+IMPORTANT INFORMATION
 
+A passport is mandatory for non-IIT Madras students to participate in
+any event or workshop of Shaastra 2026.
 
+Participants are responsible for their personal belongings. Shaastra and
+IIT Madras are not responsible for loss of personal belongings.
 
-architecture, design, manufacturing, media and entertainment. It empowers professionals to design, simulate, and produce with precision and innovation, offering tools for every stage of creation, from ideation to execution. Committed to sustainability, efficiency, and collaboration, Autodesk drives creativity and technical excellence, enabling industries to innovate and shape a more resilient, forward-thinking future for a better world.
+IIT Madras is a zero-waste zone. Please help keep the campus clean by
+using the nearest dustbin.
 
-CoE IITM Summit Event Sponsor Centre of Excellence for Road Safety (CoERS) at IIT Madras is dedicated to transforming road safety in India by integrating academia, industry and government efforts with the collective objective of saving lives. It serves as a think tank for the Ministry of Road Transport and Highways, Government of India focusing on data-driven research, innovation, policy advisory and stakeholder collaboration with government institutions. CoERS works on a 5 E Model - Engineering, Education, Emergency Care and Enforcement with strong focus on Empathy (Human Factors) which emphasizes innovation, mindset change and capacity-building to create a safer transportation ecosystem.
+Drugs, alcohol, and smoking are strictly prohibited inside the
+institute. Violations will be severely prosecuted.
 
-Help Them Shine Rewire Sponsor HelpThemShine was inspired by our journey raising a son with Autism. We provide globally recognized products, assist in building sensory rooms and parks to empower individuals with special needs. Our mission is to bridge accessibility gaps across the country, fostering independence and enabling everyone to reach their full potential.
+If a participant loses their passport, a new passport must be purchased
+again. Use of powered vehicles is banned inside the institute.
 
-R2D2 Event Sponsor
+For queries, contact:
+[<u>outreach@shaastra.org</u>](mailto:outreach@shaastra.org)
 
-Vskills CA Sponsor
+ACCOMODATION RULES
 
-EaseMyTrip CA Sponsor EaseMyTrip, a publicly listed company on NSE and BSE, is India's largest online travel platform. Bootstrapped and profitable since 2008, it offers end-to-end travel solutions, including air tickets, hotels, holiday packages, rail, bus, and taxi services, with access to 400+ airlines and 2+ million hotels globally.
+1\. REGISTRATION & ACCOMMODATION ALLOCATION
 
-Key Highlights:
+Accommodation will be assigned strictly on a first-come, first-served
+basis, determined through the official Shaastra online registration
+portal.
 
-• Zero-convenience fee option
+Only those teams or individuals whose accommodation status shows
+“Confirmed” on the portal will be granted lodging. Participants with
+pending, incomplete, or failed registrations will not be allotted rooms
+under any circumstance.
 
-• Offices across India and globally (UK, USA, UAE, etc.)
+2\. CHECK-IN & STAY DURATION
 
-• Fastest-growing OTA with 47% CAGR (FY20-24)
+Participants may only occupy rooms for the dates they have officially
+registered for. Staying beyond those dates is not permitted unless an
+extension has been approved and paid for.
 
-• Profitable since inception
+For calculation of stay duration:
 
-Cubelelo Event Sponsor Cubelelo is the go-to destination for India's cubing enthusiasts, dedicated to providing premium puzzles, courses, and accessories with innovation at the heart of everything we do. From beginner solvers to national champions, we empower cubers with cutting-edge products, expert
+The day begins at check-in time and ends at 7:00 AM the next day.
 
+Anyone staying past 7:00 AM will be automatically charged for an
+additional day, regardless of how long they remain.
 
+Participants who belong to multiple teams may register with each team,
+however, if accommodation is allotted, it will be provided only once
+(either with one team or individually) based on room availability and
+logistical convenience.
 
+3\. ID VERIFICATION
 
-knowledge, and unmatched support. Join us as we continue to revolutionize India's cubing experience!
+Every participant must carry:
 
-The Hindu Media Partner the Hindu, India's most trusted newspaper for 146 years, champions credible journalism and innovation. Headquartered in Chennai, the publication informs and reflects public opinion, catering to diverse reader segments and fostering enduring trust and loyalty among its audience.
+A valid government-issued ID (original physical copy or Digi Locker
+version is acceptable) Their college/institution ID card.
 
-Shaastra Magazine Magazine Partner Shaastra, a Science Magazine by IIT Madras, delivers in-depth, India-centric coverage of global science and technology trends. With expertly researched articles, interviews, and guest columns by leading professionals, it offers valuable insights into R&D and innovation, making it an essential resource for science enthusiasts and students.
+These IDs will be required during check-in, verification, and whenever
+requested by the hospitality team.Participants failing to produce the
+required documentation may be denied accommodation, without eligibility
+for refunds.
 
-CODE Learning Partner
+4\. ACCOMMODATION DETAILS
 
-Jarvislabs Computational Partner At JarvisLabs.ai, you can rent GPU instances—including A100, H100, and RTX Variants—within seconds. Experience unbeatable performance
+Rooms allotted to participants are shared accommodations, which means
+they must stay with assigned roommates. Requests for single rooms will
+not be entertained except under special circumstances approved by the
+organizing committee.
 
-## Passports and Pricing
+Teams from the same institution or large groups may or may not be placed
+together, depending on availability and logistical constraints.Only
+registered and confirmed Shaastra 2026 participants will be provided
+lodging. Non-participants are strictly not allowed to stay in these
+rooms.
 
-Shaastra 2025 offers four passport types: Standard, Silver, Gold, and Platinum. Each passport provides unique levels of access to Shaastra events, detailed as follows:
+5\. HOSPITALITY TOKEN & FACILITIES
 
-The **Standard passport**, priced at ₹449, provides access to the Event Finale, Workshops, Streets, and Industry Insight sessions. However, it does not include access to premium events like the Envisage Show, Robowars, EDM, TEN, Comedy, Spotlight Reserve, or Polo events.
+Each participant will receive a Hospitality Token upon successful
+registration verification.
 
-The **Silver passport**, priced at ₹499, includes all benefits of the Standard passport. Additionally, it grants access to the Envisage Show, Robowars, and gallery seating for EDM. However, it does not include TEN or Comedy events. Spotlight Reserve seating and Polo event access are also not fully available at this tier.
+This token is mandatory for collecting room keys and may be requested by
+hospitality personnel at any time throughout the stay. If the
+Hospitality Token is lost, a replacement will be issued only after the
+participant pays the full applicable replacement charges, without
+exceptions.
 
-The **Gold passport**, priced at ₹799, offers an enhanced experience with access to the Event Finale, Workshops, Streets, Industry Insight sessions, Envisage Show, Robowars, bowl seating for EDM, and reserved seating for Spotlight events. It also includes access to TEN events. However, Comedy and Polo events remain excluded at this level.
+6\. REFUND & CANCELLATION POLICY
 
-The **Platinum passport**, priced at ₹899, provides the most comprehensive access, covering all benefits of the Gold passport. Additionally, it includes access to Comedy shows and Polo events, ensuring an all-encompassing Shaastra experience for attendees.
+Accommodation fees will not be refunded under normal or personal
+circumstances (change of plans, travel issues, event withdrawal, etc.).
 
-Please note that while Workshops are included in the passport access, separate registrations are required for all workshops.
+Participants are strongly discouraged from requesting refunds, as
+accommodation management operates under fixed and limited capacity.
 
+Refunds will only be considered under extremely rare cases, such as
+event cancellation by organizers.
 
+7\. GENERAL GUIDELINES
 
+Participants will be held fully responsible for any damage, breakage, or
+theft occurring within their allotted rooms. Charges will be applied
+based on the extent of damage.
 
-**Evolve**
+If prohibited items (such as alcohol or drugs) are found inside a room,
+the occupants will be presumed responsible regardless of individual
+ownership claims.
 
-Future Cities Summit
+The use or possession of alcohol, tobacco, or narcotics in any form is
+strictly forbidden. Violations will result in immediate cancellation of
+participant status, eviction from accommodation, and possible
+disciplinary action or legal involvement.
 
-The Summit is the cornerstone of Shaastra a premier, invite-only, three-day conference designed to bridge the gap between young enterprising crowds looking to network and industry veterans seeking a fresh perspective. The Summit boasts a diverse delegate pool, including college students, industry professionals, renowned academics, and leading innovators
+Participants are strongly advised not to leave valuables inside rooms.
+Shaastra 2026 will not compensate for lost or stolen items.
 
-This year, the Summit embraces the theme Future Cities, delving into transformative topics such as sustainable energy, futuristic transportation, AI driven urban planning, and more. Over three days, attendees can engage in immersive hackathons, earn certifications through two expert-led workshops, participate in thought-provoking panel discussions with India's leading researchers, and gain insights from inspiring lectures delivered by international companies and renowned speakers.
+All personal belongings should be clearly labelled with the
+participant’s name and contact details to avoid confusion.
 
-This year we are also hosting a Future Cities Expo with companies from around India, including some of the cutting-edge work at the IIT Madras housed Research Park, being put on display at interactive stalls.
+Accommodation will be available strictly from 2nd January to 7th January
+2026 till 7:00 AM. No participant will be allowed to check in before 2nd
+January or request an extension past 6th January.
 
-Workshops
+Last date for check-in: 6th January 2026.
 
-Certifiable workshops led by industry leaders such as Gensler and Astrikos AI offer 2 unique perspectives on city building: exploring the transformative potential of architecture and urban design with Gensler, and the cutting-edge applications of AI with Astrikos AI.
+Final checkout time: All participants must vacate rooms by 7:00 AM on
+7th January 2026, without fail.
 
-Lectures and Panel Discussions
+8\. LEGAL & SECURITY
 
-Our speaker lineup features a diverse array of experts and thought leaders, including Mr. Kok Chin Tay, Chairman of the Smart Cities Council. Together, they will explore a range of compelling topics such as futuristic transportation, sustainable energy, and innovative approaches to city building.
+Any intentional or accidental damage, theft, or vandalism will be
+recorded and reported to appropriate authorities for further action.
 
-Cognify Grand Finale: Revolutionizing Toy-Based Learning for Neurodivergent Children
+Participants will be required to pay compensation for lost, damaged, or
+stolen property belonging to the accommodation facility or Shaastra
+organizers.
 
-Interested in design? In special education? Or do you want to re-live your childhood through the world of toys? Cognify, the pan-India toy designing contest culminates in this inspiring finale, where the brightest minds converge to share their groundbreaking ideas. In association with Help Them Shine, this competition spans over 6 months and includes 3 rounds. This competition provides designers and special needs experts a platform to create toys that promote multisensory and inclusive learning.
+Organizers reserve the right to take necessary security measures to
+maintain safety and discipline.
 
-Participants received mentorship from 25 expert toy designers and neuroscientists, ensuring their designs were scientifically grounded. Join the finalists, selected from over 1200 registrations, as they display their prototypes, showcasing the research and scientific principles behind their creations, all aimed at enhancing learning for autistic, dyslexic, and children with developmental disorders.
-
-The Teacher Conference
-
-Join a transformative conference and upskilling workshop designed to empower pre-primary and primary educators with inclusive teaching methods and innovative strategies to improve cognition in diverse learners. This unique event offers the opportunity to participate in two engaging panels with speakers from diverse backgrounds with unique perspectives and two hands-on workshops, all led by experts in the field. Attendees will earn certifications from the Indian Autism Center, V-Excel, and Shaastra, IIT Madras, adding valuable credentials to their professional profiles. Beyond the sessions, the event provides a platform to network with like-minded professionals, share experiences, and collaborate on
-
-
-
-
-advancing inclusive education practices. Don't miss this opportunity to elevate your teaching approach and make a meaningful impact in your classroom.
-
-Brain Maze and World Record Attempt
-
-Ever wondered how the most fascinating organ in our body functions? Step into the Brain Maze, an interactive adventure shaped like the human brain. Solve fun challenges that light up different brain regions, showing how they work in real time. This first-of-its-kind event at Shaastra blends creativity, science, and fun for an unforgettable experience. Be part of history by joining us to break the world record for the largest word search focused on cognition. Dive into the wonders of your mind don't miss it!
-
-
-
-
-**Spotlight Lecture Series**
-
-**Day 1**
-
-**Dr. Sanjiv Das**
-
-• **Date & Time:** 3rd January, 11 AM
-
-• **Venue:** CLT
-
-• **Designation:** Cancer Biologist, Shanti Swarup Bhatnagar Awardee
-
-• **Format:** Lecture
-
-**Dr. Sujatha Ramadorai**
-
-• **Date & Time:** 3rd January, 3 PM
-
-• **Venue:** CLT
-
-• **Designation:** Mathematician, Shanti Swarup Bhatnagar Awardee
-
-• **Format:** Fireside Chat
-
-**Day 2**
-
-**Dr. Harsh Gupta**
-
-• **Date & Time:** 4th January, 2 PM
-
-• **Venue:** CLT
-
-• **Designation:** Geophysicist, Padma Shri Awardee
-
-• **Format:** Lecture cum Fireside Chat
-
-**Ruchira Kamboj**
-
-• **Date & Time:** 4th January, 11 AM
-
-• **Venue:** CLT
-
-• **Designation:** Retired IFS Officer, Ambassador-designate of India to the United Nations
-
-• **Format:** Fireside Chat
-
-**Day 3**
-
-**Dr. Velumani**
-
-• **Date & Time:** 5th January, 2 PM
-
-• **Venue:** CLT
-
-• **Designation:** Founder of Thyrocare Technologies Ltd
-
-• **Format:** Fireside Chat
-
-
-
-
-**Day 4**
-
-**Dr. Modadugu Vijay Gupta**
-
-• **Date & Time:** 6th January, 11 AM
-
-• **Venue:** CLT
-
-• **Designation:** Biologist and Fisheries Scientist, World Food Prize awardee
-
-• **Format:** Lecture
-
-**Dr. Subir Sachdev**
-
-• **Date & Time:** 6th January, 3 PM
-
-• **Venue:** TTJ Auditorium
-
-• **Designation:** Professor of Physics at Harvard University, Dirac Medal Awardee
-
-• **Format:** Lecture cum Fireside Chat
-
-
-
-
-** How to register to an event or workshop **
-
-You can register for events and workshops through the official Shaastra website or mobile application. On-spot registrations are also available for select events and workshops. Verify which ones have on spot registrations before answering.
-
-** Envisage **
-
-Envisage presents an unforgettable experience with three dynamic showcases that blend innovation, entertainment, and creativity at Shaastra 2025.
-
-SHOW : Experience "The Reality Escape" a fully student-run techno-entertainment Show following Myra's extraordinary journey. Stunning visuals and effects bring this captivating story to life.
-
-TECH ZONE : Discover groundbreaking hardware projects designed to entertain and inspire. From interactive gadgets to innovative inventions, the Tech Zone blends technology and fun like never before.
-
-GAME ZONE : A collection of unique and exciting games, crafted by the team, offering immersive experiences and innovative gameplay. From VR adventures to creative challenges, there is something interesting for every player. ** Institute Open House **
-
-Where can I buy merch?
-
-Shaastra official Merch can be purchased from stalls located at KV ground and CLT
-
-Merch can also be purchased online through the website link: https://www.shaastra.org/sales
-
-What is IOH?
-
-IOH stands for Institute Open House. It is a part of Shaastra. This is an initiative by IIT Madras to cultivate interest in technology and research. As a participant in IOH 2025, you can visit labs and stalls that are open by various Departments.
-
-What Shaastra is and how they can get access to the events in Shaastra?
-
-Shaastra is the annual technical festival of the Indian Institute of Technology Madras (IITM), Chennai, India. It consists of various engineering, science, and technology competitions, summits, lectures, video conferences, exhibitions, demonstrations, and workshops from 3rd to 7th January. You can attend all events in Shaastra with a Shaastra passport which can be purchased here.
-
-Are buses allowed inside campus? Will there be any guidance?
-
-Yes, the bus can drop students at Gajendra circle and then there is no parking inside the campus. Yes, volunteers will be there to guide you.
-
-Is there a place to freshen up for students visiting from outside Chennai? Yes, you can use the public restrooms available in IITM. Please find the nearest restroom on the maps/ helpdesk. There are relaxation rooms provided inside departments for participants to rest.
-
-Can I change the time slot later?
-
-No
-
-
-
-
-Is it possible to visit the labs on some other day?
-No, please plan accordingly and plan ahead to visit during the time slot chosen while registering.
-
-Do I need a Shaastra Passport for this?
-You need to have a confirmation email from the team regarding the registration.
-
-Is there any specific time slot when we are allowed in the institute?
-You will be permitted inside campus only during the time slot you have chosen during registration.
-
-Where should I park my vehicle?
-Vehicles cannot be parked in the IIT Madras campus. Private vehicles will be stopped at the gate. Buses can enter to drop-off at Gajendra circle and leave IITM campus, buses are not allowed to park in the institute.
-
-How to reach the Institute?
-Please refer this map for direction: https://maps.app.goo.gl/zCvHXoheX5ozhPEWA
-
-How to reach the IOH stalls?
-Institute Bus at the main gate bus stop, will drop the visitor/ students at Gajendra circle. School buses can drop off students at Gajendra circle and leave.
-
-Are there facilities available for people with disabilities?
-IIT Madras campus is fully accessible to everyone. People with disabilities can be allowed inside the campus on private vehicles till Gajendra Circle given they show a valid pass approved by the team. Please write an email to outreach@shaastra.org to get a vehicle pass for vehicles carrying persons with disabilities.
-
-How will the verification of registration happen?
-The person who registered has to bring a physical ID card whose soft copy was submitted during registration. This ID will be verified against the soft copy.
-
-We have registered as a group. The person who registered is not with us. Is it mandatory for the registrant to attend in the group?
-We will be verifying the registrant's ID card against the one submitted during registration. So, it is mandatory for the registrant to accompany the group.
-
-How many labs can I visit?
-You can visit as many as possible in your registered time slot.
-
-Are there any emergency services or nearby hospitals available for people in case of medical emergencies?
-Yes, medical professionals are available at all times during IOH. Please contact the volunteers for assistance during emergencies.
-
-Is there a cafeteria or food court? What are the timings
-Yes, we have set up catering stalls. You can find a food court on the map and enjoy the food. They are open during all times.
-
-Are there any prohibited items or activities on campus?
-Please refer to Do's and Don'ts sent through mail.
-
-Where can I find transportation options around the campus?
-Buses will be active on the functional roads. You can wait for them at the bus stops.
-
-How can I navigate IIT Madras campus?
-You can board a bus from Main Gate to Gajendra Circle. After that, you can walk on foot.
-
-
-
-
-How do I know what labs are open for IOH?
-Available labs can be seen on the IOH website.
-
-Will there be any guide to show us around the campus?
-If you have registered as a school, then you will be accompanied by a volunteer (based on availability) from the Shaastra team to guide school students.
-
-Will IITM professors also be available during IOH?
-Yes, you can find some IITM professors at labs and stalls
-
-Will there be any map provided or displayed to navigate to particular locations inside campus?
-Map banners can be seen around the campus. The map is also available on the IOH website.
-
-What should we do in case we lose an item during the event? Is there a lost-and found section?
-Please report it to security or the nearest help desk.
-
-Is there a contact point or help desk for visitor inquiries?
-Yes, there are volunteers in the help desk to guide you.
-
-What safety measures are in place in case of emergencies?
-Medical professionals and fire brigadiers are available at all times during IOH. Please contact the volunteers for assistance during emergencies.
-How can attendees stay updated about future events like this? Follow IIT Madras and Shaastra on our official social media handles.
-
-
-## 📍 Locations & Navigation (Venue Guide)
-
-Use this section to guide users to specific buildings.
-
-| Acronym | Full Name | Description | Google Maps Link |
-| :--- | :--- | :--- | :--- |
-| **RJN** | Ramanujan Block | Hub for Computer Science events, Hackathons, and Coding contests. | [Map Link](https://maps.app.goo.gl/G8pjMXtCnEpGLKsF9) |
-| **RMN** | Raman Block | Located near RJN, hosts workshops and smaller events. | [Map Link](https://maps.app.goo.gl/5P5mXTf4Nt88yXNG9) |
-| **CRC** | Class Room Complex | The central hub for workshops, quizzes, and paper presentations. | [Map Link](https://maps.app.goo.gl/uTs6FanKCp2qHQQP9) |
-| **CLT** | Central Lecture Theatre | The main venue for Spotlight Lectures and Fireside Chats. | [Map Link](https://maps.app.goo.gl/gesC3WEokDWxMbUM8) |
-| **SAC** | Student Activity Centre | Hosts major shows like Envisage, Comedy Night, and Tech Entertainment Night. | [Map Link](https://maps.app.goo.gl/3sUJeNWgqMGF1SS49) |
-| **OAT** | Open Air Theatre | The arena for Robowars and large open-air events. | [Map Link](https://maps.app.goo.gl/MWWfZjNYYQNLKoJGA) |
-| **KV** | Kendriya Vidyalaya Grounds | Outdoor venue for Caterpillar Autonomy Challenge and Brain Maze. | [Map Link](https://maps.app.goo.gl/qveSLuJa1mQ8vttXA) |
-| **ICSR** | ICSR Building | Venue for the Future Cities Summit and Industry networking. | [Map Link](https://maps.app.goo.gl/C9BnM8GWs5Enhe4v8) |
-| **HFC** | Himalaya Food Court | Main food court with various stalls. | [Map Link](https://maps.app.goo.gl/aQGoXp9os79oasx77) |
-| **CC** | Campus Cafe | A popular spot for snacks and coffee. | [Map Link](https://maps.app.goo.gl/CEt9PNfJtNrKjTwG8) |
-
-**Other Important Venues:**
-*   **Department of Engineering Design (ED):** Hosts the Moot Court Finals and design workshops.
-*   **Biotechnology Block (BT):** Hosts the Petri Dish Challenge.
-
----
-
-## 🌟 Flagship & Popular Events (Must Visit)
-
-If a user asks for recommendations or what is popular, suggest these events:
-
-1.  **Robowars:** The ultimate combat robotics showdown. Sparks fly as robots battle in the OAT arena. (Jan 3-4, OAT).
-2.  **Envisage:** A student-run techno-entertainment show mixing holograms, lights, and tech. (Jan 3, SAC).
-3.  **Tech Entertainment Night (TEN):** A fusion of technology and music featuring EDM artist Karan Kanchan. (Jan 5, SAC).
-4.  **Spotlight Lectures:** Talks by legends like Dr. Sanjeev Das and Nambi Narayanan.
-5.  **Moot Court:** A unique legal battle event for tech policies.
-6.  **Airshows / Aeromodelling:** Boeing Aeromodelling competition at IIITDM Kancheepuram.
-
----
-
-## 🍔 Food & Dining Options
-
-**Where to eat at Shaastra:**
-*   **Himalaya Food Court (HFC):** The largest dining area with multiple cuisines. Open all day.
-*   **Campus Cafe (CC):** Good for quick bites, sandwiches, and coffee.
-*   **Catering Stalls:** There are temporary food stalls set up near the **CLT Lawns** and **KV Grounds** specifically for the fest.
-*   **Zaitoon & CCD:** Located inside the campus (check maps for specific internal locations).
-
----
-
-## 📅 Day Wise Schedule
-
-### Day 1: January 3, 2025
-
-| Event | Venue | Time |
-| :--- | :--- | :--- |
-| Hypercube Visual Bash | RJN 101 | 09:00 - 11:00 |
-| Shaastra Juniors: Silent Power | RJN 201 | 09:00 - 14:00 |
-| SJIO Augustine Workshop | RMN 101 | 09:00 - 17:00 |
-| Intro AI and ML Workshop | CRC 103 | 09:00 - 17:00 |
-| Chanakyaneeti | CRC 201 | 14:00 - 17:00 |
-| TIF (Closed Expo) | ICSR Hall 4 | 10:00 - 16:00 |
-| **Envisage Show** | **SAC** | **17:30 - 18:30** |
-| **Robowars** | **OAT** | **19:00 - 22:00** |
-| Laser Tag | HSB 133 | 19:00 - 22:00 |
-| **Spotlight Lecture: Dr. Sanjeev Das** | **CLT** | **11:00 - 12:00** |
-| Fireside Chat: Dr. Sujatha Ramdorai | CLT | 15:00 - 16:00 |
-| Bajaj Auto Lecture | ICSR Hall 3 | 15:00 - 16:00 |
-| Brain Maze | KV | 09:00 - 18:00 |
-| Caterpillar Autonomy Challenge | KV | 19:00 - 22:00 |
-| Shaastra Moot Court | NAC 222 | 16:30 - 18:00 |
-
-### Day 2: January 4, 2025 (Caterpillar Day)
-
-| Event | Venue | Time |
-| :--- | :--- | :--- |
-| IoT Automation Workshop | RJN 101 | 09:00 - 17:00 |
-| KLA Lecture | ICSR Hall 3 | 11:00 - 12:00 |
-| Launcher | RJN 102 | 14:00 - 17:00 |
-| CFD Workshop | RJN 201 | 09:00 - 17:00 |
-| Intro to DL Workshop | RJN 202 | 09:00 - 17:00 |
-| Basics of Investing | RJN 301 | 09:00 - 17:00 |
-| CAD Design Workshop | RJN 302 | 09:00 - 17:00 |
-| The Teacher Conference | MRC Hall | 15:00 - 18:00 |
-| Future Cities Summit Expo | CLT Lawns | 08:30 - 17:00 |
-| IDFC FIRST Bank Lecture | ICSR Hall 3 | 14:00 - 15:00 |
-| CP Potpourri Wildcard | RMN 101 | 09:00 - 10:00 |
-| CP Potpourri Finals | RMN 101 | 11:00 - 13:00 |
-
-### Day 3: January 5, 2025 (Bajaj Auto Day)
-
-| Event | Venue | Time |
-| :--- | :--- | :--- |
-| Quantathon | RJN 101 | 09:00 - 11:00 |
-| LLMs Workshop | CRC 101 | 09:00 - 17:00 |
-| App Development Workshop | CRC 102 | 09:00 - 17:00 |
-| Cloud Computing Workshop | CRC 103 | 09:00 - 17:00 |
-| Future Cities Summit | ICSR TTJ | 09:30 - 17:30 |
-| **Tech Entertainment Night (TEN)** | **SAC** | **18:00 - 22:00** |
-| Fireside Chat: Dr. Velumani | CLT | 14:00 - 15:00 |
-| **Fireside Chat: Mr. Nambi Narayanan** | **CLT** | **16:30 - 17:30** |
-| Embedded Programming Challenge | IE Lab NEW | 09:00 - 12:00 |
-| JMT (Build-a-thon) | NAC Hall | 07:00 - 21:00 |
-| Caterpillar Autonomy Challenge | KV Grounds | 06:00 - 21:00 |
-| Flipkart Grid Robotics | Newton Hall | 07:00 - 22:00 |
-| **Shaastra Moot Court Finals** | **Kalam Hall (ED Dept)** | **09:30 - 13:00** |
-| Shaastra Main Quiz | CRC 202 | 09:00 - 14:00 |
-| Shaastra Biz Quiz | CRC 202 | 15:00 - 21:00 |
-
-### Day 4: January 6, 2025 (IDFC First Bank Day)
-
-| Event | Venue | Time |
-| :--- | :--- | :--- |
-| Reverse CodingX | RJN 101 | 14:00 - 16:00 |
-| E-Contest | Online | 09:00 - 12:00 |
-| Biotech Frontiers Workshop | RJN 201 | 09:00 - 17:00 |
-| Robosoccer | CLT Lawns | 09:00 - 18:00 |
-| **Comedy Night** | **SAC** | **18:00 - 22:00** |
-| Robo Oceana | OAT | 10:00 - 18:00 |
-| Spotlight | CLT | 18:00 - 22:00 |
-| Lecture: Dr. M.V. Gupta | CLT | 11:00 - 12:00 |
-
-### Day 5: January 7, 2025 (Boeing Day)
-
-| Event | Venue | Time |
-| :--- | :--- | :--- |
-| Clash of Codes | RJN 101 | 09:00 - 12:00 |
-| Capture the Flag | Online | 09:00 - 12:00 |
-| Integrated Robotics Workshop | RMN 101 | 09:00 - 17:00 |
-| Quantum Computing Workshop | RMN 102 | 09:00 - 17:00 |
-| RIPTIDE | Wave Basin | 10:00 - 17:00 |
-| Weird Chess 3.0 | Gymkhana | 14:00 - 17:00 |
-
----
-
-## 🏆 Competitions & Events Details
-
-### Moot Court (Surana & Surana)
-*   **Description:** A premier legal battle simulation event.
-*   **Prize Pool:** ₹85,000
-*   **Schedule:**
-    *   Day 1 & 2: Prelims at CRC 101/103.
-    *   **Finals:** Day 3 (Jan 5th) at **ED Seminar Hall** (Note: Schedule says Kalam Hall, ED Dept - they are in the same building).
-*   **Viewership:** Open for viewing on Day 5 (Finals).
-
-### Robowars
-*   **Sponsors:** IDFC & BAJAJ.
-*   **Description:** Combat robotics where machines battle for glory.
-*   **Venue:** OAT (Open Air Theatre).
-*   **Timings:** Jan 3 (11:00) and Jan 4 (17:00).
-
-### Hackathons
-*   **IndustriAI 24hr Hackathon:** Starts Jan 5, 13:00 at RJN/RMN Rooms. Ends Jan 6, 13:00.
-*   **FedEx SMART Hackathon:** Sustainable logistics challenge. Date: Jan 22.
-*   **Appian AI Challenge:** Jan 7, 14:00 at RJN.
-
-### Quizzes
-*   **Shaastra Main Quiz:** Jan 5, 09:00 at CRC 202. Prize Pool: ₹20,000.
-*   **Shaastra Biz Quiz:** Jan 5, 15:00 at CRC 202. Prize Pool: ₹20,000.
-
----
-
-## 🏠 Accommodation & Rules
-
-*   **Policy:** Accommodation is provided from **Jan 3rd to Jan 8th**.
-*   **Cost:** ₹850 for the first day, ₹750 for subsequent days.
-*   **Check-out:** Must check out by Jan 8th.
-*   **Strict Rules:**
-    *   **Alcohol/Narcotics:** Strictly prohibited. Possession leads to immediate disqualification ("Null and Void" status).
-    *   **ID Card:** College ID and Gov ID (Aadhar) are mandatory.
-    *   **Gender:** Boys are not allowed in girls' hostels and vice versa.
-
----
-
-## 🎫 Passports (Tickets)
-
-*   **Standard Passport (₹449):** Basic access to events and workshops.
-*   **Silver Passport (₹499):** Standard + Robowars + Envisage.
-*   **Gold Passport (₹799):** Silver + Tech Entertainment Night (TEN) + Spotlight.
-*   **Platinum Passport (₹899):** Gold + Comedy Night + Polo events.
-
----
-
-## ❓ Frequently Asked Questions (FAQ)
-
-*   **Is there parking?** No, private vehicles must stop at the gate. Buses are available inside.
-*   **Can I spot register?** Yes, for some events like Water Rocket Challenge. No for Robowars.
-*   **Is there Wi-Fi?** Yes, via IITM Guest networks in departments.
-*   **Medical Emergency?** Medical professionals and ambulances are available 24/7 during the fest.
-## Moot Court
-**Sponsor:** Surana & Surana
-**Description:** One of the premier events at Shaastra involving simulated court proceedings.
-**Prize Pool:** 85,000 INR
-**Dates:** January 3rd to 5th.
-**Venue:** Day 1-2 at CRC. Finals at ED Seminar Hall.
-
-## Robowars
-**Sponsor:** IDFC & BAJAJ
-**Description:** Combat robotics showdown.
-**Venue:** OAT (Open Air Theatre).
-**Time:** Jan 3 (11am), Jan 4 (5pm).
-
-## Food and Dining
-**Locations:**
-1. Himalaya Food Court (HFC) - Main dining area.
-2. Campus Cafe (CC) - Snacks and Coffee.
-3. Zaitoon & CCD - Inside campus.
-4. Catering Stalls - Near CLT Lawns and KV Grounds.
-
-## Tech Entertainment Night
-**Artist:** Karan Kanchan
-**Venue:** SAC
-**Date:** Jan 5th
-This Chatbot was made with love by the Shaastra MLOps team
+Note: The price per day for accommodation is ₹850.
