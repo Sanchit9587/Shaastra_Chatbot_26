@@ -1,7 +1,11 @@
 import config
 import os
-os.environ["TF_USE_LEGACY_KERAS"] = "1"
+import csv
 import shutil
+from datetime import datetime
+from pathlib import Path
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
+
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -14,18 +18,39 @@ audio_engine = None
 bot_app = None
 SESSION_MEMORY = {}
 
+# CSV Config (Extra Feature)
+LOG_FILE = Path("shaastra_chat_logs.csv")
+CSV_COLUMNS = ["Timestamp", "User_ID", "Input_Mode", "User_Query", "AI_Response"]
+
+# --- EXTRA FEATURE: LOGGING UTILITY ---
+def init_csv():
+    """Initializes CSV with headers if not present."""
+    if not LOG_FILE.exists():
+        with open(LOG_FILE, mode='w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(CSV_COLUMNS)
+
+def log_interaction(user_id: str, query: str, response: str, mode: str):
+    """Appends interaction to CSV."""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    try:
+        with open(LOG_FILE, mode='a', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow([timestamp, user_id, mode, query, response])
+    except Exception as e:
+        print(f"Logging error: {e}")
+
 # --- LIFESPAN MANAGER ---
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global bot_app, audio_engine
     print("🚀 API Starting... Loading AI Models...")
     
-    # 1. Load RAG Graph (LLM + Retrievers)
-    # Trigger imports in components to load models
+    # Run CSV init without changing model loading flow
+    init_csv()
+    
     import components 
     bot_app = build_graph()
-    
-    # 2. Load Audio Engine (Whisper + Parler)
     audio_engine = AudioEngine()
     
     print("✅ All Models Ready. API is listening.")
@@ -70,7 +95,6 @@ def process_query(user_id, query):
     
     if "Answer:" in ans: ans = ans.split("Answer:")[-1].strip()
     
-    # Update Memory
     new_history = result.get('chat_history', [])
     new_history.append(f"User: {query}")
     new_history.append(f"AI: {ans}")
@@ -87,6 +111,10 @@ async def chat_text_endpoint(request: ChatRequest):
     """Text In -> Text Out"""
     try:
         response_text = process_query(request.user_id, request.text)
+        
+        # New Feature: Log Text Query
+        log_interaction(request.user_id, request.text, response_text, "text")
+        
         return ChatResponse(text_response=response_text)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -98,37 +126,30 @@ async def chat_audio_endpoint(
 ):
     """Audio In -> Audio + Text Out"""
     try:
-        # 1. Save uploaded audio
         temp_filename = f"{user_id}_input.wav"
         temp_path = config.AUDIO_DIR / temp_filename
         
         with open(temp_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
             
-        # 2. Speech to Text (Faster Whisper)
         print(f"🎤 Transcribing audio for {user_id}...")
         transcribed_text = audio_engine.speech_to_text(str(temp_path))
-        print(f"🗣️ User said: {transcribed_text}")
         
         if not transcribed_text:
             return {"text_response": "I couldn't hear anything.", "audio_base64": None}
 
-        # 3. Process RAG (LLM)
         response_text = process_query(user_id, transcribed_text)
-        print(f"🤖 AI Text: {response_text}")
         
-        # 4. Text to Speech (Parler TTS) - skipped if disabled
+        # New Feature: Log Audio Query
+        log_interaction(user_id, transcribed_text, response_text, "audio")
+        
         audio_b64 = None
         if config.ENABLE_TTS and getattr(audio_engine, "tts_enabled", False):
-            print(f"🔊 Generating audio response...")
             output_audio_path = config.AUDIO_DIR / f"{user_id}_response.wav"
-            # We limit text sent to TTS to avoid OOM on very long RAG answers
-            tts_text = response_text[:500] # Parler can be memory hungry
+            tts_text = response_text[:500] 
             audio_path = audio_engine.text_to_speech(tts_text, str(output_audio_path))
             if audio_path:
                 audio_b64 = audio_engine.audio_file_to_base64(output_audio_path)
-        else:
-            print("🔇 TTS is disabled - returning text-only response.")
 
         return {
             "user_query": transcribed_text,

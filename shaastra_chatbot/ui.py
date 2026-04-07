@@ -4,7 +4,7 @@ import base64
 import time
 
 # --- CONFIGURATION ---
-API_URL = "http://localhost:8000"
+API_URL = "http://localhost:6008"
 USER_ID = "ui_test_user"
 
 st.set_page_config(
